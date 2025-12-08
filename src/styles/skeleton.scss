@@ -1,0 +1,16 @@
+body {
+  background: #383838;
+}
+
+.cromulentWhosHiring {
+  background: #F3F3F3;
+  background-image: url('../assets/bg.png');
+  height: 100vh;
+  border-radius: $space;
+  padding: calc($space * 5);
+  padding-top: calc($space * 8);
+
+  h1 {
+    color: $textGrey;
+  }
+}

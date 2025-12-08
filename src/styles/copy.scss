@@ -1,0 +1,29 @@
+p {
+  line-height: calc($space * 3);
+}
+
+a, button.major, button.minor {
+  color: $textMain;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 2px;
+}
+
+button.major, button.minor {
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+a.major, button.major {
+  font-weight: 700;
+}
+
+a.minor, button.minor {
+  color: $textGrey;
+  text-decoration-color: #CACACA;
+}

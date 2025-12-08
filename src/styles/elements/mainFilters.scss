@@ -1,0 +1,55 @@
+.filterCount {
+  white-space: nowrap;
+}
+
+.filterControls {
+  flex-direction: row;
+  gap: calc($space * 4);
+}
+
+//
+
+.mainFilters {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: calc($space * 4);
+  row-gap: 0;
+  padding: $space;
+
+  > div {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: calc($space * 4);
+    row-gap: 0;
+  }
+
+  > div:first-of-type { flex: 1 1 auto; }
+  > div:last-of-type { flex: 0 0 auto; }
+
+  @media (max-width: $mob) {
+    flex-direction: column;
+    padding: 0;
+    
+    > div {
+      flex: 0;
+      flex-direction: column;
+      order: 0;
+    }
+
+    .filterControls {
+      padding: $space 0;
+      order: -1;
+      border-bottom: 1px solid $borderColor;
+    }
+
+    .controls {
+      padding: $space 0;
+      flex-direction: row;
+      justify-content: flex-end;
+      order: -1;
+      border-bottom: 1px solid $borderColor;
+    }
+  }
+}
+
+
