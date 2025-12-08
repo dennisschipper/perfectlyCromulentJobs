@@ -1,9 +1,9 @@
 @import 'variables.scss';
 @import 'base.scss';
-
 @import 'skeleton.scss';
 @import 'copy.scss';
+@import 'utils.scss';
 
-@import './base/index.scss';
-@import './elements/cromulentHeader.scss';
-@import './elements/mainFilters.scss';
+@import 'base/index.scss';
+@import 'elements/index.scss';
+

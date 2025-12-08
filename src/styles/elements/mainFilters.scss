@@ -1,14 +1,3 @@
-.filterCount {
-  white-space: nowrap;
-}
-
-.filterControls {
-  flex-direction: row;
-  gap: calc($space * 4);
-}
-
-//
-
 .mainFilters {
   flex-direction: row;
   flex-wrap: wrap;
@@ -23,31 +12,29 @@
     row-gap: 0;
   }
 
-  > div:first-of-type { flex: 1 1 auto; }
+  // The spacer will push the controls all the way to the right.
+  > div.spacer { flex: 1 1 auto; }
   > div:last-of-type { flex: 0 0 auto; }
 
   @media (max-width: $mob) {
-    flex-direction: column;
     padding: 0;
+    flex-direction: column;
     
-    > div {
-      flex: 0;
-      flex-direction: column;
+    // Set everything up in rows, add spacing and dividers.
+    > div, > div:last-of-type {
+      padding: $space;
+      flex: 1 1 auto;
+      border-bottom: 1px solid $borderColor;
       order: 0;
+      justify-content: space-between;
     }
 
-    .filterControls {
-      padding: $space 0;
-      order: -1;
-      border-bottom: 1px solid $borderColor;
-    }
-
-    .controls {
-      padding: $space 0;
-      flex-direction: row;
-      justify-content: flex-end;
-      order: -1;
-      border-bottom: 1px solid $borderColor;
+    // Rearrange so the controls are up top and the filter count at the bottom right
+    // before the data.
+    > div:nth-of-type(1) { order: 1; }
+    > div:nth-of-type(3) { 
+      order: -1; 
+      justify-content: flex-end;;
     }
   }
 }

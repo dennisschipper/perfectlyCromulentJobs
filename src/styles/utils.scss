@@ -1,0 +1,4 @@
+.mobile {
+  display: none;
+  @media (max-width: $mob) { display: initial; }
+}
