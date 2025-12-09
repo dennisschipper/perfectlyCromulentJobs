@@ -1,0 +1,22 @@
+.tableWrapper {
+  overflow-x: auto;
+  overflow-y: visible;
+}
+
+.table { 
+  align-items: flex-start; 
+  width: 100%;
+}
+
+ul.row {
+  padding: $space;
+  flex-direction: row;
+  gap: $space * 4;
+  border-radius: 5px;
+  transition: $transition;
+  
+  li {
+    flex-direction: row;
+    gap: $space;
+  }
+}

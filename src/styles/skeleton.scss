@@ -1,16 +1,37 @@
-body {
-  background: #383838;
+// The styles responsible for the internal scrolling.
+
+// Set everything down to the #root to take up the full viewport size.
+html, body, #root {
+  width: 100vw;
+  height: 100vh;
+}
+
+// The root will serve as the main overflow element so we can later apply auto. We
+// add a bit of padding so the main scroller later on has some available splace.
+#root {
+  overflow: hidden;
+  border-radius: 10px;
+  background: #F3F3F3;
+  background-image: url('../assets/bg.png');
+  padding: $space / 2;
+  padding-right: 3px;
+}
+
+// We need the display: block otherwise flexbox getrs too ambitious and starts 
+// resizing things. Setting it to block lets the table take up it's full height
+// and still show a horizontal scrollbar.
+.cromulentWhosHiring {
+  display: block;
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: $textGrey transparent;
 }
 
 .cromulentWhosHiring {
-  background: #F3F3F3;
-  background-image: url('../assets/bg.png');
-  height: 100vh;
-  border-radius: $space;
   padding: calc($space * 5);
   padding-top: calc($space * 8);
+  width: 100%;
+  h1 { color: $textGrey; }
 
-  h1 {
-    color: $textGrey;
-  }
+  @media (max-width: $mob) { padding: calc($space * 3); }
 }

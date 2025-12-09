@@ -1,5 +1,6 @@
 import { CromulentHeader } from 'components/Elements/CromulentHeader/CromulentHeader'
 import { MainFilters } from 'components/Elements/MainFilters/MainFilters'
+import { Table } from 'components/Elements/Table/Table'
 import 'styles/index.scss'
 
 export const App = () => {
@@ -8,6 +9,7 @@ export const App = () => {
       <CromulentHeader />
       <MainFilters />
       <hr />
+      <Table />
     </div>
   )
 }

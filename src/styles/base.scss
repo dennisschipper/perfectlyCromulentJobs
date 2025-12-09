@@ -10,6 +10,8 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body { background: #383838; }
+
 body, body * {
   font-weight: inherit;
   line-height: inherit;
@@ -22,6 +24,8 @@ body, body * {
 
 div, header, footer, ul, li {
   display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-direction: column
 }
 
