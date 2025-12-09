@@ -1,4 +1,8 @@
 .mobile {
   display: none;
-  @media (max-width: $mob) { display: initial; }
+  @media (max-width: $mob) { display: flex; }
+}
+
+.grey {
+  color: $textGrey
 }

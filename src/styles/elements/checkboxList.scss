@@ -1,0 +1,8 @@
+ul.checkboxList {
+  // We need the overflow to keep vertical rythm of the rows intact but allow the 
+  // 44px checkboxes to be themselves without causing any unwanted scrolls.
+  overflow: hidden;
+  gap: $space;
+  
+  ul { padding-left: calc($space * 3); }
+}

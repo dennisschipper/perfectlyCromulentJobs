@@ -15,12 +15,14 @@ button.saveButton {
     text-indent: 100px;
     width: 20px;
     height: 20px;
-    border: 1px solid $textMain;
+    border: 1px solid #98989C;
     border-radius: 99px;
     position: relative;
   }
 
   &.active {
+    border: 1px solid $textMain;
+    
     span::after {
       content: '';
       display: block;

@@ -1,0 +1,45 @@
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  margin-left: -10px;
+
+  input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+
+  .check {
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2px;
+    margin-bottom: -2px;
+    
+    > div {
+      width: 20px;
+      height: 20px;
+      background: #f3f3f3;
+      border: 1px solid $textGrey;
+      border-radius: 3px;
+      position: relative;
+    }
+  }
+
+  &.checked .check {
+    > div::before {
+      content: '';
+      width: 10px;
+      height: 10px;
+      background: $textMain;
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      border-radius: 3px;
+    }
+  }
+}

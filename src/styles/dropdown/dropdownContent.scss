@@ -1,0 +1,22 @@
+.dropdownContent {
+  gap: $space;
+  background: $bgLight;
+  border: 1px solid $textMain;
+  width: 380px;
+  padding: $space;
+  border-radius: calc($space / 2);
+  z-index: $topIndex;
+  overflow: hidden;
+
+  > .content {
+    flex: 1 1 auto;
+    width: 100%;
+    overflow: auto;
+    flex-shrink: 1;
+  }
+
+  @media (max-width: $mob) { 
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+  } 
+}

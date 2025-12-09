@@ -1,0 +1,7 @@
+form.searchForm {
+  flex-direction: row;
+  gap: $space;
+  align-self: stretch;
+
+  input { flex: 1 1 auto; }
+}

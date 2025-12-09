@@ -1,6 +1,10 @@
 import { useEffect } from "react"
 import useMeasure from "react-use-measure"
 import type { IHeaderWidths } from "types"
+import { TableHeaderTitle } from "../TableHeaderTitle/TableHeaderTitle"
+import { Position } from "../TableHeaders/Position/Position"
+import { Type } from "../TableHeaders/Type/Type"
+import { Location } from "../TableHeaders/Location/Location"
 
 interface ITableHeaderProps {
   updateWidth: (widths: Partial<IHeaderWidths>) => void
@@ -31,22 +35,22 @@ export const TableHeader = (props: ITableHeaderProps) => {
     <header className="tableHeader">
       <ul className="row" ref={rowRef}>
         <li className="saveColumn">
-          Save
+          <span className="grey">Save</span>
         </li>
         <li ref={positionRef} className="positionColumn">
-          Position <button className="minor">Filter by position</button>
+          <Position />
         </li>
         <li ref={companyRef} className="companyColumn">
-          Company <button className="minor">All</button>
+          <TableHeaderTitle title="Company" />
         </li>
         <li ref={remoteRef}>
-          Remote <button className="minor">All</button>
+          <Type />
         </li>
         <li ref={locationRef}>
-          Location <button className="minor">All</button>
+          <Location />
         </li>
         <li ref={salaryRef}>
-          Salary <button className="minor">All</button>
+          <TableHeaderTitle title="Salary" />
         </li>
       </ul>
     </header>
