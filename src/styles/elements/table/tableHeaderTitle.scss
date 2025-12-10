@@ -1,6 +1,7 @@
 .tableHeaderTitle {
   flex-direction: row;
   gap: calc($space * 2);
+  padding-right: calc($space * 2);
 
   > .title { font-weight: 600; }
 }

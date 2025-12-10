@@ -1,11 +1,12 @@
 import type { IJob } from "types"
 import { TableCell } from "../../TableCell/TableCell"
+import { memo } from "react"
 
 interface ICompanyCellProps {
   job: IJob
 }
 
-export const CompanyCell = (props: ICompanyCellProps) => {
+export const CompanyCell = memo((props: ICompanyCellProps) => {
   return (
     <TableCell>
       <div className="companyCell">
@@ -13,4 +14,4 @@ export const CompanyCell = (props: ICompanyCellProps) => {
       </div>
     </TableCell>
   )
-}
+})

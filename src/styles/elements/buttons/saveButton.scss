@@ -9,6 +9,7 @@ button.saveButton {
   justify-content: center;
   margin-top: -2px;
   margin-bottom: -2px;
+  outline: none;
   
   span {
     display: block;
@@ -18,21 +19,36 @@ button.saveButton {
     border: 1px solid #98989C;
     border-radius: 99px;
     position: relative;
+    transition: $transition;
+    outline: 3px solid transparent;
   }
 
-  &.active {
-    border: 1px solid $textMain;
-    
+  span::after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: $textMain;
+    border-radius: 19px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    opacity: 0;
+    transition: $transition;
+    transform: scale(0.1);
+  }
+
+  &.active, &.active:focus, &.active:hover {
     span::after {
-      content: '';
-      display: block;
-      width: 10px;
-      height: 10px;
-      background: $textMain;
-      border-radius: 19px;
-      position: absolute;
-      left: 4px;
-      top: 4px;
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  &:focus, &:hover {
+    span { 
+      border: 1px solid $textMain;
+      outline: 3px solid $outlineColor;
     }
   }
 }

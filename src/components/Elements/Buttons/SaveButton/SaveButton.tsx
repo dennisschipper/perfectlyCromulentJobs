@@ -1,7 +1,22 @@
-export const SaveButton = () => {
+import { CromulentContext } from "components/Elements/CromulentContext/CromulentContext"
+import { memo, useContext } from "react"
+import type { IJob } from "types"
+
+interface ISaveButtonProps {
+  job: IJob
+}
+
+export const SaveButton = memo((props: ISaveButtonProps) => {
+  const { appState, dispatch } = useContext(CromulentContext)
+  const { job } = props
+  const saved = appState.options.saved.includes(job.id)
+  
+
+  const onClick = () => dispatch({ type: 'saveJob', payload: { job } })
+
   return (
-    <button className="saveButton">
+    <button className={`saveButton ${saved ? 'active' : ''}`} onClick={onClick}>
       <span></span>
     </button>
   )
-}
+})
