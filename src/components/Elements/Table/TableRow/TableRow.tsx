@@ -1,10 +1,16 @@
 import { SaveButton } from "components/Elements/Buttons/SaveButton/SaveButton"
 import type { IHeaderWidths, IJob } from "types"
+import { PositionCell } from "../TableCells/PositionCell/PositionCell"
+import { CompanyCell } from "../TableCells/CompanyCell/CompanyCell"
+import { LocationCell } from "../TableCells/LocationCell/LocationCell"
+import { TypeCell } from "../TableCells/TypeCell/TypeCell"
+import { SalaryCell } from "../TableCells/SalaryCell/SalaryCell"
 
 interface ITableRowProps {
   widths: IHeaderWidths
   job: IJob
 }
+
 export const TableRow = (props: ITableRowProps) => {
   return (
     <div className="tableRow">
@@ -13,23 +19,19 @@ export const TableRow = (props: ITableRowProps) => {
           <SaveButton />
         </li>
         <li style={{ width: props.widths.position}}>
-          <div className="positionColumn">
-            <span>{props.job.position}</span>
-          </div>
+          <PositionCell job={props.job} />
         </li>
         <li className="companyColumn" style={{ width: props.widths.company}}>
-          <div className="positionCompany">
-            {props.job.company}
-          </div>
+          <CompanyCell job={props.job} />
         </li>
-        <li className="remoteColumn" style={{ width: props.widths.remote}}>
-          {props.job.remote ? "yes" : "no"}
+        <li className="typeColumn" style={{ width: props.widths.type}}>
+          <TypeCell job={props.job} />
         </li>
         <li className="position" style={{ width: props.widths.location}}>
-          n/a
+          <LocationCell job={props.job} />
         </li>
         <li className="position" style={{ width: props.widths.salary}}>
-          n/a
+          <SalaryCell job={props.job} />
         </li>
       </ul>
     </div>

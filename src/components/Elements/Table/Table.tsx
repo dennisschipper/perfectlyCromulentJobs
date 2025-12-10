@@ -6,7 +6,7 @@ import { jobs } from "data/testData"
 
 export const Table = () => {
   const initialHeaderWidths: IHeaderWidths = {
-    company: 0, location: 0, position: 0, remote: 0, salary: 0
+    company: 0, location: 0, position: 0, type: 0, salary: 0
   }
 
   const [ widths, updateWidths ] = useState<IHeaderWidths>(initialHeaderWidths)

@@ -15,14 +15,14 @@ export const TableHeader = (props: ITableHeaderProps) => {
   const [ rowRef, rowBounds ] = useMeasure()
   const [ positionRef, positionBounds ] = useMeasure()
   const [ companyRef, companyBounds ] = useMeasure()
-  const [ remoteRef, remoteBounds ] = useMeasure()
+  const [ typeRef, typeBounds ] = useMeasure()
   const [ locationRef, locationBounds ] = useMeasure()
   const [ salaryRef, salaryBounds ] = useMeasure()
   
   // Ugh
   useEffect(() => props.updateWidth({ position: positionBounds.width }), [positionBounds])
   useEffect(() => props.updateWidth({ company: companyBounds.width }), [companyBounds])
-  useEffect(() => props.updateWidth({ remote: remoteBounds.width }), [remoteBounds])
+  useEffect(() => props.updateWidth({ type: typeBounds.width }), [typeBounds])
   useEffect(() => props.updateWidth({ location: locationBounds.width }), [locationBounds])
   useEffect(() => props.updateWidth({ salary: salaryBounds.width }), [salaryBounds])
   
@@ -43,7 +43,7 @@ export const TableHeader = (props: ITableHeaderProps) => {
         <li ref={companyRef} className="companyColumn">
           <TableHeaderTitle title="Company" />
         </li>
-        <li ref={remoteRef}>
+        <li ref={typeRef}>
           <Type />
         </li>
         <li ref={locationRef}>

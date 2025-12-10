@@ -4,21 +4,7 @@
   justify-content: center;
 }
 
-.positionColumn {
-  min-width: 400px;
-  width: 100%;
-  overflow: hidden;
-  border-right: 1px solid $borderColor;
-  padding-right: $space * 3;
-  
-  span {
-    display: block;
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-}
+
 
 .companyColumn {
   overflow: hidden;

@@ -1,7 +1,9 @@
+export type TJobType = 'remote' | 'hybrid' | 'onSite'
+
 export interface IJob {
   position: string
   company: string
-  remote: boolean
+  type: TJobType[]
   remoteLocations: string[]
   locations: string[]
   salary: string | null
