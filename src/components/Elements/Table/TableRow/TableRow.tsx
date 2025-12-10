@@ -5,14 +5,13 @@ import { CompanyCell } from "../TableCells/CompanyCell/CompanyCell"
 import { LocationCell } from "../TableCells/LocationCell/LocationCell"
 import { TypeCell } from "../TableCells/TypeCell/TypeCell"
 import { SalaryCell } from "../TableCells/SalaryCell/SalaryCell"
-import { memo } from "react"
 
 interface ITableRowProps {
   widths: IHeaderWidths
   job: IJob
 }
 
-export const TableRow = memo((props: ITableRowProps) => {
+export const TableRow = (props: ITableRowProps) => {
   return (
     <div className="tableRow">
       <ul className="row">
@@ -37,4 +36,4 @@ export const TableRow = memo((props: ITableRowProps) => {
       </ul>
     </div>
   )
-})
+}

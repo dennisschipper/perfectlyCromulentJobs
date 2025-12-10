@@ -1,12 +1,12 @@
 import { CromulentContext } from "components/Elements/CromulentContext/CromulentContext"
-import { memo, useContext } from "react"
+import { useContext } from "react"
 import type { IJob } from "types"
 
 interface ISaveButtonProps {
   job: IJob
 }
 
-export const SaveButton = memo((props: ISaveButtonProps) => {
+export const SaveButton = (props: ISaveButtonProps) => {
   const { appState, dispatch } = useContext(CromulentContext)
   const { job } = props
   const saved = appState.options.saved.includes(job.id)
@@ -19,4 +19,4 @@ export const SaveButton = memo((props: ISaveButtonProps) => {
       <span></span>
     </button>
   )
-})
+}
