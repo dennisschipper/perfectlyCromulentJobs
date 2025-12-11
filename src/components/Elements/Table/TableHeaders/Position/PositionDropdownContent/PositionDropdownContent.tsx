@@ -7,6 +7,7 @@ import { MobileDropdownControls } from "components/Elements/Dropdown/MobileDropd
 interface IPositionDropdownContentProps extends IClonedDropdownProps {}
 
 export const PositionDropdownContent = (props: IPositionDropdownContentProps) => {
+  
   return (
     <>
       <MobileDropdownControls onClose={props.onClose} />

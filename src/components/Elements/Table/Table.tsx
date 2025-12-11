@@ -1,10 +1,13 @@
 import { useState } from "react"
 import { TableHeader } from "./TableHeader/TableHeader"
-import type { IHeaderWidths } from "types"
+import type { IHeaderWidths, IJob } from "types"
 import { TableRow } from "./TableRow/TableRow"
-import { jobs } from "data/testData"
 
-export const Table = () => {
+interface ITableProps {
+  jobs: IJob[]
+}
+
+export const Table = (props: ITableProps) => {
   const initialHeaderWidths: IHeaderWidths = {
     company: 0, location: 0, position: 0, type: 0, salary: 0
   }
@@ -17,7 +20,7 @@ export const Table = () => {
     updateWidths(widths => ({...widths, ...updatedWidths}))
   }
 
-  const rows = jobs.map(job => <TableRow widths={widths} job={job} key={job.id} />)
+  const rows = props.jobs.map(job => <TableRow widths={widths} job={job} key={job.id} />)
 
   const [ rowWidth, updateRowWidth ] = useState<string | number>(0)
 

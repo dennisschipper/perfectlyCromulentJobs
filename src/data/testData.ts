@@ -2,262 +2,223 @@ import type { IJob } from "types";
 
 export const jobs: IJob[] = [
   {
-    position: "Engineers, EMs, GTM, Former Founders",
-    company: "Stainless",
-    type: ["onSite"],
-    locations: [
-      {
-        country: "USA",
-        city: "New York City",
-      },
-      {
-        country: "USA",
-        city: "San Francisco",
-      },
+    "position": "Software Engineer",
+    "positionType": "engineering",
+    "company": "Replica",
+    "type": ["hybrid"],
+    "locations": [{ "country": "USA", "city": "New York City" }],
+    "salary": null,
+    "sourceId": "46211441",
+    "id": "46211441_Software_Engineer"
+  },
+  {
+    "position": "Sr AI Eng",
+    "positionType": "engineering",
+    "company": "Littlebird",
+    "type": ["remote"],
+    "locations": [],
+    "salary": null,
+    "sourceId": "46211473",
+    "id": "46211473_Sr_AI_Eng"
+  },
+  {
+    "position": "React",
+    "positionType": "frontEnd",
+    "company": "Littlebird",
+    "type": ["remote"],
+    "locations": [],
+    "salary": null,
+    "sourceId": "46211473",
+    "id": "46211473_React"
+  },
+  {
+    "position": "Product Design",
+    "positionType": "other",
+    "company": "Littlebird",
+    "type": ["remote"],
+    "locations": [],
+    "salary": null,
+    "sourceId": "46211473",
+    "id": "46211473_Product_Design"
+  },
+  {
+    "position": "Founding Full-Stack Engineer",
+    "positionType": "fullStack",
+    "company": "Alfie.io by xpflow",
+    "type": ["remote"],
+    "locations": [{ "country": "USA" }],
+    "salary": null,
+    "sourceId": "46212008",
+    "id": "46212008_Founding_FullStack_Engineer"
+  },
+  {
+    "position": "Eng",
+    "positionType": "engineering",
+    "company": "Tiger Data (FKA Timescale)",
+    "type": ["remote"],
+    "locations": [],
+    "salary": null,
+    "sourceId": "46210829",
+    "id": "46210829_Eng"
+  },
+  {
+    "position": "Product",
+    "positionType": "other",
+    "company": "Tiger Data (FKA Timescale)",
+    "type": ["remote"],
+    "locations": [],
+    "salary": null,
+    "sourceId": "46210829",
+    "id": "46210829_Product"
+  },
+  {
+    "position": "Support",
+    "positionType": "other",
+    "company": "Tiger Data (FKA Timescale)",
+    "type": ["remote"],
+    "locations": [],
+    "salary": null,
+    "sourceId": "46210829",
+    "id": "46210829_Support"
+  },
+  {
+    "position": "Founding Engineer",
+    "positionType": "engineering",
+    "company": "Dryft",
+    "type": ["onSite"],
+    "locations": [{ "country": "USA", "city": "San Francisco" }],
+    "salary": null,
+    "sourceId": "46207649",
+    "id": "46207649_Founding_Engineer"
+  },
+  {
+    "position": "Staff Fullstack Engineer",
+    "positionType": "fullStack",
+    "company": "Jam.dev",
+    "type": ["hybrid", "remote"],
+    "locations": [
+      { "country": "USA", "city": "San Francisco" },
+      { "country": "USA", "city": "Austin" },
+      { "country": "USA", "city": "New York City" }
     ],
-    salary: null,
-    sourceId: "46113062",
-    id: "46113062_Engineers_EMs_GTM_Former_Founders",
+    "salary": null,
+    "sourceId": "46108994",
+    "id": "46108994_Staff_Fullstack_Engineer"
   },
   {
-    position: "Senior Software Engineer - Storage Core (C/Linux)",
-    company: "StorPool",
-    type: ["remote"],
-    locations: [],
-    salary: null,
-    sourceId: "46112562",
-    id: "46112562_Senior_Software_Engineer_Storage_Core_C_Linux",
-  },
-  {
-    position: "Founder seeking first technical teammate",
-    company: "Precision",
-    type: ["onSite", "remote"],
-    locations: [
-      {
-        country: "USA",
-        city: "New York City",
-      },
+    "position": "AI Product Engineer",
+    "positionType": "engineering",
+    "company": "Jam.dev",
+    "type": ["hybrid", "remote"],
+    "locations": [
+      { "country": "USA", "city": "San Francisco" },
+      { "country": "USA", "city": "Austin" },
+      { "country": "USA", "city": "New York City" }
     ],
-    salary: null,
-    sourceId: "46112804",
-    id: "46112804_Founder_seeking_first_technical_teammate",
+    "salary": null,
+    "sourceId": "46108994",
+    "id": "46108994_AI_Product_Engineer"
   },
   {
-    position: "Founding Engineer",
-    company: "BusbySim",
-    type: ["hybrid"],
-    locations: [
-      {
-        country: "UK",
-        city: "London",
-      },
+    "position": "Senior Software Engineer (Full Stack)",
+    "positionType": "fullStack",
+    "company": "Cambridge Cognition",
+    "type": ["remote"],
+    "locations": [{ "country": "Canada" }, { "country": "UK" }],
+    "salary": null,
+    "sourceId": "46197711",
+    "id": "46197711_Senior_Software_Engineer_Full_Stack"
+  },
+  {
+    "position": "Senior ASP.NET (full-stack)",
+    "positionType": "fullStack",
+    "company": "MaFi Games",
+    "type": ["remote"],
+    "locations": [],
+    "salary": null,
+    "sourceId": "46113013",
+    "id": "46113013_Senior_ASPNET_fullstack"
+  },
+  {
+    "position": "Founding engineer",
+    "positionType": "engineering",
+    "company": "Stealth AI Startup",
+    "type": ["onSite"],
+    "locations": [{ "country": "USA", "city": "San Francisco" }],
+    "salary": null,
+    "sourceId": "46211009",
+    "id": "46211009_Founding_engineer"
+  },
+  {
+    "position": "Senior DevOps Engineer",
+    "positionType": "engineering",
+    "company": "FetLife",
+    "type": ["remote"],
+    "locations": [],
+    "salary": "115k - 180k USD",
+    "sourceId": "46204185",
+    "id": "46204185_Senior_DevOps_Engineer"
+  },
+  {
+    "position": "Solutions Engineer",
+    "positionType": "engineering",
+    "company": "Pydantic",
+    "type": ["remote"],
+    "locations": [],
+    "salary": null,
+    "sourceId": "46109621",
+    "id": "46109621_Solutions_Engineer"
+  },
+  {
+    "position": "Machine Learning Engineer",
+    "positionType": "engineering",
+    "company": "ML6",
+    "type": ["onSite", "hybrid"],
+    "locations": [
+      { "country": "Netherlands", "city": "Amsterdam" },
+      { "country": "Germany", "city": "Berlin" },
+      { "country": "Germany", "city": "Munich" },
+      { "country": "Netherlands", "city": "Eindhoven" },
+      { "country": "Belgium", "city": "Ghent" }
     ],
-    salary: null,
-    sourceId: "46145687",
-    id: "46145687_Founding_Engineer",
+    "salary": null,
+    "sourceId": "46193883",
+    "id": "46193883_Machine_Learning_Engineer"
   },
   {
-    position: "Principal Engineer (Full-Stack)",
-    company: "Ezra",
-    type: ["remote"],
-    locations: [
-      {
-        country: "USA",
-      },
+    "position": "Data Engineer",
+    "positionType": "engineering",
+    "company": "ML6",
+    "type": ["onSite", "hybrid"],
+    "locations": [
+      { "country": "Netherlands", "city": "Amsterdam" },
+      { "country": "Germany", "city": "Berlin" },
+      { "country": "Germany", "city": "Munich" },
+      { "country": "Netherlands", "city": "Eindhoven" },
+      { "country": "Belgium", "city": "Ghent" }
     ],
-    salary: null,
-    sourceId: "46114455",
-    id: "46114455_Principal_Engineer_Full_Stack",
+    "salary": null,
+    "sourceId": "46193883",
+    "id": "46193883_Data_Engineer"
   },
   {
-    position: "Staff Software Engineer",
-    company: "Natera",
-    type: ["remote"],
-    locations: [
-      {
-        country: "USA",
-      },
-    ],
-    salary: "174k - 200k USD",
-    sourceId: "46109687",
-    id: "46109687_Staff_Software_Engineer",
+    "position": "Founding Engineer",
+    "positionType": "engineering",
+    "company": "BusbySim",
+    "type": ["hybrid"],
+    "locations": [{ "country": "UK", "city": "London" }],
+    "salary": null,
+    "sourceId": "46145687",
+    "id": "46145687_Founding_Engineer"
   },
   {
-    position: "Software Engineer",
-    company: "Zetier",
-    type: ["onSite"],
-    locations: [
-      {
-        country: "USA",
-      },
-    ],
-    salary: null,
-    sourceId: "46129427",
-    id: "46129427_Software_Engineer",
-  },
-  {
-    position: "Multiple roles",
-    company: "Estuary",
-    type: ["remote"],
-    locations: [
-      {
-        country: "USA",
-      },
-    ],
-    salary: null,
-    sourceId: "46114174",
-    id: "46114174_Multiple_roles",
-  },
-  {
-    position: "Multiple roles",
-    company: "Evervault",
-    type: ["hybrid", "remote"],
-    locations: [
-      {
-        country: "UK",
-        city: "London",
-      },
-      {
-        country: "Ireland",
-        city: "Dublin",
-      },
-    ],
-    salary: null,
-    sourceId: "46110860",
-    id: "46110860_Multiple_roles",
-  },
-  {
-    position: "Co-founder",
-    company: "Silk Hedge Fund",
-    type: ["onSite"],
-    locations: [
-      {
-        country: "USA",
-        city: "New York City",
-      },
-    ],
-    salary: null,
-    sourceId: "46114687",
-    id: "46114687_Co_founder",
-  },
-  {
-    position: "Software Engineer",
-    company: "Silkline",
-    type: ["onSite"],
-    locations: [
-      {
-        country: "USA",
-        city: "Seattle",
-      },
-    ],
-    salary: "Salary+Equity",
-    sourceId: "46112358",
-    id: "46112358_Software_Engineer",
-  },
-  {
-    position:
-      "Staff + Principal Product and Distributed Systems Engineers (Multiple)",
-    company: "Unknown",
-    type: [],
-    locations: [],
-    salary: "Base: $200,000 - $250,000 USD",
-    sourceId: "46115164",
-    id: "46115164_Staff_Principal_Product_and_Distributed_Systems_Engineers_Multiple",
-  },
-  {
-    position: "Senior Software Engineer",
-    company: "tulanā",
-    type: ["hybrid", "remote"],
-    locations: [
-      {
-        country: "Germany",
-        city: "Berlin",
-      },
-    ],
-    salary: null,
-    sourceId: "46114595",
-    id: "46114595_Senior_Software_Engineer",
-  },
-  {
-    position: "Full-time Roles",
-    company: "Foundation Health",
-    type: ["remote"],
-    locations: [
-      {
-        country: "USA",
-      },
-    ],
-    salary: null,
-    sourceId: "46120893",
-    id: "46120893_Full_time_Roles",
-  },
-  {
-    position:
-      "Senior Software Engineer - Distributed Systems / Cloud Data Infrastructure / Kubernetes",
-    company: "ClickHouse",
-    type: ["remote"],
-    locations: [],
-    salary: null,
-    sourceId: "46112914",
-    id: "46112914_Senior_Software_Engineer_Distributed_Systems_Cloud_Data_Infrastructure_Kubernetes",
-  },
-  {
-    position: "Founding Engineer",
-    company: "Songscription",
-    type: ["onSite", "remote"],
-    locations: [
-      {
-        country: "USA",
-        city: "San Francisco",
-      },
-    ],
-    salary: null,
-    sourceId: "46146064",
-    id: "46146064_Founding_Engineer",
-  },
-  {
-    position: "Senior/Staff Frontend (React) Software Engineer",
-    company: "Verkada",
-    type: ["onSite"],
-    locations: [
-      {
-        country: "USA",
-        city: "San Mateo",
-      },
-    ],
-    salary: null,
-    sourceId: "46109723",
-    id: "46109723_Senior_Staff_Frontend_React_Software_Engineer",
-  },
-  {
-    position: "Software Engineer",
-    company: "SpruceID (YC W21)",
-    type: ["remote"],
-    locations: [
-      {
-        country: "USA",
-      },
-    ],
-    salary: null,
-    sourceId: "46110868",
-    id: "46110868_Software_Engineer",
-  },
-  {
-    position: "Technical Program Manager",
-    company: "40GRID",
-    type: ["remote"],
-    locations: [],
-    salary: null,
-    sourceId: "46109712",
-    id: "46109712_Technical_Program_Manager",
-  },
-  {
-    position: "Mid/Sr./Principal/Staff Engineer",
-    company: "AllSpice",
-    type: ["remote", "hybrid"],
-    locations: [],
-    salary: null,
-    sourceId: "46121740",
-    id: "46121740_Mid_Sr_Principal_Staff_Engineer",
-  },
+    "position": "Software Engineer",
+    "positionType": "engineering",
+    "company": "SpruceID",
+    "type": ["remote"],
+    "locations": [{ "country": "USA" }],
+    "salary": null,
+    "sourceId": "46110868",
+    "id": "46110868_Software_Engineer"
+  }
 ]
