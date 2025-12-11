@@ -10,13 +10,13 @@ export const App = () => {
   const [ appState, dispatch ] = useReducer(cromulentReducer, initialState)
 
   return (
-    <CromulentContext.Provider value={{appState, dispatch}}>
+    <CromulentContext value={{appState, dispatch}}>
       <div className="cromulentWhosHiring">
         <CromulentHeader />
         <MainFilters />
         <hr />
         <Table />
       </div>
-    </CromulentContext.Provider>
+    </CromulentContext>
   )
 }

@@ -3,6 +3,6 @@ ul.checkboxList {
   // 44px checkboxes to be themselves without causing any unwanted scrolls.
   overflow: hidden;
   gap: $space;
-  
+  width: 100%;
   ul { padding-left: calc($space * 3); }
 }

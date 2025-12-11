@@ -17,9 +17,7 @@ export const Table = () => {
     updateWidths(widths => ({...widths, ...updatedWidths}))
   }
 
-  const tableRows = jobs.map(
-    (job, index) => <TableRow widths={widths} job={job} key={index} />
-  )
+  const rows = jobs.map(job => <TableRow widths={widths} job={job} key={job.id} />)
 
   const [ rowWidth, updateRowWidth ] = useState<string | number>(0)
 
@@ -27,7 +25,7 @@ export const Table = () => {
     <div className="tableWrapper">
       <div className="table" style={{ minWidth: rowWidth}}>
         <TableHeader updateRowWidth={updateRowWidth} updateWidth={updateWidth} />
-        {tableRows}
+        {rows}
       </div>
     </div>
   )

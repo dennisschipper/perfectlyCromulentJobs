@@ -4,6 +4,7 @@
   align-items: center;
   cursor: pointer;
   margin-left: -10px;
+  outline: none;
 
   input {
     position: absolute;
@@ -27,11 +28,12 @@
       border: 1px solid $textGrey;
       border-radius: 3px;
       position: relative;
+      transition: $transition;
+      outline: 3px solid transparent;
     }
-  }
 
-  &.checked .check {
-    > div::before {
+    > div:before {
+      transition: $transition;
       content: '';
       width: 10px;
       height: 10px;
@@ -40,6 +42,21 @@
       top: 4px;
       left: 4px;
       border-radius: 3px;
+      opacity: 0;
+    }
+  }
+
+  &.checked .check {
+    > div::before { opacity: 1; }
+  }
+
+  &.intermediate .check {
+    > div::before { opacity: 0.5; }
+  }
+
+  &:focus, &:hover {
+    .check {
+      > div { outline: 3px solid $outlineColor; }
     }
   }
 }

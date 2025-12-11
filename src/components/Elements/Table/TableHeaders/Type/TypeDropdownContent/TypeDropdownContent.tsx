@@ -9,7 +9,9 @@ export const TypeDropdownContent = (props: ITypeDropdownContentProps) => {
   return (
     <>
       <MobileDropdownControls onClose={props.onClose} />
-      <TypeFilters />
+      <div className="content">
+        <TypeFilters />
+      </div>
       <hr />
       <TypeDropdownFooter />
     </>

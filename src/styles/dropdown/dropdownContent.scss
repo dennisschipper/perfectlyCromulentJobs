@@ -13,10 +13,13 @@
     width: 100%;
     overflow: auto;
     flex-shrink: 1;
+    align-items: stretch;
+    max-height: 400px;
   }
 
   @media (max-width: $mob) { 
     width: calc(100% - 20px);
     height: calc(100% - 20px);
+    > .content { max-height: initial; }
   } 
 }

@@ -46,7 +46,7 @@ export const TableHeader = (props: ITableHeaderProps) => {
         <li ref={typeRef}>
           <Type />
         </li>
-        <li ref={locationRef}>
+        <li ref={locationRef} className="locationColumn">
           <Location />
         </li>
         <li ref={salaryRef}>
