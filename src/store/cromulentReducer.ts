@@ -1,6 +1,6 @@
 import { jobs } from "data/testData"
 import type { IAppState, TActionTypes } from "types"
-import { saveJobAction, updatePositionFilterAction, updatePositionTypeAction } from "./cromulentActions"
+import { saveJobAction, updateJobTypeAction, updatePositionFilterAction, updatePositionTypeAction } from "./cromulentActions"
 
 export const initialState: IAppState = {
   jobs,
@@ -8,7 +8,8 @@ export const initialState: IAppState = {
     saved: [],
     filters: {
       position: "",
-      positionTypes: []
+      positionTypes: [],
+      jobTypes: []
     }
   }
 }
@@ -18,6 +19,7 @@ export const cromulentReducer = (state: IAppState, action: TActionTypes) => {
     case 'saveJob': return saveJobAction(state, action)
     case 'updatePositionFilter': return updatePositionFilterAction(state, action)
     case 'updatePositionType': return updatePositionTypeAction(state, action)
+    case 'updateJobType': return updateJobTypeAction(state, action)
     default: return state
   }
 }

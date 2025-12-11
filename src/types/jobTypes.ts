@@ -1,4 +1,5 @@
-export type TJobType = 'remote' | 'hybrid' | 'onSite'
+export const jobTypes = [ 'remote', 'hybrid', 'onSite' ] as const
+export type TJobType = typeof jobTypes[number]
 
 export const positionTypes = [
   'design',

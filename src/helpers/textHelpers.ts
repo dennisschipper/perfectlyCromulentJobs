@@ -1,4 +1,4 @@
-import type { TPositionType } from "types";
+import type { TJobType, TPositionType } from "types";
 
 export const positionTypeToText = (positionType: TPositionType) => {
   switch(positionType) {
@@ -10,5 +10,13 @@ export const positionTypeToText = (positionType: TPositionType) => {
     case 'marketing': return "Marketing"
     case 'other': return "Other"
     case 'sales': return "Sales"
+  }
+}
+
+export const jobTypeToText = (jobType: TJobType) => {
+  switch(jobType) {
+    case 'hybrid': return "Hybrid"
+    case 'onSite': return "On site"
+    case 'remote': return "Remote"
   }
 }

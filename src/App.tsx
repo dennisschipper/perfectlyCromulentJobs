@@ -5,7 +5,7 @@ import { MainFilters } from 'components/Elements/MainFilters/MainFilters'
 import { Table } from 'components/Elements/Table/Table'
 import { useReducer } from 'react'
 import { cromulentReducer, initialState } from 'store/cromulentReducer'
-import { filterPosition, filterPositionType } from 'helpers'
+import { filterJobType, filterPosition, filterPositionType } from 'helpers'
 
 export const App = () => {
   const [ appState, dispatch ] = useReducer(cromulentReducer, initialState)
@@ -13,6 +13,7 @@ export const App = () => {
   const jobs = appState.jobs
     .filter(filterPosition(appState.options.filters.position.toLowerCase()))
     .filter(filterPositionType(appState.options.filters.positionTypes))
+    .filter(filterJobType(appState.options.filters.jobTypes))
   
     return (
     <CromulentContext value={{appState, dispatch}}>
