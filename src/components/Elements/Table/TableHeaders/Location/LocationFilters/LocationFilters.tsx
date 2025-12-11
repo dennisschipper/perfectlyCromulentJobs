@@ -18,7 +18,7 @@ export const LocationFilters = (props: ILocationFiltersProps) => {
         const exists = acc.includes(c.city || "")
         return exists ? acc : [...acc, c.city || ""]
       }, [])
-      .map(city => <li><Checkbox name={city} text={city} /></li>)
+      .map(city => <li><Checkbox checked={true} onClick={() => null} name={city} text={city} /></li>)
   }
 
   const locationList = uniqueCountries.map(
@@ -26,7 +26,7 @@ export const LocationFilters = (props: ILocationFiltersProps) => {
       const cities = citiesPerCountry(props.locations, country)
       return (
         <li key={country}>
-          <Checkbox name={country} text={country} />
+          <Checkbox checked={true} onClick={() => null} name={country} text={country} />
           <ul>
             {cities}
           </ul>

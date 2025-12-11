@@ -33,7 +33,7 @@ export const jobs: IJob[] = [
   },
   {
     "position": "Product Design",
-    "positionType": "other",
+    "positionType": "design",
     "company": "Littlebird",
     "type": ["remote"],
     "locations": [],
@@ -173,7 +173,7 @@ export const jobs: IJob[] = [
     "position": "Machine Learning Engineer",
     "positionType": "engineering",
     "company": "ML6",
-    "type": ["onSite", "hybrid"],
+    "type": ["hybrid", "onSite"],
     "locations": [
       { "country": "Netherlands", "city": "Amsterdam" },
       { "country": "Germany", "city": "Berlin" },
@@ -189,7 +189,7 @@ export const jobs: IJob[] = [
     "position": "Data Engineer",
     "positionType": "engineering",
     "company": "ML6",
-    "type": ["onSite", "hybrid"],
+    "type": ["hybrid", "onSite"],
     "locations": [
       { "country": "Netherlands", "city": "Amsterdam" },
       { "country": "Germany", "city": "Berlin" },

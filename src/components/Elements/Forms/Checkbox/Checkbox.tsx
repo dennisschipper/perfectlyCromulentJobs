@@ -1,30 +1,34 @@
-import { useState } from "react"
-
 interface ICheckboxProps {
   name: string
   disabled?: boolean
   text: string
   intermediate?: boolean
+  onClick: (name: string) => void
+  checked: boolean
 }
 
 export const Checkbox = (props: ICheckboxProps) => {
   const { intermediate } = props
-  const [ checked, updateChecked ] = useState<boolean>(false)
-  const onChange = () => updateChecked(!checked)
+  
   const className = `
     checkbox 
-    ${checked ? "checked" : "" }
+    ${props.checked ? "checked" : "" }
     ${intermediate ? "intermediate" : ""}
   `
+
+  const onClick = () => {
+    props.onClick && props.onClick(props.name)
+  }
+
   return (
     <label htmlFor={props.name} className={className} tabIndex={0}>
       <input 
         id={props.name} 
         type="checkbox" 
-        checked={checked}
-        onChange={onChange}
+        checked={props.checked}
         disabled={props.disabled}
         tabIndex={-1}
+        onClick={onClick}
       />
       <div className="check">
         <div />

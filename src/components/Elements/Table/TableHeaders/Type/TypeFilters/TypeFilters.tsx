@@ -10,13 +10,13 @@ export const TypeFilters = (props: ITypeFiltersProps) => {
       <div className="grey">Filter by remote &amp; hybrid</div>
       <ul className="checkboxList">
         <li>
-          <Checkbox name="inOffice" text="In office" />
+          <Checkbox checked={true} onClick={() => null} name="inOffice" text="In office" />
         </li>
         <li>
-          <Checkbox name="hybrid" text="Hybrid" />
+          <Checkbox checked={true} onClick={() => null} name="hybrid" text="Hybrid" />
         </li>
         <li>
-          <Checkbox name="remote" text="Remote" />
+          <Checkbox checked={true} onClick={() => null} name="remote" text="Remote" />
         </li>
       </ul>
     </div>

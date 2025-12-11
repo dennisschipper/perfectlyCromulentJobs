@@ -1,5 +1,5 @@
 import { produce } from "immer"
-import type { IAppState, IJob } from "types"
+import type { IAppState, IJob, TPositionType } from "types"
 
 export type TSaveJobAction = { type: 'saveJob', payload: { job: IJob }}
 export const saveJobAction = (state: IAppState, action: TSaveJobAction): IAppState => {
@@ -14,5 +14,15 @@ export const saveJobAction = (state: IAppState, action: TSaveJobAction): IAppSta
 export type TUpdatePositionFilterAction = { type: 'updatePositionFilter', payload: { position: string }}
 export const updatePositionFilterAction = produce((state: IAppState, action: TUpdatePositionFilterAction): IAppState => {
   state.options.filters.position = action.payload.position
+  return state
+})
+
+export type TUpdatePositionTypeAction = { type: 'updatePositionType', payload: { positionType: TPositionType }}
+export const updatePositionTypeAction = produce((state: IAppState, action: TUpdatePositionTypeAction) => {
+  const positionTypes: TPositionType[] = 
+    state.options.filters.positionTypes.includes(action.payload.positionType) ?
+      state.options.filters.positionTypes.filter(pt => pt !== action.payload.positionType) :
+      [...state.options.filters.positionTypes, action.payload.positionType]
+  state.options.filters.positionTypes = positionTypes
   return state
 })

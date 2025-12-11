@@ -1,10 +1,11 @@
-import type { TSaveJobAction, TUpdatePositionFilterAction } from "store/cromulentActions";
-import type { IJob } from "./";
+import type { TSaveJobAction, TUpdatePositionFilterAction, TUpdatePositionTypeAction } from "store/cromulentActions";
+import type { IJob, TPositionType } from "./";
 
 export interface IUserOptions {
   saved: string[]
   filters: {
     position: string
+    positionTypes: TPositionType[]
   }
 }
 
@@ -13,7 +14,11 @@ export interface IAppState {
   options: IUserOptions
 }
 
-export type TActionTypes = TUpdateJobsAction | TSaveJobAction | TUpdatePositionFilterAction
+export type TActionTypes = 
+  TUpdateJobsAction | 
+  TSaveJobAction | 
+  TUpdatePositionFilterAction |
+  TUpdatePositionTypeAction
 
 export type TUpdateJobsAction = { type: 'updateJobs', payload: { jobs: IJob[]}}
 

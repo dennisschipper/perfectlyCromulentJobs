@@ -1,5 +1,17 @@
 export type TJobType = 'remote' | 'hybrid' | 'onSite'
-export type TPositionType = 'frontEnd' | 'backEnd' | 'fullStack' | 'engineering' | 'sales' | 'marketing' | 'other'
+
+export const positionTypes = [
+  'design',
+  'frontEnd',
+  'backEnd',
+  'fullStack',
+  'engineering',
+  'sales',
+  'marketing',
+  'other'
+] as const
+
+export type TPositionType = typeof positionTypes[number]
 
 export interface IJob {
   position: string
