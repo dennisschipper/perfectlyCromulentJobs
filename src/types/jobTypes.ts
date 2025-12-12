@@ -14,12 +14,17 @@ export const positionTypes = [
 
 export type TPositionType = typeof positionTypes[number]
 
+export interface ILocation {
+  country: string
+  city?: string
+}
+
 export interface IJob {
   position: string
   positionType: TPositionType
   company: string
   type: TJobType[]
-  locations: { country: string, city?: string }[]
+  locations: ILocation[]
   salary: string | null
   sourceId: string
   id: string

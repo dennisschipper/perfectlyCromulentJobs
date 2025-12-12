@@ -2,27 +2,21 @@ import type { IClonedDropdownProps } from "types"
 import { LocationSearch } from "../LocationSearch/LocationSearch"
 import { LocationFilters } from "../LocationFilters/LocationFilters"
 import { LocationDropdownFooter } from "../LocationDropdownFooter/LocationDropdownFooter"
-import { CromulentContext } from "components/Elements/CromulentContext/CromulentContext"
-import { useContext } from "react"
+import { MobileDropdownControls } from "components/Elements/Dropdown/MobileDropdownControls/MobileDropdownControls"
 
 interface iLocationDropdownContentProps extends IClonedDropdownProps {}
 
 export const LocationDropdownContent = (props: iLocationDropdownContentProps) => {
-  const { appState } = useContext(CromulentContext)
-  
-  const locations = appState.jobs
-    .map(j => j.locations)
-    .reduce((acc, locs) => [...acc, ...locs], [])
-  
   return (
     <>
+      <MobileDropdownControls onClose={props.onClose} />
       <LocationSearch />
       <hr />
       <div className="content">
-        <LocationFilters locations={locations} />
+        <LocationFilters />
       </div>
       <hr />
-      <LocationDropdownFooter />
+      <LocationDropdownFooter onClose={props.onClose} />
     </>
   )
 }

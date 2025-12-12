@@ -1,5 +1,5 @@
 import { produce } from "immer"
-import type { IAppState, IJob, TJobType, TPositionType } from "types"
+import type { IAppState, IJob, ILocation, TJobType, TPositionType } from "types"
 
 export type TSaveJobAction = { type: 'saveJob', payload: { job: IJob }}
 export const saveJobAction = (state: IAppState, action: TSaveJobAction): IAppState => {
@@ -37,8 +37,28 @@ export const updateJobTypeAction = produce((state: IAppState, action: TUpdateJob
   return state
 })
 
+export type TUpdateLocationFiltersAction = { type: 'updateLocationFilters', payload: { locations: ILocation[] }}
+export const updateLocationFiltersAction = produce((state: IAppState, action: TUpdateLocationFiltersAction) => {
+  state.options.filters.locations = action.payload.locations
+  return state
+})
+
+export type TUpdateLocationFilterTextAction = { type: 'updateLocationFilterText', payload: { locationtext: string }}
+export const updateLocationFilterTextAction = produce((state: IAppState, action: TUpdateLocationFilterTextAction ) => {
+  state.options.filters.locationText = action.payload.locationtext
+  return state
+})
+
+export type TAddLocationFiltersAction = { type: 'addLocationFilters', payload: { locations: ILocation[] }}
+export const addLocationFilters = produce((state: IAppState, action: TUpdateLocationFiltersAction) => {
+  state.options.filters.locations = action.payload.locations
+  return state
+})
+
 export type TUpdateFiltersAction = { type: 'updateFilters', payload: { filters: IAppState['options']['filters']} }
 export const updateFiltersAction = produce((state: IAppState, action: TUpdateFiltersAction) => {
   state.options.filters = action.payload.filters
   return state
 })
+
+

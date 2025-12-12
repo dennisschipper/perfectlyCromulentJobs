@@ -35,6 +35,10 @@ button.buttonMajor, button.buttonMinor {
   color: $textLight;
   border: 0;
   border-radius: calc($space / 2);
+
+  &:disabled {
+    color: $textGrey;
+  }
 }
 
 button.buttonMinor {

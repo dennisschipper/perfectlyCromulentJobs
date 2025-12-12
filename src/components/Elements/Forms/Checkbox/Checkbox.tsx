@@ -1,3 +1,5 @@
+import type { ChangeEventHandler } from "react"
+
 interface ICheckboxProps {
   name: string
   disabled?: boolean
@@ -20,6 +22,9 @@ export const Checkbox = (props: ICheckboxProps) => {
     props.onClick && props.onClick(props.name)
   }
 
+  // ToDo: Check this makes sense or remove the onClick and leave this in?
+  const onChange: ChangeEventHandler<HTMLInputElement> = () => {}
+
   return (
     <label htmlFor={props.name} className={className} tabIndex={0}>
       <input 
@@ -28,6 +33,7 @@ export const Checkbox = (props: ICheckboxProps) => {
         checked={props.checked}
         disabled={props.disabled}
         tabIndex={-1}
+        onChange={onChange}
         onClick={onClick}
       />
       <div className="check">
