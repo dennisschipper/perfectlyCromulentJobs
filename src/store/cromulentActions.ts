@@ -36,3 +36,9 @@ export const updateJobTypeAction = produce((state: IAppState, action: TUpdateJob
   state.options.filters.jobTypes = jobTypes
   return state
 })
+
+export type TUpdateFiltersAction = { type: 'updateFilters', payload: { filters: IAppState['options']['filters']} }
+export const updateFiltersAction = produce((state: IAppState, action: TUpdateFiltersAction) => {
+  state.options.filters = action.payload.filters
+  return state
+})
