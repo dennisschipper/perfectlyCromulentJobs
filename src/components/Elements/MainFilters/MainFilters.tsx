@@ -1,10 +1,16 @@
+import { useContext } from "react"
+import { CromulentContext } from "../CromulentContext/CromulentContext"
 import { FilterCount } from "./FilterCount/FilterCount"
+import { filterJobs } from "helpers"
 
 export const MainFilters = () => {
+  const { appState } = useContext(CromulentContext)
+  const jobs = filterJobs(appState.jobs, appState.options.filters)
+
   return (
     <div className="mainFilters">
       <div>
-        <FilterCount current={102} total={307} />
+        <FilterCount current={jobs.length} total={appState.jobs.length} />
       </div>
       <div className="spacer">
         <button className="minor">Reset filters</button>
