@@ -2,6 +2,8 @@
   flex-direction: row;
   gap: calc($space * 2);
   padding-right: calc($space * 2);
+  overflow: hidden;
+  width: 100%;
 
   > .title { font-weight: 600; }
 }

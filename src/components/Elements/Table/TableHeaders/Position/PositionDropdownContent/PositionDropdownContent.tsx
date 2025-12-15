@@ -17,7 +17,7 @@ export const PositionDropdownContent = (props: IPositionDropdownContentProps) =>
         <PositionFilters />
       </div>
       <hr />
-      <PositionDropdownFooter />
+      <PositionDropdownFooter onClose={props.onClose} />
     </>
   )
 }

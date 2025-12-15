@@ -8,6 +8,7 @@ html, body {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: initial;
 }
 
 body { background: #383838; }
@@ -26,6 +27,7 @@ div, header, footer, ul, li, form {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  flex-direction: column
+  flex-direction: column;
+  text-align: initial;
 }
 

@@ -3,3 +3,14 @@
   margin-bottom: $space;
   width: 100%;
 }
+
+.positionColumn {
+  width: 400px;
+  overflow: hidden;
+}
+
+.filterByPostionControl {
+  width: 100%;
+  overflow: hidden;
+  button { width: 100%; }
+}

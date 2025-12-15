@@ -1,0 +1,25 @@
+ul.controlList {
+  flex-direction: row;
+  width: 100%;
+  overflow: hidden;
+  
+
+  li {
+    flex-direction: row;
+    &::after { content: ",\00a0"; }
+    &:last-of-type::after { display: none; }
+  }
+
+  li:last-of-type {
+    overflow: hidden;
+    flex: 1;
+
+    span {
+      display: block;
+      width: calc(100% - 20px);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}

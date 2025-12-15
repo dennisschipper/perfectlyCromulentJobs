@@ -13,6 +13,19 @@ export const positionTypeToText = (positionType: TPositionType) => {
   }
 }
 
+export const positionTypeToAbbr = (positionType: TPositionType) => {
+  switch(positionType) {
+    case 'backEnd': return "Be"
+    case 'design': return "Des"
+    case 'engineering': return "Eng"
+    case 'frontEnd': return "Fe"
+    case 'fullStack': return "Fs"
+    case 'marketing': return "Mrk"
+    case 'other': return "Oth"
+    case 'sales': return "Sls"
+  }
+}
+
 export const jobTypeToText = (jobType: TJobType) => {
   switch(jobType) {
     case 'hybrid': return "Hybrid"

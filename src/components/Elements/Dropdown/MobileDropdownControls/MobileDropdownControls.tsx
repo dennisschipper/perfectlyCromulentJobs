@@ -8,7 +8,7 @@ export const MobileDropdownControls = (props: IMobileDropdownControlsProps) => {
   return (
     <>
       <div className="mobileDropdownControls mobile">
-        <button className="buttonMinor" onClick={onClick}>close</button>
+        <button className="buttonMinor" onClick={onClick}>Close</button>
       </div>
       <hr className="mobile" />
     </>
