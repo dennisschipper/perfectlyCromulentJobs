@@ -29,7 +29,15 @@ export const positionTypeToAbbr = (positionType: TPositionType) => {
 export const jobTypeToText = (jobType: TJobType) => {
   switch(jobType) {
     case 'hybrid': return "Hybrid"
-    case 'onSite': return "On site"
+    case 'onSite': return "In office"
     case 'remote': return "Remote"
+  }
+}
+
+export const jobTypeToAbbr = (jobType: TJobType) => {
+  switch(jobType) {
+    case 'hybrid': return "H"
+    case 'onSite': return "IO"
+    case 'remote': return "R"
   }
 }

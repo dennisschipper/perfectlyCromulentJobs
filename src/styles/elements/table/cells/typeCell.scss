@@ -1,0 +1,17 @@
+.typeCell {
+  width: 100%;
+  
+  .jobType {
+    &::after {
+      content: '\\';
+      color: $textGrey;
+      margin: 0 calc($space / 2);
+    }
+  }
+
+  .jobType:last-of-type {
+    &::after {
+      content: ''
+    }
+  }
+}

@@ -45,3 +45,8 @@ button.buttonMinor {
   background: #cecece;
   color: $textMain;
 }
+
+button abbr {
+  &::after { content: "/" }
+  &:last-of-type::after { content: "" }
+}

@@ -14,12 +14,16 @@ export const TypeCell = (props: ITypeCellProps) => {
     }
   }
 
-  const type = props.job.type.map(t => typeToText(t))
+  const type = props.job.type.map(
+    t => <span className="jobType" key={t}>{typeToText(t)}</span>
+  )
 
   return (
     <TableCell>
-      <div className="companyCell">
-        <span className="textClipper">{type}</span>
+      <div className="typeCell">
+        <span className="textClipper">
+          {type}
+        </span>
       </div>
     </TableCell>
   )

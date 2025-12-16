@@ -13,7 +13,7 @@ export const TypeDropdownContent = (props: ITypeDropdownContentProps) => {
         <TypeFilters />
       </div>
       <hr />
-      <TypeDropdownFooter />
+      <TypeDropdownFooter onClose={props.onClose} />
     </>
   )
 }
