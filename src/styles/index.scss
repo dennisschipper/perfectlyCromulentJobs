@@ -8,3 +8,9 @@
 @import 'elements/index.scss';
 @import 'dropdown/index.scss';
 @import 'forms/index.scss';
+
+.filterByPostionControl {
+  width: 100%;
+  overflow: hidden;
+  button { width: 100%; }
+}

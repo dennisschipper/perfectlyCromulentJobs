@@ -122,7 +122,7 @@ export const jobs: IJob[] = [
   {
     "position": "Senior Software Engineer (Full Stack)",
     "positionType": "fullStack",
-    "company": "Cambridge Cognition",
+    "company": "Cambridge Cognition Longname Fellas",
     "type": ["remote"],
     "locations": [{ "country": "Canada" }, { "country": "UK" }],
     "salary": null,

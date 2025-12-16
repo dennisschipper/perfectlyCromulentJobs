@@ -60,5 +60,3 @@ export const updateFiltersAction = produce((state: IAppState, action: TUpdateFil
   state.options.filters = action.payload.filters
   return state
 })
-
-

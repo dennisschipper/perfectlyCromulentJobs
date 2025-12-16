@@ -1,6 +1,5 @@
-import { useState } from "react"
 import { TableHeader } from "./TableHeader/TableHeader"
-import type { IHeaderWidths, IJob } from "types"
+import type { IJob } from "types"
 import { TableRow } from "./TableRow/TableRow"
 
 interface ITableProps {
@@ -8,28 +7,21 @@ interface ITableProps {
 }
 
 export const Table = (props: ITableProps) => {
-  const initialHeaderWidths: IHeaderWidths = {
-    company: 0, location: 0, position: 0, type: 0, salary: 0
-  }
-
-  const [ widths, updateWidths ] = useState<IHeaderWidths>(initialHeaderWidths)
-
-  const updateWidth = (updatedWidths: Partial<IHeaderWidths>) => {
-    // Use the updated state instead of the stale one due to the useEffect in the
-    // parent (i think).
-    updateWidths(widths => ({...widths, ...updatedWidths}))
-  }
-
-  const rows = props.jobs.map(job => <TableRow widths={widths} job={job} key={job.id} />)
-
-  const [ rowWidth, updateRowWidth ] = useState<string | number>(0)
-
+  const rows = props.jobs.map(job => <TableRow job={job} key={job.id} />)
   return (
     <div className="tableWrapper">
-      <div className="table" style={{ minWidth: rowWidth}}>
-        <TableHeader updateRowWidth={updateRowWidth} updateWidth={updateWidth} />
+      <table>
+        <colgroup>
+          <col className="saveColumn" />
+          <col className="positionColumn" />
+          <col className="companyColumn" />
+          <col className="typeColumn" />
+          <col className="locationColumn" />
+          <col className="salaryColumn" />
+        </colgroup>
+        <TableHeader />
         {rows}
-      </div>
+      </table>
     </div>
   )
 }

@@ -26,7 +26,8 @@ export const Dropdown = (props: IDropdownProps) => {
     onOpenChange,
     placement: 'bottom-start',
     middleware: [ flip(), resizeForMobile() ],
-    whileElementsMounted: autoUpdate
+    whileElementsMounted: autoUpdate,
+    strategy: 'fixed'
   })
 
   const click = useClick(context)

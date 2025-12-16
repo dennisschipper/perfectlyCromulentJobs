@@ -3,20 +3,34 @@
   overflow-y: visible;
 }
 
-.table { 
-  align-items: flex-start; 
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
   width: 100%;
+  min-width: 1280px;
 }
 
-ul.row {
-  padding: $space;
-  flex-direction: row;
-  gap: $space * 2;
-  border-radius: 5px;
-  transition: $transition;
-  
-  > li {
-    flex-direction: row;
-    gap: $space;
+td, th { padding: $space; }
+
+thead {
+  position: relative;
+  // Dang borders pushing us around.
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    background: $borderColor;
+    width: 100%;
   }
 }
+
+.saveColumn  { width: 60px; }
+.positionColumn {
+  width: 400px;
+  padding-left: $space * 4;
+}
+.companyColumn { width: 300px; }
+.typeColumn { width: 170px; }
