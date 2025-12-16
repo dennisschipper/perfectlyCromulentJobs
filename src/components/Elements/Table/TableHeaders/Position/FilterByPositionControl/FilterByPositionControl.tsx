@@ -29,7 +29,7 @@ export const FilterByPositionControl = (props: IFilterByPositionControlProps) =>
   )
   
   return (
-    <div className="filterByPostionControl">
+    <div className="controlListWrapper">
       <button onClick={props.onClick} ref={props.ref} className="minor">
         {!filters.length && "Filter by position"}
         {!!filters.length && filterContent}
