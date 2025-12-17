@@ -28,6 +28,7 @@
       order: 0;
       justify-content: space-between;
       grid-column: calc($space * 2);
+      align-self: stretch;
     }
 
     // Rearrange so the controls are up top and the filter count at the bottom right

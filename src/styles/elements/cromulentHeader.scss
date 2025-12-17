@@ -4,4 +4,8 @@
   padding: 0 $space;
 
   h1 { font-size: 1.1em; }
+
+  @media (max-width: $mob) {
+    margin-bottom: calc($space * 4);
+  }
 }

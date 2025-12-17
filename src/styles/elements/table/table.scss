@@ -31,6 +31,7 @@ thead {
 .positionColumn {
   width: 400px;
   padding-left: $space * 4;
+  @media (max-width: $mob) { padding-left: $space }
 }
 .companyColumn { width: 300px; }
 .typeColumn { width: 170px; }
