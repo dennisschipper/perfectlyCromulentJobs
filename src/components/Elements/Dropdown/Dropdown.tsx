@@ -1,4 +1,4 @@
-import { autoUpdate, flip, useClick, useDismiss, useFloating, useInteractions, useTransitionStyles, type Middleware } from "@floating-ui/react"
+import { autoUpdate, flip, size, useClick, useDismiss, useFloating, useInteractions, useTransitionStyles, type Middleware } from "@floating-ui/react"
 import { cloneElement, useState, type ReactElement } from "react"
 
 interface IDropdownProps {
@@ -9,7 +9,7 @@ interface IDropdownProps {
 export const Dropdown = (props: IDropdownProps) => {
   const [ open, onOpenChange ] = useState<boolean>(false)
 
-  // A For mobile, we'll move the ppopover to the top left and handle the rest 
+  // For mobile, we'll move the ppopover to the top left and handle the rest 
   // with css.
   const resizeForMobile = (): Middleware => {
     return ({
@@ -25,7 +25,16 @@ export const Dropdown = (props: IDropdownProps) => {
     open, 
     onOpenChange,
     placement: 'bottom-start',
-    middleware: [ flip(), resizeForMobile() ],
+    middleware: [ 
+      flip(), 
+      resizeForMobile(), 
+      size({
+        apply({ availableHeight, elements }) {
+          const value = `${Math.max(0, availableHeight - 20)}px`;
+          elements.floating.style.maxHeight = value;
+        }
+      })
+    ],
     whileElementsMounted: autoUpdate,
     strategy: 'fixed'
   })
@@ -36,7 +45,6 @@ export const Dropdown = (props: IDropdownProps) => {
   const { styles, isMounted } = useTransitionStyles(context)
   const { getReferenceProps, getFloatingProps } = useInteractions([ click, dismiss ])
 
-
   const onClose = () => onOpenChange(false)  
 
   const target = cloneElement<any>(
@@ -44,7 +52,7 @@ export const Dropdown = (props: IDropdownProps) => {
   )
 
   const content = cloneElement<any>(props.content, { onClose })
-  
+
   return (
     <>
       { target }
@@ -52,7 +60,7 @@ export const Dropdown = (props: IDropdownProps) => {
         <div 
           className="dropdownContent"
           ref={refs.setFloating} 
-          style={{...floatingStyles, ...styles}}
+          style={{...floatingStyles, ...styles }}
           {...getFloatingProps()}
         >
           {content}
