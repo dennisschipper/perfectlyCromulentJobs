@@ -1,3 +1,5 @@
+// chatgpt wrote most of this.
+
 import fs from "fs"
 import path from "path"
 import { fileURLToPath } from "url"
@@ -33,19 +35,26 @@ const timestamp = new Date().toISOString().replace(/[:.]/g, "_");
 const outFileName = `hn_jobs_${timestamp}.ts`;
 const outPath = path.join(__dirname, "../src/data", outFileName);
 
-async function fetchItem(id: number): Promise<HNItem> {
-  const res = await fetch(
-    `https://hacker-news.firebaseio.com/v0/item/${id}.json`
-  );
+const fetchItem = async (id: number): Promise<HNItem> => {
+  const res = await fetch(`https://hacker-news.firebaseio.com/v0/item/${id}.json`)
   if (!res.ok) throw new Error(`Failed to fetch item ${id}: ${res.status}`);
   return (await res.json()) as HNItem;
 }
 
-async function main() {
+const main = async () => {
   const root = await fetchItem(threadId);
   const kids = root.kids ?? [];
 
-  const posts = await Promise.all(kids.map((k) => fetchItem(k)));
+  const retrievedPosts: HNItem[] = await Promise.all(
+    kids.map(k => fetchItem(k))
+  )
+
+  const posts = retrievedPosts.map(
+    post => {
+      const { id, by, text } = post
+      return ({ id, by, text })
+    }
+  )
 
   const data = {
     threadId,

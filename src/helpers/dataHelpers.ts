@@ -17,12 +17,9 @@ export const filterLocations = (locations: ILocation[]) => (job: IJob) => (
 )
 
 export const filterLocationsByText = (locationText: string) => (job: IJob) => (
-  job.locations.some(
-    l => l.country.toLowerCase().includes(locationText.toLowerCase())
-  ) ||
-  job.locations.some(
-    l => l.city?.toLowerCase().includes(locationText.toLowerCase())
-  )
+  locationText.length === 0 ? true : 
+  job.locations.some(l => l.country.toLowerCase().includes(locationText.toLowerCase())) ||
+  job.locations.some(l => l.city?.toLowerCase().includes(locationText.toLowerCase()))
 )
 
 export const filterJobs = (jobs: IJob[], filters: IAppState['options']['filters']): IJob[] => (

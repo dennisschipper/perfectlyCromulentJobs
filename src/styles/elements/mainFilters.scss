@@ -14,14 +14,13 @@
 
   // The spacer will push the controls all the way to the right.
   > div.spacer { flex: 1 1 auto; }
-  > div:last-of-type { flex: 0 0 auto; }
 
   @media (max-width: $mob) {
     padding: 0;
     flex-direction: column;
     
     // Set everything up in rows, add spacing and dividers.
-    > div, > div:last-of-type {
+    > div {
       padding: $space;
       flex: 1 1 auto;
       border-bottom: 1px solid $borderColor;
@@ -31,13 +30,7 @@
       align-self: stretch;
     }
 
-    // Rearrange so the controls are up top and the filter count at the bottom right
-    // before the data.
     > div:nth-of-type(1) { order: 1; }
-    > div:nth-of-type(3) { 
-      order: -1; 
-      justify-content: flex-end;;
-    }
   }
 }
 

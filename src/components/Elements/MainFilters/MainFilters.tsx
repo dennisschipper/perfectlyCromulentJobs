@@ -20,11 +20,6 @@ export const MainFilters = () => {
       </div>
       <div className="spacer">
         <button className="minor" onClick={onClickReset}>Reset filters</button>
-        <button className="minor">Show extra filters</button>
-      </div>
-      <div className="controls">
-        <button className="minor">Export view</button>
-        <button className="minor">Data settings</button>
       </div>
     </div>
   )
