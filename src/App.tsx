@@ -5,7 +5,7 @@ import { MainFilters } from 'components/Elements/MainFilters/MainFilters'
 import { Table } from 'components/Elements/Table/Table'
 import { useEffect, useReducer } from 'react'
 import { cromulentReducer } from 'store/cromulentReducer'
-import { filterJobs, saveStoreInBrowser } from 'helpers'
+import { fetchHnJobs, filterJobs, saveStoreInBrowser } from 'helpers'
 import type { IAppState } from 'types'
 
 interface IAppProps {
@@ -17,6 +17,12 @@ export const App = (props: IAppProps) => {
   const jobs = filterJobs(appState.jobs, appState.options.filters)
 
   useEffect(() => saveStoreInBrowser(appState), [appState])
+
+  useEffect(() => {
+    fetchHnJobs("jobs_12_2025.json").then(
+      resp => dispatch({ type: 'updateJobTexts', payload: { hnJobs: resp.posts } })
+    )
+  }, [])
   
   return (
     <CromulentContext value={{appState, dispatch}}>

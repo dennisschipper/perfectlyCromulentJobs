@@ -5,15 +5,30 @@ import { CompanyCell } from "../TableCells/CompanyCell/CompanyCell"
 import { LocationCell } from "../TableCells/LocationCell/LocationCell"
 import { TypeCell } from "../TableCells/TypeCell/TypeCell"
 import { SalaryCell } from "../TableCells/SalaryCell/SalaryCell"
+import { CromulentContext } from "components/Elements/CromulentContext/CromulentContext"
+import { useContext, useState, type KeyboardEventHandler } from "react"
+import { HnPost } from "components/Elements/HnPost/HnPost"
 
 interface ITableRowProps {
   job: IJob
+  tableScroll: number
 }
 
 export const TableRow = (props: ITableRowProps) => {
+  const { appState } = useContext(CromulentContext)
+  const [ expanded, updateExpanded ] = useState<boolean>(false)
+  const onClick = () => updateExpanded(!expanded)
+  const onKeyDown: KeyboardEventHandler<HTMLTableRowElement> = (e) => {
+    e.key === 'Enter' && onClick()
+  }
+  
+  const job = appState.hnJobs.find(hnJob => String(hnJob.id) === props.job.sourceId)
+
+
+
   return (
-    <tbody className="tableRow">
-      <tr>
+    <tbody className={`tableRow ${expanded ? "expanded" : ""}`}>
+      <tr onClick={onClick} onKeyDown={onKeyDown} className="jobRow" tabIndex={0}>
         <td className="saveColumn">
           <SaveButton job={props.job} />
         </td>
@@ -33,6 +48,7 @@ export const TableRow = (props: ITableRowProps) => {
           <SalaryCell job={props.job} />
         </td>
       </tr>
+      <HnPost tableScroll={props.tableScroll} display={expanded} post={job} />
     </tbody>
   )
 }

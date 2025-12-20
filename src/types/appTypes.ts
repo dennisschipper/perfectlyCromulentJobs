@@ -1,5 +1,5 @@
-import type { TSaveJobAction, TUpdateFiltersAction, TUpdateJobTypeAction, TUpdateLocationFiltersAction, TUpdateLocationFilterTextAction, TUpdatePositionFilterAction, TUpdatePositionTypeAction } from "store/cromulentActions";
-import type { IJob, ILocation, TJobType, TPositionType } from "./";
+import type { TSaveJobAction, TUpdateFiltersAction, TUpdateHnJobsAction, TUpdateJobTypeAction, TUpdateLocationFiltersAction, TUpdateLocationFilterTextAction, TUpdatePositionFilterAction, TUpdatePositionTypeAction } from "store/cromulentActions";
+import type { IHnJob, IJob, ILocation, TJobType, TPositionType } from "./";
 
 export interface IUserOptions {
   saved: string[]
@@ -14,18 +14,17 @@ export interface IUserOptions {
 
 export interface IAppState {
   jobs: IJob[]
+  hnJobs: IHnJob[]
   options: IUserOptions
 }
 
 export type TActionTypes = 
-  TUpdateJobsAction | 
   TSaveJobAction | 
   TUpdatePositionFilterAction |
   TUpdatePositionTypeAction |
   TUpdateJobTypeAction |
   TUpdateFiltersAction |
   TUpdateLocationFiltersAction |
-  TUpdateLocationFilterTextAction
-
-export type TUpdateJobsAction = { type: 'updateJobs', payload: { jobs: IJob[]}}
+  TUpdateLocationFilterTextAction |
+  TUpdateHnJobsAction
 

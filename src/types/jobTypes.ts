@@ -29,3 +29,18 @@ export interface IJob {
   sourceId: string
   id: string
 }
+
+
+export interface IHnJobs {
+  threadId: string
+  title: string
+  url: string
+  fetchedAt: string
+  posts: IHnJob[]
+}
+
+export interface IHnJob {
+  id: number
+  by: string
+  text: string
+}

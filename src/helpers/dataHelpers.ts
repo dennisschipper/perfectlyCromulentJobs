@@ -1,5 +1,5 @@
 import localforage from "localforage";
-import type { IAppState, IJob, ILocation, TJobType, TPositionType } from "types";
+import type { IAppState, IHnJob, IHnJobs, IJob, ILocation, TJobType, TPositionType } from "types";
 
 export const filterPosition = (position: string) => (job: IJob) => (
   job.position.toLowerCase().includes(position.toLowerCase())
@@ -109,4 +109,16 @@ export const savedInBrowser = async (): Promise<null | IAppState> => {
   const cromulentJobs = await localforage.getItem('cromulentJobs')
   if (!cromulentJobs) return null
   return cromulentJobs as IAppState
+}
+
+export const fetchHnJobs = async (filename: string) => {
+  const base = import.meta.env.BASE_URL
+  const url = `${base}data/${filename}`
+
+  return fetch(url)
+    .then(r => {
+      if (!r.ok) throw new Error(`Failed to fetch ${url}`)
+      return r.json() as Promise<IHnJobs>
+    }
+  )
 }

@@ -1,5 +1,5 @@
 import { produce } from "immer"
-import type { IAppState, IJob, ILocation, TJobType, TPositionType } from "types"
+import type { IAppState, IHnJob, IJob, ILocation, TJobType, TPositionType } from "types"
 
 export type TSaveJobAction = { type: 'saveJob', payload: { job: IJob }}
 export const saveJobAction = (state: IAppState, action: TSaveJobAction): IAppState => {
@@ -60,3 +60,8 @@ export const updateFiltersAction = produce((state: IAppState, action: TUpdateFil
   state.options.filters = action.payload.filters
   return state
 })
+
+export type TUpdateHnJobsAction = { type: 'updateJobTexts', payload: { hnJobs: IHnJob[] }}
+export const updateHnJobsAction = (state: IAppState, action: TUpdateHnJobsAction): IAppState => {
+  return ({ ...state, hnJobs: action.payload.hnJobs })
+}

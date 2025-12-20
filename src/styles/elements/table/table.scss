@@ -37,3 +37,55 @@ thead {
 .typeColumn { width: 170px; }
 .locationColumn { width: 300px; }
 .salaryColumn { width: 200px; }
+
+
+.tableRow {
+  position: relative;
+
+  > tr {
+    position: relative;
+    z-index: 1;
+  }
+  
+  &.expanded {
+    height: 100%;
+    > tr { height: 100%; }
+    > tr > td > div { height: 100%; }
+
+    hr {
+      width: 2px;
+      height: calc(100% - $space * 3);
+      margin: 0 auto; // Blast from the past
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0px;
+      top: calc($space / 2);
+      background: #f1f1f1;
+      border: 1px solid $borderColor;
+      border-radius: $space;
+      width: calc(100% - $space);
+      height: calc(100% - $space);
+      z-index: 0;
+    }
+  }
+}
+
+.jobRow {
+  cursor: pointer;
+  outline: none;
+
+  .positionCell span {
+    transition: $transition;
+  }
+
+  &:hover, &:focus {
+    .positionCell span {
+      text-decoration: underline;
+      text-underline-offset: 6px;
+      text-decoration-thickness: 2px;
+    }
+  }
+}

@@ -1,15 +1,32 @@
 import { TableHeader } from "./TableHeader/TableHeader"
 import type { IJob } from "types"
 import { TableRow } from "./TableRow/TableRow"
+import { useEffect, useRef, useState } from "react"
 
 interface ITableProps {
   jobs: IJob[]
 }
 
 export const Table = (props: ITableProps) => {
-  const rows = props.jobs.map(job => <TableRow job={job} key={job.id} />)
+  const ref = useRef<HTMLDivElement>(null)
+  const [ tableScroll, updateTableScroll ] = useState(0)
+
+  useEffect(() => {
+    const el = ref.current
+    if (!el) return
+
+    const onScroll = () => updateTableScroll(el.scrollLeft)
+    onScroll()
+    el.addEventListener("scroll", onScroll, { passive: true })
+    return () => el.removeEventListener("scroll", onScroll)
+  }, [])
+
+  const rows = props.jobs.map(
+    job => <TableRow tableScroll={tableScroll} job={job} key={job.id} />
+  )
+
   return (
-    <div className="tableWrapper">
+    <div className="tableWrapper" ref={ref}>
       <table>
         <colgroup>
           <col className="saveColumn" />

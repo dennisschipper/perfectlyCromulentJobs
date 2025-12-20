@@ -1,5 +1,4 @@
-// auto-generated
-export const hnJobs = {
+{
   "threadId": 46108941,
   "title": "Ask HN: Who is hiring? (December 2025)",
   "url": "https://news.ycombinator.com/item?id=46108941",
@@ -2002,4 +2001,4 @@ export const hnJobs = {
       "id": 46128393
     }
   ]
-} as const;
+}
