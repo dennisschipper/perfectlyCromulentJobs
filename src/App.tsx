@@ -23,7 +23,7 @@ export const App = (props: IAppProps) => {
       resp => dispatch({ type: 'updateJobTexts', payload: { hnJobs: resp.posts } })
     )
   }, [])
-  
+
   return (
     <CromulentContext value={{appState, dispatch}}>
       <div className="cromulentWhosHiring">

@@ -6,7 +6,9 @@ export const filterPosition = (position: string) => (job: IJob) => (
 )
 
 export const filterPositionType = (positionTypes: TPositionType[]) => (job: IJob) => (
-  positionTypes.length === 0 ? true : positionTypes.includes(job.positionType)
+  positionTypes.length === 0 ? 
+    true : 
+    job.positionType.find(j => positionTypes.includes(j))
 )
 
 export const filterJobType = (jobTypes: TJobType[]) => (job: IJob) => (

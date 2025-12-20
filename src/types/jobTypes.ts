@@ -21,7 +21,7 @@ export interface ILocation {
 
 export interface IJob {
   position: string
-  positionType: TPositionType
+  positionType: TPositionType[]
   company: string
   type: TJobType[]
   locations: ILocation[]
