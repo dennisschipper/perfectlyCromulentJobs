@@ -1,3 +1,4 @@
+import localforage from "localforage";
 import type { IAppState, IJob, ILocation, TJobType, TPositionType } from "types";
 
 export const filterPosition = (position: string) => (job: IJob) => (
@@ -99,3 +100,13 @@ export const toggleCityInLocations = (location: ILocation, locations: ILocation[
     locations.filter(l => !(l.country === location.country && l.city === location.city)) :
     [...locations, location]
 )
+
+export const saveStoreInBrowser = (state: IAppState) => {
+  localforage.setItem('cromulentJobs', state)
+}
+
+export const savedInBrowser = async (): Promise<null | IAppState> => {
+  const cromulentJobs = await localforage.getItem('cromulentJobs')
+  if (!cromulentJobs) return null
+  return cromulentJobs as IAppState
+}

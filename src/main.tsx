@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { App } from './App.tsx'
+import { CromulentWrapper } from 'components/Elements/CromulentWrapper/CromulentWrapper.tsx'
 
 createRoot(document.getElementById('root')!).render(
   // <StrictMode>
-    <App />
+    <CromulentWrapper />
   // </StrictMode>,
 )
