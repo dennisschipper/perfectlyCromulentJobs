@@ -1,5 +1,5 @@
 import localforage from "localforage";
-import type { IAppState, IHnJob, IHnJobs, IJob, ILocation, TJobType, TPositionType } from "types";
+import type { IAppState, IHnJobs, IJob, ILocation, TJobType, TPositionType } from "types";
 
 export const filterPosition = (position: string) => (job: IJob) => (
   job.position.toLowerCase().includes(position.toLowerCase())

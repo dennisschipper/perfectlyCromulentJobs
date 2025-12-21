@@ -2,7 +2,7 @@ import type { TJobType, TPositionType } from "types";
 
 export const positionTypeToText = (positionType: TPositionType) => {
   switch(positionType) {
-    case 'backEnd': return "Backend"
+    case 'backEnd': return "Back end"
     case 'design': return "Design"
     case 'engineering': return "Engineering"
     case 'frontEnd': return "Front end"

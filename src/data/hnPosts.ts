@@ -3,7 +3,7 @@ export const hnJobs = {
   "threadId": 46108941,
   "title": "Ask HN: Who is hiring? (December 2025)",
   "url": "https://news.ycombinator.com/item?id=46108941",
-  "fetchedAt": "2025-12-20T23:04:49.652Z",
+  "fetchedAt": "2025-12-21T11:47:21.442Z",
   "posts": [
     {
       "id": 46108994,
@@ -249,9 +249,6 @@ export const hnJobs = {
       "id": 46211473,
       "by": "teknominds",
       "text": "Littlebird | Global Remote | Multiple roles: Sr AI Eng, React&#x2F;RN, Product Design | <a href=\"https:&#x2F;&#x2F;littlebird.ai&#x2F;careers\" rel=\"nofollow\">https:&#x2F;&#x2F;littlebird.ai&#x2F;careers</a><p>Littlebird is a smarter, more personal AI assistant (Mac + Android) that builds an understanding of your world. We now have a few thousand customers and growing quickly, but there is still a lot to build. We&#x27;re a global team of PhD&#x27;s, OSS hackers, and productivity fans who want to make utilizing LLM&#x27;s easy and accessible to anyone. If you get excited about cross-platform AI tools, conversational inference, and  experimental graph systems - then see below!<p>Brand new roles to join the team:<p>Sr. &#x2F; Staff AI Engineer (Systems and Arch) - next-gen memory + retrieval, python, Node, Rust<p>AI Engineer (Agent Intelligence &amp; Retrieval) - conversational AI, agentic reasoning, RAG, python<p>Sr. React &#x2F; RN Engineer - clean UI and fast data collection across mobile + web<p>Product Designer - design AI features + components across, desktop mobile, and web, JS&#x2F;HTML&#x2F;CSS<p>Swift Engineer - all things Swift, concurrency, iOS and MacOS<p>Full job descriptions and apply to:  <a href=\"https:&#x2F;&#x2F;littlebird.ai&#x2F;careers\" rel=\"nofollow\">https:&#x2F;&#x2F;littlebird.ai&#x2F;careers</a>"
-    },
-    {
-      "id": 46213868
     },
     {
       "id": 46109039,
@@ -654,9 +651,6 @@ export const hnJobs = {
       "text": "Recital | Remote (Canada) | Full-time | <a href=\"https:&#x2F;&#x2F;recitalapp.com\" rel=\"nofollow\">https:&#x2F;&#x2F;recitalapp.com</a><p>In-house lawyers waste 25% of their time looking for stuff. Recital uses non-obvious ML approaches, uniquely enabled by LLMs, to help them find it. We&#x27;re diving into the relatively-unexplored data buried in contracts, building layers of data analysis that are shown into an interface that feels simple and easy. It&#x27;s an AI product that doesn&#x27;t feel like an AI product.<p>We&#x27;re a small, global, all-remote startup. It&#x27;s our second startup in the space (the first was acquired). We follow modern product management (discovery) &amp; development (DORA) practices, emphasize developer experience as an accelerator of customer value, and use provably effective management techniques (à la Manager Tools). Our team emphasizes strong emotional intelligence and self-awareness.<p>We&#x27;re looking for Canada-based senior+ full-stack developers, with solid professional experience in both Ruby on Rails and a modern frontend framework (Vue, React, etc). Experience in data wrangling is a bonus.<p><a href=\"https:&#x2F;&#x2F;recitalapp.com&#x2F;careers&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;recitalapp.com&#x2F;careers&#x2F;</a>"
     },
     {
-      "id": 46120907
-    },
-    {
       "id": 46110725,
       "by": "melissamrec",
       "text": "Starbridge | Senior Engineers (Kotlin&#x2F;Java&#x2F;React&#x2F;Typescript) | NYC or Remote | Full-time | starbridge.ai<p>Starbridge is building an AI platform that turns large-scale public and enterprise data into reliable sales insights. We are early, moving fast, and building from zero to one, so this role will have huge ownership and product impact.<p>Backend Engineer: (looking for Kotlin&#x2F;Java&#x2F;Scala experience). You&#x27;ll work across the backend: building enterprise integrations, large-scale scraping and parsing pipelines, and systems that let users apply LLMs to millions of documents to generate insights at scale.<p>Product Engineer: (React&#x2F;Typescript) who would work closely with product and design to build user-facing parts of the platform. You will craft performant, stable frontends that explain technical concepts to non-technical users and help us iterate fast based on customer feedback.<p>AI Engineer: Applied AI plus strong software engineering. You will build, evaluate, and deploy LLM-driven features like deep document analysis and interactive chat, working with models from OpenAI, Anthropic, and Gemini. Expect hands-on Python, ML system design, experimentation, and production reliability. Bonus for RAG depth and frameworks like LangChain, LlamaIndex, or Hugging Face.<p>We&#x27;re looking to build our in-person team in NYC but also open to remote!<p>Apply: <a href=\"https:&#x2F;&#x2F;starbridge.ai&#x2F;careers\" rel=\"nofollow\">https:&#x2F;&#x2F;starbridge.ai&#x2F;careers</a> and mention HackerNews or email melissa@starbridge.ai with your resume."
@@ -755,9 +749,6 @@ export const hnJobs = {
       "id": 46110454,
       "by": "ashjanderson",
       "text": "Triumph Financial | <a href=\"https:&#x2F;&#x2F;triumph.io\" rel=\"nofollow\">https:&#x2F;&#x2F;triumph.io</a> | Engineer (Senior | Lead | Staff) | REMOTE (USA only) | Full Time | $150-$300k<p>At Triumph Financial, we’re building the modern freight payments network powering over $37B in annual volume. Our mission is to make freight transactions seamless, accurate, and secure, helping an entire industry move faster.<p>We’re hiring across multiple levels in Engineering. Our teams are small (3–5 engineers), autonomous, and rotate quarterly to stay fresh and cross-functional.<p>Tech we use: We’re language agnostic and hire for fundamentals. Our teams work across a mix of:<p>* Ruby on Rails &#x2F; Elm<p>* Java &#x2F; React<p>* C# &#x2F; React<p>If you’re a strong engineer who loves solving complex problems, mentoring others, and building real-world systems that move money at scale, we’d love to talk. We’re looking for people who are:<p>* Curious and collaborative<p>* Obsessed with product quality and user experience<p>* Excited to work on distributed systems and modern financial infrastructure<p>Roles are here: <a href=\"https:&#x2F;&#x2F;triumph.io&#x2F;about-us&#x2F;careers&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;triumph.io&#x2F;about-us&#x2F;careers&#x2F;</a><p>Please put “Ash HN” or something similar in the referrals so we can bubble you up.<p>If you have questions, feel free to reach out directly at aanderson at tfin dot com."
-    },
-    {
-      "id": 46113228
     },
     {
       "id": 46108947,
@@ -868,9 +859,6 @@ export const hnJobs = {
       "id": 46111503,
       "by": "iliaov",
       "text": "Remake.ai | Founding Software Engr (or Cofounder) | Full-time | Remote (worldwide)<p>Apps for robots - home vacuums, quadrupeds, drones, humanoids, etc. Think Apple remaking ordinary phones into smartphones with apps &amp; app store - only for robots.<p>Status: $1M pre-seed, prototype MVP works, pre-traction, ~16K ARR, manufacturing partnership(s) forming, headcount 2 full-time + 3 part-time<p>Founding Software Engineer (or Cofounder) - full stack, ML, embedded<p>Email iliao at remake dot ai"
-    },
-    {
-      "id": 46115223
     },
     {
       "id": 46113455,
@@ -1043,9 +1031,6 @@ export const hnJobs = {
       "text": "Silkline | Onsite, Seattle (5 days&#x2F;week) | Full-time | Salary+Equity\nWe need help! and are looking to hire multiple full-stack or frontend engineers at Silkline.<p>Today, the way modern hardware supply chains work is like fax woke up in 2025 - spreadsheets, email, PDFs, and a lot of sadness. We are fixing this antiquated system and building the AI-first platform to power the future of supply chains. Initially, we are focusing on the rising defense, space, and nuclear sectors.<p>Over the last year, we have grown considerably (5x&#x27;ed customer count), just announced our Seed round, and brought on some massive logos in the industry. Join me and our deeply customer and product-oriented team, which has been shipping incredibly fast.<p>Stack: Typescript, React, Next.js, Hasura, Trigger.dev, AWS, Pulumi, Elbow grease<p>Reach out to brent@silkline.ai or apply: <a href=\"https:&#x2F;&#x2F;jobs.gem.com&#x2F;silkline&#x2F;am9icG9zdDrLwsEQTKKa02Ut_F9kgzby\" rel=\"nofollow\">https:&#x2F;&#x2F;jobs.gem.com&#x2F;silkline&#x2F;am9icG9zdDrLwsEQTKKa02Ut_F9kgz...</a>"
     },
     {
-      "id": 46112595
-    },
-    {
       "id": 46142617,
       "by": "a_tessellator",
       "text": "Atomic Tessellator | Front-end Engineer | REMOTE (UTC+12) | <a href=\"https:&#x2F;&#x2F;atomictessellator.com\" rel=\"nofollow\">https:&#x2F;&#x2F;atomictessellator.com</a><p>We simulate materials at the atomic level for aerospace, defence, nuclear fusion, and advanced polymers. Our team of four built a near-comprehensive platform in the last year, we&#x27;re the first to scale MLIPs across GPUs, and we&#x27;re patenting our first rare-earth magnet substitute.<p>We&#x27;re hiring a front-end engineer to take full ownership of our platform&#x27;s UI, from testing to optimising performance to scientific visualisations.<p>Tech: Vue.js, TypeScript, Three.js, WebGL<p>More: <a href=\"https:&#x2F;&#x2F;atomictessellator.com&#x2F;careers&#x2F;front-end-engineer\" rel=\"nofollow\">https:&#x2F;&#x2F;atomictessellator.com&#x2F;careers&#x2F;front-end-engineer</a>\nApply: careers@atomictessellator.com"
@@ -1164,9 +1149,6 @@ export const hnJobs = {
       "id": 46110191,
       "by": "mooreds",
       "text": "FusionAuth | Senior Java Engineer, Senior Security Engineer, Account Executive | Varies between REMOTE and ONSITE in Denver, CO, USA, details in job desc | Salaries listed on job req, but for the Java Engineer it is 140k-180k<p>Our mission is to make authentication and authorization simple and secure for every developer building web and mobile applications. We want devs to stop worrying about auth and focus on building something awesome. We also just acquired a fine-grained authorization company ( <a href=\"https:&#x2F;&#x2F;fusionauth.io&#x2F;blog&#x2F;fusionauth-acquires-permify\" rel=\"nofollow\">https:&#x2F;&#x2F;fusionauth.io&#x2F;blog&#x2F;fusionauth-acquires-permify</a> ) and are going to be building in that area as well.<p>There are a lot of companies in the auth space, but we feel like we have something special:<p>* a unique deployment model (self-host on-prem or in your cloud or run in our cloud)<p>* A well designed API first approach; one customer compared our app to petrichor<p>* a mature product (the code base is nine+ years old and we&#x27;ve found and fixed a lot of the sharp edges around core login use cases; there are plenty more features to add)<p>* the CTO is the founder and still writes code<p>* a full featured free-as-in-beer version which makes the sales cycle easier; prospects often come in having prototyped an integration already<p>Our core software is commercial with a &quot;free as in beer&quot; version. We also open source much of our supporting infrastructure. Technologies and standards that you will work with: Modern Java, MySQL, PostgreSQL, Docker, Kubernetes, OAuth, SAML, OIDC.<p>Learn more, including about benefits and salaries, and apply here: <a href=\"https:&#x2F;&#x2F;fusionauth.io&#x2F;careers&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;fusionauth.io&#x2F;careers&#x2F;</a> ( Click&#x2F;tap the &#x27;View open positions&#x27; orange button. )"
-    },
-    {
-      "id": 46120283
     },
     {
       "id": 46113950,
@@ -1624,9 +1606,6 @@ export const hnJobs = {
       "text": "trufflepig.ai | Founding Engineer | Full-Time | SF, CA | $150K - $200K + Meaningful Equity<p>Join as the 4th team member to redefine the most universal interface in business: the spreadsheet. We are building an AI spreadsheet that automates knowledge work, allowing users to describe tasks in plain English and get immediate, trustworthy results. We launched a few months ago, already have paying customers, and are backed by top investors like Base10 (Brex, Figma). This is a massive opportunity to take the interface for this market shift.<p>Compensation &amp; Equity: $150,000 - $200,000 + meaningful early-stage ownership<p>We&#x27;re building the tool that saves users hours of manual work (data cleaning, formula building) currently required by legacy spreadsheets. Our team includes engineers who shipped production AI and distributed systems at Microsoft and VMware. We intend to replace Excel and Google Sheets by building the spreadsheet that truly understands what users want.<p>Why We’re Hiring a Founding Engineer\nYou will own the core product end-to-end, building AI agents that reason over data and evolving our spreadsheet engine for correctness and scale. You&#x27;ll ship critical UX that allows non-technical teams to get analysis in plain English. We need a generalist who moves fast across the full stack: Node.js, TypeScript, Express, and Rust + WASM. High agency, high ownership, and a focus on user trust are essential.<p>Stack: Node.js, TypeScript, Express, Rust + WASM, AI Agents, Data Reasoning.<p>If you&#x27;re interested please apply at <a href=\"https:&#x2F;&#x2F;trufflepig.cookd.dev&#x2F;jobs&#x2F;founding-engineer\" rel=\"nofollow\">https:&#x2F;&#x2F;trufflepig.cookd.dev&#x2F;jobs&#x2F;founding-engineer</a>"
     },
     {
-      "id": 46109683
-    },
-    {
       "id": 46114023,
       "by": "adamdavies95",
       "text": "Second Nature | Software Engineer, Engineering Manager, Director of Engineering | REMOTE (US) | Full-time<p>Second Nature (&lt;<a href=\"https:&#x2F;&#x2F;secondnature.com\" rel=\"nofollow\">https:&#x2F;&#x2F;secondnature.com</a>&gt;) is redefining professional property management with fully managed Resident Benefits Packages. We&#x27;re a Resident Experience Platform helping 1,000+ property management companies automate resident onboarding, credit-building, renters insurance, utilities, and other resident services—creating &quot;Triple Win&quot; experiences for residents, property managers, and investors.<p>We&#x27;re the only 5-time national NARPM vendor of the year!<p>Tech Stack: TypeScript, React, Next.js, NestJS, PostgreSQL, Kubernetes, Terraform, AWS, Python. CI&#x2F;CD with GitHub Actions&#x2F;CircleCI. Domain-driven design and event-driven architecture.<p>Culture: We move fast (&quot;Pirate Ship, Not a Cruise Ship&quot;), take extreme ownership, and focus on outcomes. Currently exploring AI integration across our workflows.<p>Benefits: 100% remote (US), medical&#x2F;dental&#x2F;vision, 401K, open PTO, equity.<p>Open Roles:<p>Director of Engineering ($200K-$230K) - Lead cross-functional engineering teams building world-class software at scale. Shape technical strategy and grow our engineering org.\n&lt;<a href=\"https:&#x2F;&#x2F;www.secondnature.com&#x2F;careers?ashby_jid=704ec05c-96ce-46bc-8535-3d2ab1b7397b&amp;utm_source=0GxY5Z48Aw\" rel=\"nofollow\">https:&#x2F;&#x2F;www.secondnature.com&#x2F;careers?ashby_jid=704ec05c-96ce...</a>&gt;<p>Engineering Manager ($180K-$200K) - Player&#x2F;coach role: hands-on coding + people leadership. Lead 5-10 engineers, drive architecture decisions, ship production code. Experience with TypeScript, React&#x2F;Next.js, NestJS, PostgreSQL.\n&lt;<a href=\"https:&#x2F;&#x2F;www.secondnature.com&#x2F;careers?ashby_jid=6ac49e4d-9541-41c0-b523-2eafd8206c92&amp;utm_source=WKZYrk4KAN\" rel=\"nofollow\">https:&#x2F;&#x2F;www.secondnature.com&#x2F;careers?ashby_jid=6ac49e4d-9541...</a>&gt;<p>Software Engineer - Full-stack roles across our platform. JavaScript&#x2F;TypeScript, Python, SQL, CI&#x2F;CD experience.\n&lt;<a href=\"https:&#x2F;&#x2F;www.secondnature.com&#x2F;careers?ashby_jid=cc1a9853-779e-4e67-aac4-c5f59bb6babf&amp;utm_source=1RZYXqXBa3\" rel=\"nofollow\">https:&#x2F;&#x2F;www.secondnature.com&#x2F;careers?ashby_jid=cc1a9853-779e...</a>&gt;"
@@ -1645,11 +1624,6 @@ export const hnJobs = {
       "id": 46166375,
       "by": "zooman416",
       "text": "podqi.com | Senior &#x2F; Staff Backend Engineer | IN-PERSON (SF) &#x2F; REMOTE (US-hours) | Full-time<p>Hey all, I&#x27;m the CTO of Podqi. We&#x27;re an AI-native brand protection platform that helps enterprise companies and top brands find and take down violations on their intellectual property. We&#x27;re backed by General Catalyst and top VCs, and we work with some really fun companies — Netflix, Fortune 100 hardware companies, AM100 Law firms, and some of the most popular consumer brands.<p>I&#x27;m looking for an experienced Python backend engineer that&#x27;s experienced in architecting and building out distributed systems at scale. Prior startup experience or open-source work is a bonus.<p>If interested, reach out to me directly at jesse [at] {domain name}."
-    },
-    {
-      "id": 46207084,
-      "by": "anshima__saini",
-      "text": "SEEKING REMOTE UI&#x2F;UX DESIGN OPPORTUNITIES Location: India\nRemote: Yes<p>Willing to relocate: Open to discuss<p>Technologies: Figma, Canva, Figjam, Notion, Miro, Visily, Maze, Jitter, Asana, AI, Framer, Wireframing, Prototyping, Mockups, Microinteractions, User Research, Competitive Analysis, User Flows, UI Design, UX Research, Product Management, Jira, Lottie Animations<p>Portfolio: <a href=\"https:&#x2F;&#x2F;anshimasainiproduct.framer.website&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;anshimasainiproduct.framer.website&#x2F;</a><p>Email: sainianshima@gmail.com<p>I&#x27;m a Product designer and manager looking for remote opportunities anywhere. Feel free to check my portfolio website."
     },
     {
       "id": 46109712,
@@ -1702,9 +1676,6 @@ export const hnJobs = {
       "text": "Ionworks | Founding Systems Engineer | Remote (US) or Pittsburgh, PA | Full-time<p>Ionworks builds battery simulation and optimization software used by R&amp;D teams designing next-generation batteries. We are looking for a founding backend &#x2F; systems engineer to own big pieces of our backend and help us scale from a few early customers to broader industry use.<p>Work:\n- FastAPI, async Python, Supabase&#x2F;Postgres\n- Designing APIs and data models for simulation and optimization workflows\n- Performance and reliability work across the stack (queries, async, concurrency, resource limits)\n- Job orchestration for running and tracking simulations\n- Observability: logging, metrics, tracing, debugging real issues<p>We are especially interested in people who work in a &quot;vibe engineering&quot; style: using LLMs and coding agents as accelerators, but still planning ahead, writing tests, supervising agents, and staying fully responsible for code quality and architecture. If you already use AI tools this way in your day-to-day work, you will fit in well here.<p>Stack: FastAPI, Python, Supabase&#x2F;Postgres, distributed compute for simulations, AI-assisted dev.<p>Benefits: competitive salary, meaningful equity, remote-first, unlimited PTO, 401k match, medical&#x2F;dental&#x2F;vision, paid parental leave, home office budget.<p>If this sounds interesting, send a short note to valentin@ionworks.com with &quot;HN backend&quot; in the subject and fill in the application here: <a href=\"https:&#x2F;&#x2F;apply.workable.com&#x2F;ionworks&#x2F;j&#x2F;A8C2F4287C&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;apply.workable.com&#x2F;ionworks&#x2F;j&#x2F;A8C2F4287C&#x2F;</a>"
     },
     {
-      "id": 46109231
-    },
-    {
       "id": 46134825,
       "by": "georgegearhart",
       "text": "Goji Labs (gojilabs.com): REMOTE (Americas or Europe)<p>Goji is hiring Product Designers! You&#x27;ll drive strategy and our design-led software development approach.<p>Apply here: <a href=\"https:&#x2F;&#x2F;careers.gojilabs.com&#x2F;32359\" rel=\"nofollow\">https:&#x2F;&#x2F;careers.gojilabs.com&#x2F;32359</a>"
@@ -1718,9 +1689,6 @@ export const hnJobs = {
       "id": 46117995,
       "by": "giis",
       "text": "Quantitative Trading Co-Founder | US <a href=\"https:&#x2F;&#x2F;0dte.tech&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;0dte.tech&#x2F;</a><p>Seeking US-based co-founder with _strong_ FOSS credentials to establish and operate quantitative trading firm. Prior  Trading experience desired.<p>email me: lakshmipathi [dot] g [at] gmail [dot] com"
-    },
-    {
-      "id": 46109453
     },
     {
       "id": 46109416,
@@ -1863,9 +1831,6 @@ export const hnJobs = {
       "text": "Furtim Modus | Hiring Java Developer (Full-Time) | NYC (HYBRID) | <a href=\"https:&#x2F;&#x2F;www.furtimmodus.com&#x2F;software-engineer\" rel=\"nofollow\">https:&#x2F;&#x2F;www.furtimmodus.com&#x2F;software-engineer</a><p>We are currently seeking a talented and driven Java Developer to join our team full-time. This is an exciting opportunity to contribute your skills and expertise to a fintech venture with emphasis in capital markets tech based out of the New York City and in exchange we’ll provide you with base comp $125k-200k, full benefits, cash bonus, and equity.<p>Requirements:<p>- Electronic trading server-side software development experience<p>- Experience in Open Source technologies such as Aeron Transport, Aeron Cluster, Aeron Archive, Artio, Agrona, or CoinTossX is a big plus<p>- Experience with Adaptive Hydra trading platform is a big plus<p>Benefits:<p>- Flexible hybrid schedule to accommodate other commitments<p>- Collaborative and supportive team environment<p>- Relocation assistance to NYC Metro area<p>If you are passionate about Java development and interested in joining a fintech venture, we would love to hear from you. Please submit your resume if interested to agency@furtimmodus.com in this opportunity.<p>----------<p>Furtim Modus | Hiring DevOps Engineer (Full-Time) | NYC (HYBRID) | <a href=\"https:&#x2F;&#x2F;www.furtimmodus.com&#x2F;devops-engineer\" rel=\"nofollow\">https:&#x2F;&#x2F;www.furtimmodus.com&#x2F;devops-engineer</a><p>We are currently seeking a talented and driven DevOps Engineer to join our team full-time. This is an exciting opportunity to contribute your skills and expertise to a fintech venture with emphasis in capital markets tech based out of the New York City and in exchange we’ll provide you with base comp $125k-$175k, full benefits, cash bonus, and equity.<p>Requirements:<p>- Electronic trading DevOps engineering experience<p>Plus:<p>- Experience in Open Source technologies such as Aeron Transport, Aeron Cluster, Aeron Archive, Artio, Agrona, or CoinTossX is a big plus<p>- Experience with Adaptive Hydra trading platform is a big plus<p>Benefits:<p>- Flexible hybrid schedule to accommodate other commitments<p>- Collaborative and supportive team environment<p>- Relocation assistance to NYC Metro area<p>If you are passionate about DevOps engineering and interested in joining a fintech venture, we would love to hear from you. Please submit your resume if interested to agency@furtimmodus.com in this opportunity."
     },
     {
-      "id": 46110295
-    },
-    {
       "id": 46109329,
       "by": "nadc",
       "text": "Lovable | Multiple Roles | ONSITE | <a href=\"https:&#x2F;&#x2F;lovable.dev\" rel=\"nofollow\">https:&#x2F;&#x2F;lovable.dev</a><p>At Lovable, we empower the 99% of people who can&#x27;t code to build software as if they had a product team at a stellar tech company. We&#x27;re one of the world&#x27;s fastest growing startups in history.<p>You&#x27;d be joining a small, passionate team of serial entrepreneurs (ex-YC founders), competitive programmers, physicists, and people who care deeply about building exceptional products that unlock human creativity.\nWe have multiple open roles, with most positions based onsite.<p>We cover relocation (most roles are in Stockholm, some in Boston, San Francisco or London) and in Engineering we&#x27;re looking for:<p>- AI engineers\n- Full-stack, frontend, and backend product engineers\n- Design engineers, and product designers who ship\n- Forward deployed engineers\n- Security engineers\n- Data engineers\n- Platform engineers<p>We&#x27;re also hiring across the board in Marketing, Growth, Sales, Support, Operations etc.<p>Apply at <a href=\"https:&#x2F;&#x2F;lovable.dev&#x2F;careers\" rel=\"nofollow\">https:&#x2F;&#x2F;lovable.dev&#x2F;careers</a> mentioning HN in your application."
@@ -1936,34 +1901,9 @@ export const hnJobs = {
       "text": "I’m not sure if this is the right place to post this, but to everyone commenting here saying they’re hiring and asking people to send their CVs —<p>please have the basic decency to send a simple acknowledgement or revert after receiving them.<p>This has happened repeatedly over the past few months after sending dozens of emails from these threads, sometimes 10+ at a time. Not getting even a basic response feels extremely disheartening.<p>I know it’s a tough time for everyone searching for a job, and we all understand if things are slow —<p>but a small confirmation like “Received, we’ll check” or “Not hiring anymore” takes 5 seconds and makes a world of difference.<p>Let’s be kinder to each other. It’s been a very hard year"
     },
     {
-      "id": 46119656,
-      "by": "Judith_16",
-      "text": "[dead]"
-    },
-    {
-      "id": 46161882,
-      "by": "marmalykh",
-      "text": "[dead]"
-    },
-    {
-      "id": 46133656,
-      "by": "baby6343",
-      "text": "[dead]"
-    },
-    {
-      "id": 46114022,
-      "by": "templar22",
-      "text": "[dead]"
-    },
-    {
       "id": 46115587,
       "by": "zenmac",
       "text": "Is having an LinkedIn account a requirement to apply for this job?"
-    },
-    {
-      "id": 46112121,
-      "by": "imnes",
-      "text": "[dead]"
     },
     {
       "id": 46112862,
@@ -1976,30 +1916,14 @@ export const hnJobs = {
       "text": "&gt; Please only post if you are actively filling a position and are committed to responding to applicants."
     },
     {
-      "id": 46113042,
-      "by": "hackmaxim",
-      "text": "[flagged]"
-    },
-    {
-      "id": 46111090,
-      "by": "asaws",
-      "text": "[flagged]"
-    },
-    {
       "id": 46110703,
       "by": "samdoesnothing",
       "text": "&gt; Please only post if you are actively filling a position and are committed to responding to applicants."
     },
     {
-      "id": 46113582
-    },
-    {
       "id": 46112272,
       "by": "place1asdf",
       "text": "The coding interview question involves a collection of points (places) on a 2D grid. Places and Queries against those places are listed in sequential order in a commands.txt file in a colon-seperated format. A query is a circle with a center point and radius, along with a collection of 0-N expected places contained within it.<p><pre><code>    Place - id, x, y\n    Query - id, x, y, radius, expected return values (comma-separated)\n</code></pre>\nThe task is to persist the places data in sequence and ensure queries return the set of expected places out of all places that have been seen so far. This is a basic geometry problem - if the euclidian distance (x^2 + y^2 = r^2) between any place and the circle&#x27;s center is less than the radius, the place is contained in the circle. You should anticipate thinking of ways to optimize once the dataset gets very big if you successfully complete the specific task within the allotted time.<p><pre><code>    # commmands.txt example\n\n    place-1:34.7:94.5\n    place-2:54.1:5.2\n    query-1:15.2:17.1:5.0:                  # no results expected\n    place-3:44.9:27.4\n    query-2:35.0:94.0:2.0:place-1           # one result expected\n    ...\n    query-100:50.0:30.0:place-27,place-64   # multiple results expected\n    ...</code></pre>"
-    },
-    {
-      "id": 46128393
     }
   ]
 } as const;

@@ -1,5 +1,4 @@
 // chatgpt wrote most of this.
-
 import fs from "fs"
 import path from "path"
 import { fileURLToPath } from "url"
@@ -32,7 +31,7 @@ if (!idParam) {
 
 const threadId = Number(idParam);
 const timestamp = new Date().toISOString().replace(/[:.]/g, "_");
-const outFileName = `hn_jobs_${timestamp}.ts`;
+const outFileName = `hnPosts.ts`;
 const outPath = path.join(__dirname, "../src/data", outFileName);
 
 const fetchItem = async (id: number): Promise<HNItem> => {
@@ -61,8 +60,11 @@ const main = async () => {
     title: root.title,
     url: `https://news.ycombinator.com/item?id=${threadId}`,
     fetchedAt: new Date().toISOString(),
-    posts,
-  };
+    posts: posts
+      .filter(p => p.text !== "[flagged]")
+      .filter(p => p.text !== "[dead]")
+      .filter(p => p.text)
+  }
 
   const fileContents = `// auto-generated\nexport const hnJobs = ${JSON.stringify(
     data,

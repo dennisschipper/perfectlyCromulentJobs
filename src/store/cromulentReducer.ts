@@ -1,6 +1,6 @@
 import type { IAppState, TActionTypes } from "types"
 import { saveJobAction, updateFiltersAction, updateHnJobsAction, updateJobTypeAction, updateLocationFiltersAction, updateLocationFilterTextAction, updatePositionFilterAction, updatePositionTypeAction } from "./cromulentActions"
-import { jobs } from "data/jobData_2025_12"
+import { jobs } from "data/jobData"
 
 export const initialState: IAppState = {
   jobs,
