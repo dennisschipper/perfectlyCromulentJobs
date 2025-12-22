@@ -25,9 +25,16 @@ a.major, button.major {
 a.minor, button.minor {
   color: $textGrey;
   text-decoration-color: #CACACA;
+  outline: none;
+  
+  &:hover, &:focus {
+    color: $textMain;
+    text-decoration-color: $textMain;
+  }
 }
 
 button.buttonMajor, button.buttonMinor {
+  outline: 3px solid transparent;
   background: $textMain;
   min-width: 44px;
   height: 44px;
@@ -36,9 +43,14 @@ button.buttonMajor, button.buttonMinor {
   border: 0;
   border-radius: calc($space / 2);
 
-  &:disabled {
-    color: $textGrey;
+  &:disabled { 
+    color: $textGrey; 
+    cursor: not-allowed;
+    outline: 3px solid transparent;
+    &:hover, &:focus { outline: 3px solid transparent; }
   }
+
+  &:hover, &:focus { outline: 3px solid $outlineColor; }
 }
 
 button.buttonMinor {

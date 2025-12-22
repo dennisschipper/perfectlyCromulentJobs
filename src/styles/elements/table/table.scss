@@ -1,6 +1,10 @@
 .tableWrapper {
   overflow-x: auto;
   overflow-y: visible;
+  &:focus {
+    outline: 1px solid $textMain;
+    outline-offset: 10px;
+  }
 }
 
 table {
