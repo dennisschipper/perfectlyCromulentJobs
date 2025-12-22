@@ -72,7 +72,7 @@ thead {
       border-radius: $space;
       width: calc(100% - $space);
       height: calc(100% - $space);
-      z-index: 0;
+      z-index: -1;
     }
   }
 }
