@@ -13,7 +13,7 @@ html, body, #root {
   border-radius: $space;
   background: #F3F3F3;
   background-image: url('../assets/bg.png');
-  padding: $space / 2;
+  padding: calc($space / 2);
   padding-right: 3px;
 }
 
