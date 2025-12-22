@@ -1,22 +1,25 @@
 // ToDo: Might be worth reworking this.
 .controlListWrapper {
+  flex-direction: row;
   width: 100%;
   overflow: hidden;
-  button { width: 100%; }
+  button { min-height: 40px; }
+
+  .curtainWrapper {
+    width: 100%;
+  }
 }
 
 ul.controlList {
   flex-direction: row;
-  width: 100%;
-  overflow: hidden;
 
-  li {
+  > li {
     flex-direction: row;
     &::after { content: ",\00a0"; }
     &:last-of-type::after { display: none; }
   }
 
-  li:last-of-type {
+  > li:last-of-type {
     overflow: hidden;
     flex: 1;
 

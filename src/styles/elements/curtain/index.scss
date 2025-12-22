@@ -1,0 +1,22 @@
+.curtain {
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 5px;
+    width: 100%;
+    height: 2px;
+    background: $borderColor;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  &:hover::after { background: $textMain; } 
+}
+
+.curtainItem {
+  position: absolute;
+}

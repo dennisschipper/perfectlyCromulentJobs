@@ -1,4 +1,4 @@
-import type { ChangeEventHandler } from "react"
+import type { BaseSyntheticEvent, ChangeEventHandler } from "react"
 
 interface ICheckboxProps {
   name: string
@@ -18,7 +18,8 @@ export const Checkbox = (props: ICheckboxProps) => {
     ${intermediate ? "intermediate" : ""}
   `
 
-  const onClick = () => {
+  const onClick = (e: BaseSyntheticEvent) => {
+    e.stopPropagation()
     props.onClick && props.onClick(props.name)
   }
 

@@ -1,0 +1,14 @@
+.filterItem {
+  flex-direction: row;
+  padding-right: calc($space / 4);
+  white-space: nowrap;
+
+  &::after {
+    transition: $transition;
+    display: inline;
+    content: ','
+  }
+}
+
+// Remove the comma if it's the last item visible.
+.curtainItem.last .filterItem::after { display: none; }

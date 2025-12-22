@@ -1,0 +1,16 @@
+.filterItemText {
+  max-width: 140px;
+  overflow: hidden;
+  flex-direction: row;
+  
+  span.text {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  // The css ellipsisesesses from text overflow is leaving a bit
+  // too much space between the text and the last quote mark.
+  > span:last-of-type { margin-left: -1px; }
+}

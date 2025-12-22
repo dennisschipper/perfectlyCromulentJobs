@@ -6,7 +6,7 @@ import { Table } from 'components/Elements/Table/Table'
 import { useEffect, useReducer } from 'react'
 import { cromulentReducer } from 'store/cromulentReducer'
 import { fetchHnJobs, filterJobs, saveStoreInBrowser } from 'helpers'
-import type { IAppState } from 'types'
+import { type IAppState } from 'types'
 
 interface IAppProps {
   initialState: IAppState
