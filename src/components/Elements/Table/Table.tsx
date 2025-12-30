@@ -2,6 +2,7 @@ import { TableHeader } from "./TableHeader/TableHeader"
 import type { IJob } from "types"
 import { TableRow } from "./TableRow/TableRow"
 import { useEffect, useRef, useState } from "react"
+import { NoResults } from "../NoResults/NoResults"
 
 interface ITableProps {
   jobs: IJob[]
@@ -37,6 +38,7 @@ export const Table = (props: ITableProps) => {
           <col className="salaryColumn" />
         </colgroup>
         <TableHeader />
+        <NoResults display={!props.jobs.length} />
         {rows}
       </table>
     </div>

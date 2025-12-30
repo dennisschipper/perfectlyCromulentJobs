@@ -24,8 +24,6 @@ export const TableRow = (props: ITableRowProps) => {
   
   const job = appState.hnJobs.find(hnJob => String(hnJob.id) === props.job.sourceId)
 
-
-
   return (
     <tbody className={`tableRow ${expanded ? "expanded" : ""}`}>
       <tr onClick={onClick} onKeyDown={onKeyDown} className="jobRow" tabIndex={0}>

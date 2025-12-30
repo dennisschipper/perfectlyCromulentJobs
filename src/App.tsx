@@ -8,6 +8,7 @@ import { cromulentReducer } from 'store/cromulentReducer'
 import { fetchHnJobs, filterJobs, saveStoreInBrowser } from 'helpers'
 import { type IAppState } from 'types'
 import { CromulentFooter } from 'components/Elements/CromulentFooter/CromulentFooter'
+import { NoResults } from 'components/Elements/NoResults/NoResults'
 
 interface IAppProps {
   initialState: IAppState

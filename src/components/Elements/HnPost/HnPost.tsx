@@ -35,7 +35,5 @@ export const HnPost = (props: IHnPostProps) => {
         </div>
       </td>
     </tr>
-
-    
   )
 }
