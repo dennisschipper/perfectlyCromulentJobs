@@ -1,5 +1,5 @@
 import localforage from "localforage";
-import type { IAppState, IHnJobs, IJob, ILocation, TJobType, TPositionType } from "types";
+import type { IAppState, IHnJobs, IJob, ILocation, IUserOptions, TJobType, TPositionType } from "types";
 
 export const filterPosition = (position: string) => (job: IJob) => (
   job.position.toLowerCase().includes(position.toLowerCase())
@@ -34,6 +34,14 @@ export const filterJobs = (jobs: IJob[], filters: IAppState['options']['filters'
     .filter(filterLocationsByText(filters.locationText))
 )
 
+export const isFiltering = (filters: IUserOptions['filters']): boolean => !(
+  !!filters.position.length ||
+  !!filters.positionTypes.length ||
+  !!filters.jobTypes.length ||
+  !!filters.locations.length ||
+  !!filters.locationText.length
+)
+
 export const getLocationsFromJobs = (jobs: IJob[]): ILocation[] => {
   return jobs.map(j => j.locations).reduce((acc, locs) => [...acc, ...locs], [])
 }
@@ -63,11 +71,9 @@ export const locationExists = (location: ILocation, locations: ILocation[]) => (
   !!locations.find(l => l.country === location.country && l.city === location.city)
 )
 
-
 export const isCountrySelected = (location: ILocation, locations: ILocation[]) => (
   !!locations.find(l => l.country === location.country && !l.city)
 )
-
 
 export const isCountryFullySelected = (location: ILocation, selectedLocations: ILocation[], allLocations: ILocation[]) => {
   const countryInSelected = selectedLocations.filter(l => l.country === location.country)

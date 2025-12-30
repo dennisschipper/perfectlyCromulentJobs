@@ -7,6 +7,10 @@ a, button.major, button.minor {
   text-decoration: underline;
   text-underline-offset: 6px;
   text-decoration-thickness: 2px;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
 }
 
 button.major, button.minor {
@@ -30,6 +34,11 @@ a.minor, button.minor {
   &:hover, &:focus {
     color: $textMain;
     text-decoration-color: $textMain;
+  }
+
+  &:disabled:hover, &:disabled:focus {
+    color: $textGrey;
+    text-decoration-color: $textGrey;
   }
 }
 

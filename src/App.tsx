@@ -28,11 +28,9 @@ export const App = (props: IAppProps) => {
   return (
     <CromulentContext value={{appState, dispatch}}>
       <div className="cromulentSkeleton">
-        <div>
         <CromulentHeader />
         <MainFilters />
         <hr />
-        </div>
         <div className="content">
           <Table jobs={jobs} />
         </div>

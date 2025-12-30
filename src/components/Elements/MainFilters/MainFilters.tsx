@@ -1,7 +1,7 @@
 import { useContext } from "react"
 import { CromulentContext } from "../CromulentContext/CromulentContext"
 import { FilterCount } from "./FilterCount/FilterCount"
-import { filterJobs } from "helpers"
+import { filterJobs, isFiltering } from "helpers"
 import { initialState } from "store/cromulentReducer"
 
 export const MainFilters = () => {
@@ -13,13 +13,17 @@ export const MainFilters = () => {
     dispatch({ type: 'updateFilters', payload: { filters }})
   }
 
+  const disableReset = isFiltering(appState.options.filters)
+
   return (
     <div className="mainFilters">
       <div>
         <FilterCount current={jobs.length} total={appState.jobs.length} />
       </div>
       <div className="spacer">
-        <button className="minor" onClick={onClickReset}>Reset filters</button>
+        <button disabled={disableReset} className="minor" onClick={onClickReset}>
+          Reset filters
+        </button>
       </div>
     </div>
   )
