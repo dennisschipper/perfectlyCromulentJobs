@@ -16,18 +16,3 @@ html, body, #root {
   padding: calc($space / 2);
   padding-right: 3px;
 }
-
-.cromulentWhosHiring {
-  // We need the display: block otherwise flexbox gets too ambitious and starts 
-  // resizing things. Setting it to block lets the table take up it's full height
-  // and still show a horizontal scrollbar.
-  display: block;
-  overflow: scroll;
-  padding: calc($space * 5);
-  padding-top: calc($space * 8);
-  width: 100%;
-  height: 100%;
-  h1 { color: $textGrey; }
-
-  @media (max-width: $mob) { padding: calc($space * 1); }
-}

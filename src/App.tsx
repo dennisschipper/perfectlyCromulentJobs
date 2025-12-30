@@ -8,7 +8,6 @@ import { cromulentReducer } from 'store/cromulentReducer'
 import { fetchHnJobs, filterJobs, saveStoreInBrowser } from 'helpers'
 import { type IAppState } from 'types'
 import { CromulentFooter } from 'components/Elements/CromulentFooter/CromulentFooter'
-import { NoResults } from 'components/Elements/NoResults/NoResults'
 
 interface IAppProps {
   initialState: IAppState
@@ -28,11 +27,15 @@ export const App = (props: IAppProps) => {
 
   return (
     <CromulentContext value={{appState, dispatch}}>
-      <div className="cromulentWhosHiring">
+      <div className="cromulentSkeleton">
+        <div>
         <CromulentHeader />
         <MainFilters />
         <hr />
-        <Table jobs={jobs} />
+        </div>
+        <div className="content">
+          <Table jobs={jobs} />
+        </div>
         <hr />
         <CromulentFooter />
       </div>

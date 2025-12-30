@@ -10,3 +10,19 @@
 @import 'forms/index.scss';
 
 @import 'elements/curtain/index.scss';
+
+
+#root {
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+.cromulentSkeleton {
+  padding: calc($space * 2);
+  flex: 1;
+  align-items: stretch;
+  overflow: auto;
+  @media (max-width: $mob) { padding: calc($space * 1); }
+
+  .content { flex: 1; }
+}

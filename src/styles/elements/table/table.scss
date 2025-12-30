@@ -1,7 +1,10 @@
 .tableWrapper {
+  display: block;
+  width: 100%;
   overflow-x: auto;
   overflow-y: visible;
   margin-bottom: calc($space * 2);
+  
   &:focus {
     outline: 1px solid $textMain;
     outline-offset: 10px;
