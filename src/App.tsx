@@ -7,6 +7,7 @@ import { useEffect, useReducer } from 'react'
 import { cromulentReducer } from 'store/cromulentReducer'
 import { fetchHnJobs, filterJobs, saveStoreInBrowser } from 'helpers'
 import { type IAppState } from 'types'
+import { CromulentFooter } from 'components/Elements/CromulentFooter/CromulentFooter'
 
 interface IAppProps {
   initialState: IAppState
@@ -31,6 +32,8 @@ export const App = (props: IAppProps) => {
         <MainFilters />
         <hr />
         <Table jobs={jobs} />
+        <hr />
+        <CromulentFooter />
       </div>
     </CromulentContext>
   )
