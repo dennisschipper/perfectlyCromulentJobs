@@ -1,4 +1,4 @@
-import type { BaseSyntheticEvent, ChangeEventHandler } from "react"
+import type { BaseSyntheticEvent, KeyboardEventHandler } from "react"
 
 interface ICheckboxProps {
   name: string
@@ -23,18 +23,18 @@ export const Checkbox = (props: ICheckboxProps) => {
     props.onClick && props.onClick(props.name)
   }
 
-  // ToDo: Check this makes sense or remove the onClick and leave this in?
-  const onChange: ChangeEventHandler<HTMLInputElement> = () => {}
+  const onKeyDown: KeyboardEventHandler<HTMLLabelElement> = (e) => {
+    e.key === 'Enter' && onClick(e)
+  }
 
   return (
-    <label htmlFor={props.name} className={className} tabIndex={0}>
+    <label htmlFor={props.name} className={className} tabIndex={0} onKeyDown={onKeyDown}>
       <input 
         id={props.name} 
         type="checkbox" 
         checked={props.checked}
         disabled={props.disabled}
         tabIndex={-1}
-        onChange={onChange}
         onClick={onClick}
       />
       <div className="check">

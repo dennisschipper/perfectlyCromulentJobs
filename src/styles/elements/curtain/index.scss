@@ -16,7 +16,7 @@
 
   &:hover::after { background: $textMain; } 
 }
+// We're animating that underline so we need to target the focus style seperately.
+button:focus .curtain::after { background: $textMain; } 
 
-.curtainItem {
-  position: absolute;
-}
+.curtainItem { position: absolute; }

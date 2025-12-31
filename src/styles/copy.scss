@@ -36,7 +36,7 @@ a.minor, button.minor {
     text-decoration-color: $textMain;
   }
 
-  &:disabled:hover, &:disabled:focus {
+  &:disabled:hover, &:disabled:focus, &:disabled:hover {
     color: $textGrey;
     text-decoration-color: $textGrey;
   }
