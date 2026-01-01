@@ -17,14 +17,10 @@ export const MainFilters = () => {
 
   return (
     <div className="mainFilters">
-      <div>
-        <FilterCount current={jobs.length} total={appState.jobs.length} />
-      </div>
-      <div className="spacer">
-        <button disabled={disableReset} className="minor" onClick={onClickReset}>
-          Reset filters
-        </button>
-      </div>
+      <FilterCount current={jobs.length} total={appState.jobs.length} />
+      <button disabled={disableReset} className="minor" onClick={onClickReset}>
+        Reset filters
+      </button>
     </div>
   )
 }

@@ -1,0 +1,6 @@
+.mainFilters {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: calc($space * 4);
+  padding: $space;
+}
