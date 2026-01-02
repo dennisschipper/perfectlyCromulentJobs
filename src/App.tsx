@@ -20,7 +20,7 @@ export const App = (props: IAppProps) => {
   useEffect(() => saveStoreInBrowser(appState), [appState])
 
   useEffect(() => {
-    fetchHnJobs("jobs_12_2025.json").then(
+    fetchHnJobs("jobs_01_2026.json").then(
       resp => dispatch({ type: 'updateJobTexts', payload: { hnJobs: resp.posts } })
     )
   }, [])
