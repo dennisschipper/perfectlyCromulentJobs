@@ -34,6 +34,7 @@ Rules:
 - If it says "multiple roles" but does not name titles, return [].
 - If locations are mentioned, add them even for remote positions.
 - Expand abbreviations, and keep naming consistent for example FL should be Florida. US or USA or United Stats of America should be United States. UK should be United Kingdom. EU should be European Union.
+- If there is a country and no city, do not add a null city. Just do not add the city.
 - Do not make up positionType or type attributes. Check with the types provided.
 
 
