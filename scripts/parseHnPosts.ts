@@ -1,31 +1,28 @@
-// Chatgpt wrote this.
 import fs from "node:fs/promises"
 import path from "node:path"
-import { pathToFileURL } from "node:url"
 import type { IHnJobs, IJob } from "../src/types"
 import { getJobData } from "./getJobData"
 
-const pad2 = (n: number) => String(n).padStart(2, "0")
-
-const resolveInput = (m: any): IHnJobs => {
-  const v = m.default ?? m.jobData ?? m.hnJobs ?? m.jobs ?? m.data
-  if (!v) throw new Error("Input module must export IHnJobs (default/jobData/hnJobs/jobs/data)")
-  return v as IHnJobs
-}
-
 const main = async () => {
-  const inputArg = process.argv[2]
-  if (!inputArg) throw new Error("Missing filename argument")
+  // Get the full file path.
+  const filePath = process.argv[2]
+  if (!filePath) { throw new Error("Missing filename argument") }
+  const fullPath = path.resolve(process.cwd(), filePath)
+  // Get the jobs
+  const hnJobs: IHnJobs = (await import(fullPath)).hnJobs
 
-  const absInput = path.isAbsolute(inputArg) ? inputArg : path.resolve(process.cwd(), inputArg)
-  const mod = await import(pathToFileURL(absInput).href)
-  const hnJobs = resolveInput(mod)
+  const justAFewJobs = hnJobs.posts.splice(0, 1)
+  console.log("justAFewJobs", justAFewJobs)
+  
+  // Now parse each job and get the data back.
+  const jobs: IJob[] = await getJobData(justAFewJobs)
 
-  const jobs: IJob[] = await getJobData(hnJobs)
-  const outDir = path.resolve(process.cwd(), "src/data")
-  await fs.mkdir(outDir, { recursive: true })
+  // This is where it's left. We need to actually write these to disk.
+  
+  const savePath = path.resolve(process.cwd(), "src/data")
+  await fs.mkdir(savePath, { recursive: true })
+  const outFile = path.join(savePath, `jobData.ts`)
 
-  const outFile = path.join(outDir, `jobData.ts`)
   const content =
     `import type { IJob } from "types"\n\n` +
     `export const jobs: IJob[] = ${JSON.stringify(jobs, null, 2)}\n`

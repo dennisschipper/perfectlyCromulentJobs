@@ -7,6 +7,7 @@ import { parsingInstructions } from "./parsingInstructions"
 const client = new OpenAI({ apiKey: process.env.VITE_OPENAI_API_KEY })
 
 const extractJsonArray = (s: string) => {
+  console.log("ssssss .>>>>>>, ", s)
   const start = s.indexOf("[")
   if (start === -1) throw new Error("No JSON array found in model output")
   const raw = s
@@ -37,15 +38,13 @@ const normalizeAndFillIds = (jobs: IJob[]): IJob[] =>
     }
   })
 
-export const getJobData = async (data: IHnJobs): Promise<IJob[]> => {
+export const getJobData = async (posts: IHnJobs['posts']): Promise<IJob[]> => {
+  
   const out: IJob[] = []
 
-  for (const post of data.posts) {
-    const payload = {
-      id: post.id,
-      by: post.by,
-      text: post.text
-    } satisfies IHnJob
+  for (const post of posts) {
+    const { id, by, text } = post
+    const payload = { id, by, text } satisfies IHnJob
 
     const res = await client.chat.completions.create({
       model: "gpt-4.1-mini",
@@ -55,25 +54,10 @@ export const getJobData = async (data: IHnJobs): Promise<IJob[]> => {
         { role: "user", content: JSON.stringify(payload) }
       ]
     })
-
     const content = res.choices[0]?.message?.content ?? "[]"
     const parsed = extractJsonArray(content) as IJob[]
     out.push(...normalizeAndFillIds(parsed))
   }
-
-  return dedupeJobs(out)
-}
-
-const dedupeJobs = (jobs: IJob[]): IJob[] => {
-  const seen = new Set<string>()
-  const out: IJob[] = []
-
-  for (const j of jobs) {
-    const k = String(j.id || `${j.sourceId}|${j.company}|${j.position}`)
-    if (seen.has(k)) continue
-    seen.add(k)
-    out.push(j)
-  }
-
+  
   return out
 }

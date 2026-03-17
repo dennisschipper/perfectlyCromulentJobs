@@ -10,6 +10,8 @@ Return: ONLY a valid JSON array that matches IJob[] exactly.
 - Must NOT return an object wrapper like { "jobs": [...] }
 - If you cannot fully form a job from this post, omit it. If none, return [].
 - If this post mentions multiple distinct role titles, return multiple items (one per role). Never return "Multiple roles".
+- Do not stop at urls in the post - ignore the url but parse the jobs if they are there.
+- Do not worry about special symbols or slahes as unicode, just skip them and proceed.
 
 Schema:
 interface IJob {
