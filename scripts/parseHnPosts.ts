@@ -15,8 +15,6 @@ const main = async () => {
   
   // Now parse each job and get the data back.
   const jobs: IJob[] = await getJobData(justAFewJobs)
-
-  // This is where it's left. We need to actually write these to disk.
   
   const savePath = path.resolve(process.cwd(), "src/data")
   await fs.mkdir(savePath, { recursive: true })
