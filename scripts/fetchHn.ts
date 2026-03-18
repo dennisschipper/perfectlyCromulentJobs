@@ -30,14 +30,34 @@ if (!idParam) {
 }
 
 const threadId = Number(idParam);
-const timestamp = new Date().toISOString().replace(/[:.]/g, "_");
 const outFileName = `hnPosts.ts`;
 const outPath = path.join(__dirname, "../src/data", outFileName);
 
+const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
+const shouldRetry = (error: unknown) => {
+  if (!(error instanceof Error)) return false
+  const message = error.message.toLowerCase()
+  return (
+    message.includes("econnreset") ||
+    message.includes("etimedout") ||
+    message.includes("fetch failed")
+  )
+}
+
 const fetchItem = async (id: number): Promise<HNItem> => {
-  const res = await fetch(`https://hacker-news.firebaseio.com/v0/item/${id}.json`)
-  if (!res.ok) throw new Error(`Failed to fetch item ${id}: ${res.status}`);
-  return (await res.json()) as HNItem;
+  const maxAttempts = 4
+  for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
+    try {
+      const res = await fetch(`https://hacker-news.firebaseio.com/v0/item/${id}.json`)
+      if (!res.ok) throw new Error(`Failed to fetch item ${id}: ${res.status}`)
+      return (await res.json()) as HNItem
+    } catch (error) {
+      const lastAttempt = attempt === maxAttempts
+      if (lastAttempt || !shouldRetry(error)) throw error
+      await sleep(250 * attempt)
+    }
+  }
+  throw new Error(`Failed to fetch item ${id} after retries`)
 }
 
 const main = async () => {

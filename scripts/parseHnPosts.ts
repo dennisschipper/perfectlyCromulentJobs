@@ -8,9 +8,7 @@ const parseHnPosts = async () => {
   if (!filePath) { throw new Error("Missing filename argument") }
   const fullPath = path.resolve(process.cwd(), filePath)
   const hnJobs: IHnJobs = (await import(fullPath)).hnJobs
-
-  const justAFewJobs = hnJobs.posts.splice(0, 1)
-  const jobs: IJob[] = await getJobData(justAFewJobs)
+  const jobs: IJob[] = await getJobData(hnJobs.posts)
   
   const savePath = path.resolve(process.cwd(), "src/data")
   await fs.mkdir(savePath, { recursive: true })
