@@ -12,8 +12,7 @@ export const jobs: IJob[] = [
     ],
     "locations": [
       {
-        "country": "Germany",
-        "city": "Berlin"
+        "country": "Germany"
       },
       {
         "country": "Estonia",
@@ -22,9 +21,6 @@ export const jobs: IJob[] = [
       {
         "country": "United Kingdom",
         "city": "London"
-      },
-      {
-        "country": "Germany"
       }
     ],
     "salary": null,
@@ -42,8 +38,7 @@ export const jobs: IJob[] = [
     ],
     "locations": [
       {
-        "country": "Germany",
-        "city": "Berlin"
+        "country": "Germany"
       },
       {
         "country": "Estonia",
@@ -52,9 +47,6 @@ export const jobs: IJob[] = [
       {
         "country": "United Kingdom",
         "city": "London"
-      },
-      {
-        "country": "Germany"
       }
     ],
     "salary": null,
@@ -72,8 +64,7 @@ export const jobs: IJob[] = [
     ],
     "locations": [
       {
-        "country": "Germany",
-        "city": "Berlin"
+        "country": "Germany"
       },
       {
         "country": "Estonia",
@@ -82,9 +73,6 @@ export const jobs: IJob[] = [
       {
         "country": "United Kingdom",
         "city": "London"
-      },
-      {
-        "country": "Germany"
       }
     ],
     "salary": null,
