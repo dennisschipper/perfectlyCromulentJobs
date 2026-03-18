@@ -12,7 +12,6 @@ const main = async () => {
   const hnJobs: IHnJobs = (await import(fullPath)).hnJobs
 
   const justAFewJobs = hnJobs.posts.splice(0, 1)
-  console.log("justAFewJobs", justAFewJobs)
   
   // Now parse each job and get the data back.
   const jobs: IJob[] = await getJobData(justAFewJobs)

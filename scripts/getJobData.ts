@@ -6,19 +6,6 @@ import { parsingInstructions } from "./parsingInstructions"
 
 const client = new OpenAI({ apiKey: process.env.VITE_OPENAI_API_KEY })
 
-const extractJsonArray = (s: string) => {
-  console.log("ssssss .>>>>>>, ", s)
-  const start = s.indexOf("[")
-  if (start === -1) throw new Error("No JSON array found in model output")
-  const raw = s
-    .slice(start)
-    .trim()
-    .replace(/^```(?:json)?\s*/i, "")
-    .replace(/\s*```$/i, "")
-    .trim()
-  return JSON.parse(raw)
-}
-
 const toKebab = (s: string) =>
   s
     .toLowerCase()
@@ -39,9 +26,7 @@ const normalizeAndFillIds = (jobs: IJob[]): IJob[] =>
   })
 
 export const getJobData = async (posts: IHnJobs['posts']): Promise<IJob[]> => {
-  
   const out: IJob[] = []
-
   for (const post of posts) {
     const { id, by, text } = post
     const payload = { id, by, text } satisfies IHnJob
@@ -55,7 +40,7 @@ export const getJobData = async (posts: IHnJobs['posts']): Promise<IJob[]> => {
       ]
     })
     const content = res.choices[0]?.message?.content ?? "[]"
-    const parsed = extractJsonArray(content) as IJob[]
+    const parsed = JSON.parse(content) as IJob[]
     out.push(...normalizeAndFillIds(parsed))
   }
   
