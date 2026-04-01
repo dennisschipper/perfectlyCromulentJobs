@@ -1,5 +1,4 @@
-// auto-generated
-export const hnJobs = {
+{
   "threadId": 47601859,
   "title": "Ask HN: Who is hiring? (April 2026)",
   "url": "https://news.ycombinator.com/item?id=47601859",
@@ -486,4 +485,4 @@ export const hnJobs = {
       "text": "BetterDB (<a href=\"https:&#x2F;&#x2F;betterdb.com\" rel=\"nofollow\">https:&#x2F;&#x2F;betterdb.com</a>) (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;BetterDB-inc\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;BetterDB-inc</a>) | Founding Engineer | Remote | Full-time<p>BetterDB is building the tooling ecosystem for Valkey, the high-performance Redis fork backed by AWS, Google, and Oracle. We&#x27;re starting with observability — historical persistence, pattern analysis, anomaly detection, and Prometheus export — so you can debug what happened at 3am when you wake up at 9am.<p>Stack: TypeScript, NestJS + Fastify, React, Valkey, PostgreSQL, Docker, Kubernetes, Terraform, AWS.<p>We ship OSS self-hosted and have a live cloud SaaS: <a href=\"https:&#x2F;&#x2F;betterdb.com&#x2F;login\" rel=\"nofollow\">https:&#x2F;&#x2F;betterdb.com&#x2F;login</a> In the last two months we&#x27;ve averaged more than one release per week across multiple products and channels. That&#x27;s what &quot;moves fast&quot; looks like in practice.<p>We hired our first engineer last month and are looking to expand the team — no pressure on timeline, we&#x27;d rather find the right person.<p>To apply, first run BetterDB and use your email as the license key for npm&#x2F;docker, for cloud just register with the same email you are applying. Pick whichever is easiest:<p><pre><code>  Cloud (no setup): https:&#x2F;&#x2F;betterdb.com&#x2F;login\n\n  Via npm (includes a built-in installer):\n    npx @betterdb&#x2F;monitor\n\n  Via Docker:\n    docker run -d \\\n      --name betterdb-monitor \\\n      -p 3001:3001 \\\n      -e DB_HOST=your-valkey-host \\\n      -e DB_PORT=6379 \\\n      -e BETTERDB_LICENSE_KEY=your@email.com \\\n      betterdb&#x2F;monitor:latest\n</code></pre>\nThen email kristiyan@betterdb.com with a bit about yourself and why this is interesting to you.<p>I reply to everyone. It might take a day or two given volume, but you&#x27;ll hear back."
     }
   ]
-} as const;
+}
