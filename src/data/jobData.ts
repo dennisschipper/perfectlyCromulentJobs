@@ -2,389 +2,338 @@ import type { IJob } from "types"
 
 export const jobs: IJob[] = [
   {
-    "position": "Founding Engineer",
+    "position": "Software Engineer",
     "positionType": [
-      "fullStack",
-      "engineering"
+      "engineering",
+      "backEnd",
+      "frontEnd"
     ],
-    "company": "Hotwash",
+    "company": "Amodo Design",
     "type": [
-      "remote"
+      "onSite",
+      "hybrid"
     ],
     "locations": [
       {
-        "country": "United States"
+        "country": "United Kingdom",
+        "city": "Sheffield"
       },
       {
-        "country": "United States",
-        "city": "Boston"
+        "country": "United Kingdom",
+        "city": "London"
       }
     ],
     "salary": null,
-    "sourceId": "48358328",
-    "id": "48358328-founding-engineer"
+    "sourceId": "48802846",
+    "id": "48802846-software-engineer"
   },
   {
-    "position": "Senior Backend/Infrastructure Engineer",
+    "position": "Founding Engineer",
     "positionType": [
-      "backEnd",
       "engineering"
     ],
-    "company": "Zulip",
+    "company": "Bead AI",
     "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48361570",
-    "id": "48361570-senior-backend-infrastructure-engineer"
-  },
-  {
-    "position": "Full-Stack Engineer",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "Hatchet",
-    "type": [
-      "remote"
+      "onSite"
     ],
     "locations": [
       {
-        "country": "United States",
-        "city": "New York City"
+        "country": "United Kingdom",
+        "city": "London"
       },
       {
         "country": "United States",
         "city": "San Francisco"
-      },
-      {
-        "country": "European Union"
       }
     ],
-    "salary": null,
-    "sourceId": "48362455",
-    "id": "48362455-full-stack-engineer"
+    "salary": "USD$160-220K+",
+    "sourceId": "48802744",
+    "id": "48802744-founding-engineer"
   },
   {
-    "position": "Product Engineer",
+    "position": "Sr. Staff or Principal Software Engineer, Rust Genomics Infrastructure",
     "positionType": [
       "engineering"
     ],
-    "company": "PostHog",
+    "company": "St. Jude Children's Research Hospital",
     "type": [
+      "onSite",
       "remote"
     ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48357778",
-    "id": "48357778-product-engineer"
-  },
-  {
-    "position": "Clickhouse Operations Engineer",
-    "positionType": [
-      "engineering"
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Memphis"
+      }
     ],
-    "company": "PostHog",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48357778",
-    "id": "48357778-clickhouse-operations-engineer"
-  },
-  {
-    "position": "Backend Engineer",
-    "positionType": [
-      "backEnd"
-    ],
-    "company": "PostHog",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48357778",
-    "id": "48357778-backend-engineer"
-  },
-  {
-    "position": "Technical Customer Success Manager",
-    "positionType": [
-      "sales"
-    ],
-    "company": "PostHog",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48357778",
-    "id": "48357778-technical-customer-success-manager"
-  },
-  {
-    "position": "Technical Account Manager",
-    "positionType": [
-      "sales"
-    ],
-    "company": "PostHog",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48357778",
-    "id": "48357778-technical-account-manager"
-  },
-  {
-    "position": "Developer Marketer",
-    "positionType": [
-      "marketing"
-    ],
-    "company": "PostHog",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48357778",
-    "id": "48357778-developer-marketer"
-  },
-  {
-    "position": "Forward Deployed Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "PostHog",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48357778",
-    "id": "48357778-forward-deployed-engineer"
-  },
-  {
-    "position": "Onboarding Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "PostHog",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48357778",
-    "id": "48357778-onboarding-engineer"
+    "salary": "$125,840 - $238,160",
+    "sourceId": "48756588",
+    "id": "48756588-sr-staff-or-principal-software-engineer-rust-genomics-infrastructure"
   },
   {
     "position": "Software Engineer",
     "positionType": [
       "engineering"
     ],
-    "company": "Tetsuwan Scientific",
+    "company": "Tandem Health",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "Sweden",
+        "city": "Stockholm"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48801914",
+    "id": "48801914-software-engineer"
+  },
+  {
+    "position": "Principal Mechanical Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Robotics startup (STEALTH + YC S26)",
     "type": [
       "onSite"
     ],
     "locations": [
       {
         "country": "United States",
-        "city": "San Francisco"
+        "city": "San Francisco Bay Area"
       }
     ],
-    "salary": "$140K–$180K + equity",
-    "sourceId": "48406760",
-    "id": "48406760-software-engineer"
+    "salary": "$200–250k + 1–2% equity + benefits",
+    "sourceId": "48749185",
+    "id": "48749185-principal-mechanical-engineer"
   },
   {
-    "position": "Senior Developer (Full-stack)",
+    "position": "Principal Firmware Engineer",
     "positionType": [
-      "fullStack"
-    ],
-    "company": "Branch3D",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      },
-      {
-        "country": "Mexico"
-      },
-      {
-        "country": "Brazil"
-      },
-      {
-        "country": "Argentina"
-      },
-      {
-        "country": "Chile"
-      },
-      {
-        "country": "Colombia"
-      },
-      {
-        "country": "Peru"
-      },
-      {
-        "country": "Venezuela"
-      },
-      {
-        "country": "Ecuador"
-      },
-      {
-        "country": "Bolivia"
-      },
-      {
-        "country": "Paraguay"
-      },
-      {
-        "country": "Uruguay"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48361511",
-    "id": "48361511-senior-developer-full-stack"
-  },
-  {
-    "position": "3D Design engineer",
-    "positionType": [
-      "design",
-      "frontEnd"
-    ],
-    "company": "Branch3D",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      },
-      {
-        "country": "Mexico"
-      },
-      {
-        "country": "Brazil"
-      },
-      {
-        "country": "Argentina"
-      },
-      {
-        "country": "Chile"
-      },
-      {
-        "country": "Colombia"
-      },
-      {
-        "country": "Peru"
-      },
-      {
-        "country": "Venezuela"
-      },
-      {
-        "country": "Ecuador"
-      },
-      {
-        "country": "Bolivia"
-      },
-      {
-        "country": "Paraguay"
-      },
-      {
-        "country": "Uruguay"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48361511",
-    "id": "48361511-3d-design-engineer"
-  },
-  {
-    "position": "Growth lead",
-    "positionType": [
-      "other"
-    ],
-    "company": "Branch3D",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      },
-      {
-        "country": "Mexico"
-      },
-      {
-        "country": "Brazil"
-      },
-      {
-        "country": "Argentina"
-      },
-      {
-        "country": "Chile"
-      },
-      {
-        "country": "Colombia"
-      },
-      {
-        "country": "Peru"
-      },
-      {
-        "country": "Venezuela"
-      },
-      {
-        "country": "Ecuador"
-      },
-      {
-        "country": "Bolivia"
-      },
-      {
-        "country": "Paraguay"
-      },
-      {
-        "country": "Uruguay"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48361511",
-    "id": "48361511-growth-lead"
-  },
-  {
-    "position": "Founding Engineer",
-    "positionType": [
-      "fullStack",
       "engineering"
     ],
-    "company": "Deep Core Technology",
+    "company": "Robotics startup (STEALTH + YC S26)",
     "type": [
-      "remote"
+      "onSite"
     ],
     "locations": [
       {
-        "country": "Canada",
-        "city": "Squamish"
+        "country": "United States",
+        "city": "San Francisco Bay Area"
       }
     ],
-    "salary": "$105,000 - $125,000 CAD + equity",
-    "sourceId": "48389925",
-    "id": "48389925-founding-engineer"
+    "salary": "$200–250k + 1–2% equity + benefits",
+    "sourceId": "48749185",
+    "id": "48749185-principal-firmware-engineer"
   },
   {
     "position": "Principal Software Engineer",
     "positionType": [
+      "engineering"
+    ],
+    "company": "Robotics startup (STEALTH + YC S26)",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco Bay Area"
+      }
+    ],
+    "salary": "$200–250k + 1–2% equity + benefits",
+    "sourceId": "48749185",
+    "id": "48749185-principal-software-engineer"
+  },
+  {
+    "position": "Founding Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Talk Machine",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United Kingdom",
+        "city": "London"
+      },
+      {
+        "country": "United Arab Emirates",
+        "city": "Dubai"
+      },
+      {
+        "country": "European Union"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48749307",
+    "id": "48749307-founding-engineer"
+  },
+  {
+    "position": "Senior Technical Program Manager",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "BREAKFAST Studio",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Brooklyn"
+      }
+    ],
+    "salary": "$180k–$210k base + bonus",
+    "sourceId": "48752077",
+    "id": "48752077-senior-technical-program-manager"
+  },
+  {
+    "position": "Staff Software Engineer",
+    "positionType": [
+      "fullStack",
+      "engineering"
+    ],
+    "company": "PermitFlow",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "New York"
+      }
+    ],
+    "salary": "$200K-275K + equity",
+    "sourceId": "48797833",
+    "id": "48797833-staff-software-engineer"
+  },
+  {
+    "position": "Fullstack Software Engineer",
+    "positionType": [
+      "fullStack",
+      "engineering"
+    ],
+    "company": "PermitFlow",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "New York"
+      }
+    ],
+    "salary": "$125-245K + equity",
+    "sourceId": "48797833",
+    "id": "48797833-fullstack-software-engineer"
+  },
+  {
+    "position": "Senior Frontend Engineer",
+    "positionType": [
+      "frontEnd",
+      "engineering"
+    ],
+    "company": "PermitFlow",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "New York"
+      }
+    ],
+    "salary": "$125K-245K + equity",
+    "sourceId": "48797833",
+    "id": "48797833-senior-frontend-engineer"
+  },
+  {
+    "position": "Junior C++ Developer",
+    "positionType": [
       "engineering",
       "backEnd"
+    ],
+    "company": "Unknown",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48750001",
+    "id": "48750001-junior-c++-developer"
+  },
+  {
+    "position": "Research Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Electric Twin",
+    "type": [
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United Kingdom",
+        "city": "London"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48801745",
+    "id": "48801745-research-engineer"
+  },
+  {
+    "position": "Product Engineer",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "Electric Twin",
+    "type": [
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United Kingdom",
+        "city": "London"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48801745",
+    "id": "48801745-product-engineer"
+  },
+  {
+    "position": "Senior Full-Stack Engineer",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "MeanderX",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "Germany"
+      },
+      {
+        "country": "United Kingdom",
+        "city": "London"
+      },
+      {
+        "country": "South Africa",
+        "city": "Cape Town"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48792071",
+    "id": "48792071-senior-full-stack-engineer"
+  },
+  {
+    "position": "Principal Software Engineer",
+    "positionType": [
+      "engineering"
     ],
     "company": "FusionAuth",
     "type": [
@@ -398,14 +347,13 @@ export const jobs: IJob[] = [
       }
     ],
     "salary": "225k-270k",
-    "sourceId": "48360523",
-    "id": "48360523-principal-software-engineer"
+    "sourceId": "48794583",
+    "id": "48794583-principal-software-engineer"
   },
   {
     "position": "Senior Java Engineer - Cloud",
     "positionType": [
-      "engineering",
-      "backEnd"
+      "engineering"
     ],
     "company": "FusionAuth",
     "type": [
@@ -419,8 +367,8 @@ export const jobs: IJob[] = [
       }
     ],
     "salary": null,
-    "sourceId": "48360523",
-    "id": "48360523-senior-java-engineer-cloud"
+    "sourceId": "48794583",
+    "id": "48794583-senior-java-engineer-cloud"
   },
   {
     "position": "Account Executive",
@@ -440,30 +388,2038 @@ export const jobs: IJob[] = [
       }
     ],
     "salary": null,
-    "sourceId": "48360523",
-    "id": "48360523-account-executive"
+    "sourceId": "48794583",
+    "id": "48794583-account-executive"
   },
   {
-    "position": "Solutions Engineer",
+    "position": "Lead Software Engineer, Data Sovereignty",
     "positionType": [
       "engineering",
-      "sales"
+      "backEnd"
     ],
-    "company": "FusionAuth",
+    "company": "Conservation Metrics",
     "type": [
       "remote"
     ],
     "locations": [
       {
         "country": "United States"
+      }
+    ],
+    "salary": "$124-150k",
+    "sourceId": "48748028",
+    "id": "48748028-lead-software-engineer-data-sovereignty"
+  },
+  {
+    "position": "Chief Technology Officer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "MassChallenge",
+    "type": [
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Boston"
+      }
+    ],
+    "salary": "$180k-$200K",
+    "sourceId": "48750628",
+    "id": "48750628-chief-technology-officer"
+  },
+  {
+    "position": "Fullstack Product Engineer",
+    "positionType": [
+      "fullStack",
+      "engineering"
+    ],
+    "company": "Yuzu Health",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "New York City"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48748407",
+    "id": "48748407-fullstack-product-engineer"
+  },
+  {
+    "position": "Tech Lead",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Yuzu Health",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "New York City"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48748407",
+    "id": "48748407-tech-lead"
+  },
+  {
+    "position": "Data Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Yuzu Health",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "New York City"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48748407",
+    "id": "48748407-data-engineer"
+  },
+  {
+    "position": "Senior Mechanical Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Cascade Space",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": "$150k - $190k base salary + equity",
+    "sourceId": "48769712",
+    "id": "48769712-senior-mechanical-engineer"
+  },
+  {
+    "position": "Data Engineer",
+    "positionType": [
+      "engineering",
+      "backEnd"
+    ],
+    "company": "IPinfo.io",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48751068",
+    "id": "48751068-data-engineer"
+  },
+  {
+    "position": "Junior Software Engineer",
+    "positionType": [
+      "engineering",
+      "backEnd",
+      "frontEnd"
+    ],
+    "company": "Wildflower Health",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48748749",
+    "id": "48748749-junior-software-engineer"
+  },
+  {
+    "position": "Full-Stack Engineer",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "LabAMI",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": "Equity Only",
+    "sourceId": "48778752",
+    "id": "48778752-full-stack-engineer"
+  },
+  {
+    "position": "Senior Software Engineer",
+    "positionType": [
+      "fullStack",
+      "engineering"
+    ],
+    "company": "Distru",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48751006",
+    "id": "48751006-senior-software-engineer"
+  },
+  {
+    "position": "Founding CTO / GPU Systems Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Syntropic",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48797747",
+    "id": "48797747-founding-cto-gpu-systems-engineer"
+  },
+  {
+    "position": "Founding CTO",
+    "positionType": [
+      "engineering",
+      "fullStack"
+    ],
+    "company": "Grace AI Control",
+    "type": [
+      "remote",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Wilmington"
+      }
+    ],
+    "salary": "Equity-first (~2-4% + modest early salary)",
+    "sourceId": "48788391",
+    "id": "48788391-founding-cto"
+  },
+  {
+    "position": "Member of Technical Staff",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Ensoul",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": "$180,000-$300,000 + Equity + Benefits",
+    "sourceId": "48791997",
+    "id": "48791997-member-of-technical-staff"
+  },
+  {
+    "position": "Senior Software Engineer",
+    "positionType": [
+      "engineering",
+      "backEnd"
+    ],
+    "company": "Rail Europe",
+    "type": [
+      "remote",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "France",
+        "city": "Paris"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48758483",
+    "id": "48758483-senior-software-engineer"
+  },
+  {
+    "position": "GPU Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Kog",
+    "type": [
+      "remote",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "France",
+        "city": "Paris"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48762916",
+    "id": "48762916-gpu-engineer"
+  },
+  {
+    "position": "Founding Full-stack Software Engineer",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "Pango",
+    "type": [
+      "onSite",
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "Sweden",
+        "city": "Stockholm"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48760010",
+    "id": "48760010-founding-full-stack-software-engineer"
+  },
+  {
+    "position": "MN-Core LLM Serving Engine Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Preferred Networks",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "Japan",
+        "city": "Tokyo"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48761162",
+    "id": "48761162-mn-core-llm-serving-engineer"
+  },
+  {
+    "position": "LLM Inference Optimization Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Preferred Networks",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "Japan",
+        "city": "Tokyo"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48761162",
+    "id": "48761162-llm-inference-optimization-engineer"
+  },
+  {
+    "position": "Fullstack Engineer",
+    "positionType": [
+      "fullStack",
+      "engineering"
+    ],
+    "company": "SerpApi",
+    "type": [
+      "remote",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Austin"
+      }
+    ],
+    "salary": "$150K - 180K a year 1099 for US or local avg + 20% for outside the US",
+    "sourceId": "48764582",
+    "id": "48764582-fullstack-engineer"
+  },
+  {
+    "position": "Customer Success Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "SerpApi",
+    "type": [
+      "remote",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Austin"
+      }
+    ],
+    "salary": "$150K - 180K a year 1099 for US or local avg + 20% for outside the US",
+    "sourceId": "48764582",
+    "id": "48764582-customer-success-engineer"
+  },
+  {
+    "position": "Senior Content Specialist",
+    "positionType": [
+      "other"
+    ],
+    "company": "SerpApi",
+    "type": [
+      "remote",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Austin"
+      }
+    ],
+    "salary": "$150K - 180K a year 1099 for US or local avg + 20% for outside the US",
+    "sourceId": "48764582",
+    "id": "48764582-senior-content-specialist"
+  },
+  {
+    "position": "SEO Specialist",
+    "positionType": [
+      "marketing"
+    ],
+    "company": "SerpApi",
+    "type": [
+      "remote",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Austin"
+      }
+    ],
+    "salary": "$150K - 180K a year 1099 for US or local avg + 20% for outside the US",
+    "sourceId": "48764582",
+    "id": "48764582-seo-specialist"
+  },
+  {
+    "position": "Developer Advocate",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "SerpApi",
+    "type": [
+      "remote",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Austin"
+      }
+    ],
+    "salary": "$150K - 180K a year 1099 for US or local avg + 20% for outside the US",
+    "sourceId": "48764582",
+    "id": "48764582-developer-advocate"
+  },
+  {
+    "position": "Product Software Engineer",
+    "positionType": [
+      "engineering",
+      "fullStack"
+    ],
+    "company": "Dashdoc",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "European Union"
+      }
+    ],
+    "salary": "€50k–€80k",
+    "sourceId": "48756639",
+    "id": "48756639-product-software-engineer"
+  },
+  {
+    "position": "Principal Engineer",
+    "positionType": [
+      "engineering",
+      "fullStack"
+    ],
+    "company": "Albert",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": "up to ~ $750k",
+    "sourceId": "48751913",
+    "id": "48751913-principal-engineer"
+  },
+  {
+    "position": "Distinguished Engineer",
+    "positionType": [
+      "engineering",
+      "fullStack"
+    ],
+    "company": "Albert",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": "up to ~ $750k",
+    "sourceId": "48751913",
+    "id": "48751913-distinguished-engineer"
+  },
+  {
+    "position": "Full-stack Engineer",
+    "positionType": [
+      "fullStack",
+      "backEnd"
+    ],
+    "company": "Annex Risk",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Bay Area"
       },
+      {
+        "country": "United States",
+        "city": "Austin"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48756811",
+    "id": "48756811-full-stack-engineer"
+  },
+  {
+    "position": "Backend Engineer",
+    "positionType": [
+      "backEnd"
+    ],
+    "company": "Annex Risk",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Bay Area"
+      },
+      {
+        "country": "United States",
+        "city": "Austin"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48756811",
+    "id": "48756811-backend-engineer"
+  },
+  {
+    "position": "Web Scraping Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Kadoa",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48749718",
+    "id": "48749718-web-scraping-engineer"
+  },
+  {
+    "position": "Senior Software Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Kadoa",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48749718",
+    "id": "48749718-senior-software-engineer"
+  },
+  {
+    "position": "Senior Fullstack Engineer",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "Bucket Robotics",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48750474",
+    "id": "48750474-senior-fullstack-engineer"
+  },
+  {
+    "position": "Senior Full Stack Engineer",
+    "positionType": [
+      "fullStack",
+      "engineering"
+    ],
+    "company": "Make Waves",
+    "type": [
+      "onSite",
+      "hybrid",
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "Netherlands",
+        "city": "Amsterdam"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48783722",
+    "id": "48783722-senior-full-stack-engineer"
+  },
+  {
+    "position": "Medior Operations and Automation Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Make Waves",
+    "type": [
+      "onSite",
+      "hybrid",
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "Netherlands",
+        "city": "Amsterdam"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48783722",
+    "id": "48783722-medior-operations-and-automation-engineer"
+  },
+  {
+    "position": "Senior Software Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Yardstik",
+    "type": [],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Minneapolis"
+      }
+    ],
+    "salary": "$120,000 - $200,000",
+    "sourceId": "48750767",
+    "id": "48750767-senior-software-engineer"
+  },
+  {
+    "position": "Senior DevOps Engineer",
+    "positionType": [
+      "engineering",
+      "backEnd"
+    ],
+    "company": "Ecosmic",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "Italy"
+      }
+    ],
+    "salary": "€50,000–€60,000",
+    "sourceId": "48749101",
+    "id": "48749101-senior-devops-engineer"
+  },
+  {
+    "position": "Developer Relations",
+    "positionType": [
+      "marketing"
+    ],
+    "company": "Friendly Captcha",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "Germany",
+        "city": "Munich"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48748697",
+    "id": "48748697-developer-relations"
+  },
+  {
+    "position": "Senior Software Engineer",
+    "positionType": [
+      "backEnd",
+      "engineering"
+    ],
+    "company": "Spacelift",
+    "type": [
+      "remote"
+    ],
+    "locations": [
       {
         "country": "Europe"
       }
     ],
+    "salary": "$80k-$110k+ (can go higher)",
+    "sourceId": "48752134",
+    "id": "48752134-senior-software-engineer"
+  },
+  {
+    "position": "Software Engineer Infrastructure",
+    "positionType": [
+      "engineering",
+      "backEnd"
+    ],
+    "company": "Column",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
     "salary": null,
-    "sourceId": "48360523",
-    "id": "48360523-solutions-engineer"
+    "sourceId": "48754238",
+    "id": "48754238-software-engineer-infrastructure"
+  },
+  {
+    "position": "Software Engineer Backend",
+    "positionType": [
+      "engineering",
+      "backEnd"
+    ],
+    "company": "Column",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48754238",
+    "id": "48754238-software-engineer-backend"
+  },
+  {
+    "position": "Software Engineer Product",
+    "positionType": [
+      "engineering",
+      "backEnd"
+    ],
+    "company": "Column",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48754238",
+    "id": "48754238-software-engineer-product"
+  },
+  {
+    "position": "Data Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Forecasting Research Institute",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": "$75k–$130k",
+    "sourceId": "48751039",
+    "id": "48751039-data-engineer"
+  },
+  {
+    "position": "Staff Mobile Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Solace Health",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": "$175k-$225k",
+    "sourceId": "48753234",
+    "id": "48753234-staff-mobile-engineer"
+  },
+  {
+    "position": "Senior Full Stack Engineer",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "Solace Health",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": "$150k-$200k",
+    "sourceId": "48753234",
+    "id": "48753234-senior-full-stack-engineer"
+  },
+  {
+    "position": "Senior Backend Engineer",
+    "positionType": [
+      "backEnd"
+    ],
+    "company": "Solace Health",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": "$150k-$200k",
+    "sourceId": "48753234",
+    "id": "48753234-senior-backend-engineer"
+  },
+  {
+    "position": "Staff Software Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Solace Health",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": "$200k-$225k",
+    "sourceId": "48753234",
+    "id": "48753234-staff-software-engineer"
+  },
+  {
+    "position": "Technical Lead",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Solace Health",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": "$200k-$230k",
+    "sourceId": "48753234",
+    "id": "48753234-technical-lead"
+  },
+  {
+    "position": "Product Engineer",
+    "positionType": [
+      "fullStack",
+      "engineering"
+    ],
+    "company": "Ojin",
+    "type": [
+      "hybrid",
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "Germany",
+        "city": "Berlin"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48753172",
+    "id": "48753172-product-engineer"
+  },
+  {
+    "position": "Agentic Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "We The Flywheel",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48747990",
+    "id": "48747990-agentic-engineer"
+  },
+  {
+    "position": "Sr Agentic Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "We The Flywheel",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48747990",
+    "id": "48747990-sr-agentic-engineer"
+  },
+  {
+    "position": "Agentic Operator",
+    "positionType": [
+      "other"
+    ],
+    "company": "We The Flywheel",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48747990",
+    "id": "48747990-agentic-operator"
+  },
+  {
+    "position": "AI-Native Tech & Growth Director",
+    "positionType": [
+      "other"
+    ],
+    "company": "We The Flywheel",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48747990",
+    "id": "48747990-ai-native-tech-growth-director"
+  },
+  {
+    "position": "Head of Data Science",
+    "positionType": [
+      "other"
+    ],
+    "company": "We The Flywheel",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48747990",
+    "id": "48747990-head-of-data-science"
+  },
+  {
+    "position": "Engineering Manager",
+    "positionType": [
+      "engineering",
+      "backEnd"
+    ],
+    "company": "AREO",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "European Union"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48751855",
+    "id": "48751855-engineering-manager"
+  },
+  {
+    "position": "Lead Product Engineer",
+    "positionType": [
+      "engineering",
+      "backEnd"
+    ],
+    "company": "AREO",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "European Union"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48751855",
+    "id": "48751855-lead-product-engineer"
+  },
+  {
+    "position": "Senior Site Reliability Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "MongoDB",
+    "type": [
+      "remote",
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      },
+      {
+        "country": "Ireland"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48752786",
+    "id": "48752786-senior-site-reliability-engineer"
+  },
+  {
+    "position": "Staff Site Reliability Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "MongoDB",
+    "type": [
+      "remote",
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      },
+      {
+        "country": "Ireland"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48752786",
+    "id": "48752786-staff-site-reliability-engineer"
+  },
+  {
+    "position": "Lead Site Reliability Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "MongoDB",
+    "type": [
+      "remote",
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      },
+      {
+        "country": "Ireland"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48752786",
+    "id": "48752786-lead-site-reliability-engineer"
+  },
+  {
+    "position": "Senior Infrastructure Software Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "MongoDB",
+    "type": [
+      "remote",
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      },
+      {
+        "country": "Ireland"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48752786",
+    "id": "48752786-senior-infrastructure-software-engineer"
+  },
+  {
+    "position": "Staff Infrastructure Software Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "MongoDB",
+    "type": [
+      "remote",
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      },
+      {
+        "country": "Ireland"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48752786",
+    "id": "48752786-staff-infrastructure-software-engineer"
+  },
+  {
+    "position": "Lead Infrastructure Software Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "MongoDB",
+    "type": [
+      "remote",
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      },
+      {
+        "country": "Ireland"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48752786",
+    "id": "48752786-lead-infrastructure-software-engineer"
+  },
+  {
+    "position": "Software Engineer",
+    "positionType": [
+      "engineering",
+      "fullStack"
+    ],
+    "company": "Rho",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "New York City"
+      }
+    ],
+    "salary": "$170K-$270K + equity",
+    "sourceId": "48749540",
+    "id": "48749540-software-engineer"
+  },
+  {
+    "position": "Backend Engineer",
+    "positionType": [
+      "backEnd",
+      "engineering"
+    ],
+    "company": "ProxyBase",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": "$100k-$160k + Equity",
+    "sourceId": "48756786",
+    "id": "48756786-backend-engineer"
+  },
+  {
+    "position": "Full-Stack Developer",
+    "positionType": [
+      "fullStack",
+      "engineering"
+    ],
+    "company": "ProxyBase",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": "$100k-$160k + Equity",
+    "sourceId": "48756786",
+    "id": "48756786-full-stack-developer"
+  },
+  {
+    "position": "Software Engineer Senior",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Fastly",
+    "type": [
+      "remote",
+      "onSite"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48748705",
+    "id": "48748705-software-engineer-senior"
+  },
+  {
+    "position": "Software Engineer Staff",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Fastly",
+    "type": [
+      "remote",
+      "onSite"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48748705",
+    "id": "48748705-software-engineer-staff"
+  },
+  {
+    "position": "Software Engineer Principal",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Fastly",
+    "type": [
+      "remote",
+      "onSite"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48748705",
+    "id": "48748705-software-engineer-principal"
+  },
+  {
+    "position": "Embedded Rust Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Anori Tech",
+    "type": [
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "Germany",
+        "city": "Hamburg"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48748034",
+    "id": "48748034-embedded-rust-engineer"
+  },
+  {
+    "position": "Backend Engineer",
+    "positionType": [
+      "backEnd",
+      "engineering"
+    ],
+    "company": "Splash Tech",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United Kingdom"
+      },
+      {
+        "country": "European Union"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48749201",
+    "id": "48749201-backend-engineer"
+  },
+  {
+    "position": "Devops Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Splash Tech",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United Kingdom"
+      },
+      {
+        "country": "European Union"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48749201",
+    "id": "48749201-devops-engineer"
+  },
+  {
+    "position": "Staff Frontend Engineer",
+    "positionType": [
+      "frontEnd"
+    ],
+    "company": "Weave Bio",
+    "type": [
+      "hybrid",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48768633",
+    "id": "48768633-staff-frontend-engineer"
+  },
+  {
+    "position": "Senior AI Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Weave Bio",
+    "type": [
+      "hybrid",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48768633",
+    "id": "48768633-senior-ai-engineer"
+  },
+  {
+    "position": "Senior Customer Success Manager",
+    "positionType": [
+      "sales"
+    ],
+    "company": "Weave Bio",
+    "type": [
+      "hybrid",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48768633",
+    "id": "48768633-senior-customer-success-manager"
+  },
+  {
+    "position": "Director of Sales",
+    "positionType": [
+      "sales"
+    ],
+    "company": "Weave Bio",
+    "type": [
+      "hybrid",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48768633",
+    "id": "48768633-director-of-sales"
+  },
+  {
+    "position": "Senior Fullstack Engineer",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "Jukebox Health",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": "$180.000-210,000/year + company equity",
+    "sourceId": "48750150",
+    "id": "48750150-senior-fullstack-engineer"
+  },
+  {
+    "position": "Senior Python Backend Engineer",
+    "positionType": [
+      "backEnd"
+    ],
+    "company": "Reef Technologies",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "EMEA"
+      },
+      {
+        "country": "APAC"
+      }
+    ],
+    "salary": "45-70 USD or 180-280 PLN per hour",
+    "sourceId": "48772462",
+    "id": "48772462-senior-python-backend-engineer"
+  },
+  {
+    "position": "Software Engineer",
+    "positionType": [
+      "fullStack",
+      "engineering"
+    ],
+    "company": "MONUMENTAL",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "The Netherlands",
+        "city": "Amsterdam"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48749051",
+    "id": "48749051-software-engineer"
+  },
+  {
+    "position": "Backend Software Engineer",
+    "positionType": [
+      "backEnd"
+    ],
+    "company": "Enveritas",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": "$135-$155k",
+    "sourceId": "48750829",
+    "id": "48750829-backend-software-engineer"
+  },
+  {
+    "position": "Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Vitalize",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": "160k - 270k + equity",
+    "sourceId": "48749843",
+    "id": "48749843-engineer"
+  },
+  {
+    "position": "Head of Data Acquisition",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Radical Numerics",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48766311",
+    "id": "48766311-head-of-data-acquisition"
+  },
+  {
+    "position": "Member of Technical Staff, AI Supercomputing",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Radical Numerics",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      },
+      {
+        "country": "Japan",
+        "city": "Tokyo"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48766311",
+    "id": "48766311-member-of-technical-staff-ai-supercomputing"
+  },
+  {
+    "position": "Member of Technical Staff, AI Bio",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Radical Numerics",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48766311",
+    "id": "48766311-member-of-technical-staff-ai-bio"
+  },
+  {
+    "position": "Member of Technical Staff, Biosecurity",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Radical Numerics",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48766311",
+    "id": "48766311-member-of-technical-staff-biosecurity"
+  },
+  {
+    "position": "Member of Technical Staff, Computational Biology",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Radical Numerics",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48766311",
+    "id": "48766311-member-of-technical-staff-computational-biology"
+  },
+  {
+    "position": "Member of Technical Staff, Inference",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Radical Numerics",
+    "type": [],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48766311",
+    "id": "48766311-member-of-technical-staff-inference"
+  },
+  {
+    "position": "Member of Technical Staff, Infrastructure and Training Systems",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Radical Numerics",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      },
+      {
+        "country": "Japan",
+        "city": "Tokyo"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48766311",
+    "id": "48766311-member-of-technical-staff-infrastructure-and-training-systems"
+  },
+  {
+    "position": "Member of Technical Staff, Mechanistic Interpretability",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Radical Numerics",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      },
+      {
+        "country": "Japan",
+        "city": "Tokyo"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48766311",
+    "id": "48766311-member-of-technical-staff-mechanistic-interpretability"
+  },
+  {
+    "position": "Member of Technical Staff, Post-Training",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Radical Numerics",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      },
+      {
+        "country": "Japan",
+        "city": "Tokyo"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48766311",
+    "id": "48766311-member-of-technical-staff-post-training"
+  },
+  {
+    "position": "Member of Technical Staff, Pretraining Science",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Radical Numerics",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      },
+      {
+        "country": "Japan",
+        "city": "Tokyo"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48766311",
+    "id": "48766311-member-of-technical-staff-pretraining-science"
+  },
+  {
+    "position": "Data Engineer / Platform Owner",
+    "positionType": [
+      "engineering",
+      "backEnd"
+    ],
+    "company": "L'Occitane en Provence North America",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "New York City"
+      }
+    ],
+    "salary": "$110k ~ $120k (negotiable)",
+    "sourceId": "48769989",
+    "id": "48769989-data-engineer-platform-owner"
+  },
+  {
+    "position": "Senior Software Engineer",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "Makeship",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "Canada",
+        "city": "Toronto"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48761138",
+    "id": "48761138-senior-software-engineer"
+  },
+  {
+    "position": "Staff Engineer, Systems & Integrations",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Makeship",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "Canada",
+        "city": "Toronto"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48761138",
+    "id": "48761138-staff-engineer-systems-integrations"
+  },
+  {
+    "position": "Trust & Safety Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Runway",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "New York City"
+      },
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      },
+      {
+        "country": "United States",
+        "city": "Seattle"
+      },
+      {
+        "country": "United Kingdom",
+        "city": "London"
+      },
+      {
+        "country": "European Union"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48761457",
+    "id": "48761457-trust-safety-engineer"
+  },
+  {
+    "position": "Senior Product Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Kyra Health",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48748393",
+    "id": "48748393-senior-product-engineer"
+  },
+  {
+    "position": "Staff Product Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Kyra Health",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48748393",
+    "id": "48748393-staff-product-engineer"
+  },
+  {
+    "position": "Rust Engineering Consultant",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Mainmatter",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "European Union"
+      }
+    ],
+    "salary": "80-100k€",
+    "sourceId": "48761473",
+    "id": "48761473-rust-engineering-consultant"
+  },
+  {
+    "position": "Software Developer",
+    "positionType": [
+      "engineering",
+      "backEnd",
+      "frontEnd",
+      "fullStack"
+    ],
+    "company": "Odoo",
+    "type": [
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "Belgium"
+      }
+    ],
+    "salary": "Visa + €10k Signing Bonus",
+    "sourceId": "48772521",
+    "id": "48772521-software-developer"
+  },
+  {
+    "position": "C#/.NET Developer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "RedLine Solutions, Inc.",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48750675",
+    "id": "48750675-c-net-developer"
+  },
+  {
+    "position": "Senior Software Engineer (AI Applications)",
+    "positionType": [
+      "fullStack",
+      "engineering"
+    ],
+    "company": "Cambium Assessment Inc",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": "$140K - $170K",
+    "sourceId": "48764956",
+    "id": "48764956-senior-software-engineer-ai-applications"
+  },
+  {
+    "position": "Payment Platform DevOps Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "SouthState Bank",
+    "type": [
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Charleston"
+      },
+      {
+        "country": "United States",
+        "city": "Columbia"
+      },
+      {
+        "country": "United States",
+        "city": "Winter Haven"
+      },
+      {
+        "country": "United States",
+        "city": "McKinney"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48762099",
+    "id": "48762099-payment-platform-devops-engineer"
+  },
+  {
+    "position": "AI Platform Engineer 1",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "SouthState Bank",
+    "type": [
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Charleston"
+      },
+      {
+        "country": "United States",
+        "city": "Columbia"
+      },
+      {
+        "country": "United States",
+        "city": "Winter Haven"
+      },
+      {
+        "country": "United States",
+        "city": "McKinney"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48762099",
+    "id": "48762099-ai-platform-engineer-1"
+  },
+  {
+    "position": "AI Product Engineer",
+    "positionType": [
+      "fullStack",
+      "engineering"
+    ],
+    "company": "Vertex Inc",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": "$104.9k–$136.4k + bonus",
+    "sourceId": "48762195",
+    "id": "48762195-ai-product-engineer"
+  },
+  {
+    "position": "Software Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Oklo",
+    "type": [
+      "remote",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      },
+      {
+        "country": "United States",
+        "city": "Santa Clara"
+      },
+      {
+        "country": "United States",
+        "city": "Brooklyn"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48762979",
+    "id": "48762979-software-engineer"
+  },
+  {
+    "position": "Senior Software Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Oklo",
+    "type": [
+      "remote",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      },
+      {
+        "country": "United States",
+        "city": "Santa Clara"
+      },
+      {
+        "country": "United States",
+        "city": "Brooklyn"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48762979",
+    "id": "48762979-senior-software-engineer"
+  },
+  {
+    "position": "Senior Backend / Platform Engineer",
+    "positionType": [
+      "backEnd",
+      "engineering"
+    ],
+    "company": "Tower",
+    "type": [
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United Kingdom",
+        "city": "London"
+      },
+      {
+        "country": "Germany",
+        "city": "Berlin"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48760900",
+    "id": "48760900-senior-backend-platform-engineer"
   },
   {
     "position": "Founding Engineer (Full-Stack)",
@@ -483,471 +2439,294 @@ export const jobs: IJob[] = [
       }
     ],
     "salary": "Market with mix of base + bonus + meaningful equity",
-    "sourceId": "48358793",
-    "id": "48358793-founding-engineer-full-stack"
+    "sourceId": "48765345",
+    "id": "48765345-founding-engineer-full-stack"
   },
   {
-    "position": "Senior infrastructure engineer",
+    "position": "full-stack engineer",
     "positionType": [
-      "engineering"
+      "fullStack"
     ],
-    "company": "SecureBio Detection",
+    "company": "ashmere",
     "type": [
-      "onSite",
-      "remote"
+      "onSite"
     ],
     "locations": [
       {
         "country": "United States",
-        "city": "Cambridge"
+        "city": "New York City"
       }
     ],
     "salary": null,
-    "sourceId": "48361869",
-    "id": "48361869-senior-infrastructure-engineer"
+    "sourceId": "48766112",
+    "id": "48766112-full-stack-engineer"
   },
   {
-    "position": "Senior software engineer",
+    "position": "applied AI engineer",
     "positionType": [
       "engineering"
     ],
-    "company": "SecureBio Detection",
+    "company": "ashmere",
     "type": [
-      "onSite",
-      "remote"
+      "onSite"
     ],
     "locations": [
       {
         "country": "United States",
-        "city": "Cambridge"
+        "city": "New York City"
       }
     ],
     "salary": null,
-    "sourceId": "48361869",
-    "id": "48361869-senior-software-engineer"
+    "sourceId": "48766112",
+    "id": "48766112-applied-ai-engineer"
   },
   {
-    "position": "Perception Engineer",
+    "position": "UI designer",
     "positionType": [
-      "engineering"
+      "design"
     ],
-    "company": "Aquabyte",
+    "company": "ashmere",
     "type": [
-      "hybrid",
-      "remote"
+      "onSite"
     ],
     "locations": [
       {
         "country": "United States",
-        "city": "San Francisco"
+        "city": "New York City"
       }
     ],
     "salary": null,
-    "sourceId": "48402193",
-    "id": "48402193-perception-engineer"
+    "sourceId": "48766112",
+    "id": "48766112-ui-designer"
   },
   {
-    "position": "Sr. Software Engineer - Platform Engineer",
+    "position": "Senior Ruby Developer",
     "positionType": [
-      "engineering",
-      "fullStack"
-    ],
-    "company": "Aquabyte",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48402193",
-    "id": "48402193-sr-software-engineer-platform-engineer"
-  },
-  {
-    "position": "Full-Stack Software Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "PrairieLearn",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "$100k-$140k depending on experience",
-    "sourceId": "48359483",
-    "id": "48359483-full-stack-software-engineer"
-  },
-  {
-    "position": "Senior Full-Stack Contractor",
-    "positionType": [
-      "fullStack",
+      "backEnd",
       "engineering"
     ],
-    "company": "ReadiFinancial",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Canada"
-      }
-    ],
-    "salary": "CAD $130-180/hr",
-    "sourceId": "48357897",
-    "id": "48357897-senior-full-stack-contractor"
-  },
-  {
-    "position": "Analytics Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Trax",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Philippines"
-      },
-      {
-        "country": "Costa Rica"
-      },
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360825",
-    "id": "48360825-analytics-engineer"
-  },
-  {
-    "position": "Senior Data Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Climate Friendly",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "Australia",
-        "city": "Sydney"
-      },
-      {
-        "country": "Australia",
-        "city": "Melbourne"
-      },
-      {
-        "country": "Australia",
-        "city": "Brisbane"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48408037",
-    "id": "48408037-senior-data-engineer"
-  },
-  {
-    "position": "Software Engineer",
-    "positionType": [
-      "engineering",
-      "fullStack"
-    ],
-    "company": "Relevant Healthcare",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360006",
-    "id": "48360006-software-engineer"
-  },
-  {
-    "position": "Senior Fullstack Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Sequent Tech",
+    "company": "Perry Street Software",
     "type": [
       "remote"
     ],
     "locations": [],
     "salary": null,
-    "sourceId": "48404229",
-    "id": "48404229-senior-fullstack-engineer"
+    "sourceId": "48762674",
+    "id": "48762674-senior-ruby-developer"
   },
   {
-    "position": "Field Engineer",
+    "position": "Founding Software Engineer",
     "positionType": [
       "engineering"
     ],
-    "company": "Neuralk AI",
+    "company": "Flotive AI",
     "type": [
-      "hybrid"
+      "onSite"
     ],
     "locations": [
       {
-        "country": "France",
-        "city": "Paris"
-      },
+        "country": "United States",
+        "city": "Jersey City"
+      }
+    ],
+    "salary": "$150-180k + equity",
+    "sourceId": "48778245",
+    "id": "48778245-founding-software-engineer"
+  },
+  {
+    "position": "Senior Flutter/Dart Product Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Racct",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48787393",
+    "id": "48787393-senior-flutter-dart-product-engineer"
+  },
+  {
+    "position": "Founding Full-stack AI Engineer",
+    "positionType": [
+      "fullStack",
+      "engineering"
+    ],
+    "company": "Logen.io",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "India",
+        "city": "Bengaluru"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48760654",
+    "id": "48760654-founding-full-stack-ai-engineer"
+  },
+  {
+    "position": "Full-stack Product Engineer",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "Featurebase",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "European Union"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48772824",
+    "id": "48772824-full-stack-product-engineer"
+  },
+  {
+    "position": "Founding Engineer, Data & Retrieval",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "PostSilo",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": "$175k+ and FE level equity",
+    "sourceId": "48782067",
+    "id": "48782067-founding-engineer-data-retrieval"
+  },
+  {
+    "position": "Founding Engineer, AI Systems & Infrastructure",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "PostSilo",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": "$175k+ and FE level equity",
+    "sourceId": "48782067",
+    "id": "48782067-founding-engineer-ai-systems-infrastructure"
+  },
+  {
+    "position": "Performance Engineering Manager",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "G-Research",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
       {
         "country": "United Kingdom",
         "city": "London"
       }
     ],
     "salary": null,
-    "sourceId": "48383195",
-    "id": "48383195-field-engineer"
+    "sourceId": "48759226",
+    "id": "48759226-performance-engineering-manager"
   },
   {
-    "position": "Backend Engineer",
+    "position": "ML Performance Engineer",
     "positionType": [
-      "backEnd",
       "engineering"
     ],
-    "company": "Neurotone.ai",
+    "company": "G-Research",
     "type": [
-      "remote"
+      "onSite"
     ],
     "locations": [
       {
-        "country": "United States"
-      },
-      {
-        "country": "United Kingdom"
+        "country": "United Kingdom",
+        "city": "London"
       }
     ],
     "salary": null,
-    "sourceId": "48359301",
-    "id": "48359301-backend-engineer"
+    "sourceId": "48759226",
+    "id": "48759226-ml-performance-engineer"
   },
   {
-    "position": "QA Specialist",
+    "position": "Quant Developer",
     "positionType": [
       "engineering"
     ],
-    "company": "Neurotone.ai",
+    "company": "G-Research",
     "type": [
-      "remote"
+      "onSite"
     ],
     "locations": [
       {
-        "country": "United States"
-      },
-      {
-        "country": "United Kingdom"
+        "country": "United Kingdom",
+        "city": "London"
       }
     ],
     "salary": null,
-    "sourceId": "48359301",
-    "id": "48359301-qa-specialist"
+    "sourceId": "48759226",
+    "id": "48759226-quant-developer"
   },
   {
-    "position": "Full Stack Engineer",
+    "position": "Machine Learning Engineer",
     "positionType": [
-      "fullStack"
+      "engineering"
     ],
-    "company": "Twindo (Formerly Canvas; The Spatial Computing Company)",
+    "company": "G-Research",
     "type": [
-      "remote"
+      "onSite"
     ],
     "locations": [
       {
-        "country": "Latin America"
+        "country": "United Kingdom",
+        "city": "London"
       }
     ],
     "salary": null,
-    "sourceId": "48358258",
-    "id": "48358258-full-stack-engineer"
+    "sourceId": "48759226",
+    "id": "48759226-machine-learning-engineer"
   },
   {
-    "position": "Backend Engineer",
+    "position": "Production Software Engineer",
     "positionType": [
-      "backEnd"
+      "engineering"
     ],
-    "company": "Twindo (Formerly Canvas; The Spatial Computing Company)",
+    "company": "G-Research",
     "type": [
-      "remote"
+      "onSite"
     ],
     "locations": [
       {
-        "country": "Latin America"
+        "country": "United Kingdom",
+        "city": "London"
       }
     ],
     "salary": null,
-    "sourceId": "48358258",
-    "id": "48358258-backend-engineer"
+    "sourceId": "48759226",
+    "id": "48759226-production-software-engineer"
   },
   {
-    "position": "Staff Full Stack Software Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Seeq",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": "$170k + annual cash bonus + equity. Salary range for US-based; local adjustments for other countries.",
-    "sourceId": "48362756",
-    "id": "48362756-staff-full-stack-software-engineer"
-  },
-  {
-    "position": "Staff Frontend Design Systems Engineer",
-    "positionType": [
-      "frontEnd",
-      "design"
-    ],
-    "company": "Seeq",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": "$170k + annual cash bonus + equity. Salary range for US-based; local adjustments for other countries.",
-    "sourceId": "48362756",
-    "id": "48362756-staff-frontend-design-systems-engineer"
-  },
-  {
-    "position": "Staff Software Engineer - Developer Experience",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Seeq",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": "$170k + annual cash bonus + equity. Salary range for US-based; local adjustments for other countries.",
-    "sourceId": "48362756",
-    "id": "48362756-staff-software-engineer-developer-experience"
-  },
-  {
-    "position": "Staff Software Engineer - Platform",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Seeq",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": "$170k + annual cash bonus + equity. Salary range for US-based; local adjustments for other countries.",
-    "sourceId": "48362756",
-    "id": "48362756-staff-software-engineer-platform"
-  },
-  {
-    "position": "Senior Back End Engineer",
-    "positionType": [
-      "backEnd",
-      "engineering"
-    ],
-    "company": "Fold",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "Competitive salary + equity",
-    "sourceId": "48400258",
-    "id": "48400258-senior-back-end-engineer"
-  },
-  {
-    "position": "Design Engineer",
-    "positionType": [
-      "design",
-      "frontEnd"
-    ],
-    "company": "vvd",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48416066",
-    "id": "48416066-design-engineer"
-  },
-  {
-    "position": "Senior Platform Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Subtle Medical",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359673",
-    "id": "48359673-senior-platform-engineer"
-  },
-  {
-    "position": "Machine Learning Software Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Subtle Medical",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359673",
-    "id": "48359673-machine-learning-software-engineer"
-  },
-  {
-    "position": "Senior Python Backend Engineer",
-    "positionType": [
-      "backEnd",
-      "engineering"
-    ],
-    "company": "Reef Technologies",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "EMEA"
-      },
-      {
-        "country": "APAC"
-      }
-    ],
-    "salary": "45-70 USD or 180-280 PLN per hour",
-    "sourceId": "48399564",
-    "id": "48399564-senior-python-backend-engineer"
-  },
-  {
-    "position": "Full-stack Engineer",
+    "position": "Senior Software Engineer",
     "positionType": [
       "fullStack",
       "engineering"
     ],
-    "company": "Ashmere",
+    "company": "Lantern",
     "type": [
       "onSite"
     ],
@@ -958,308 +2737,16 @@ export const jobs: IJob[] = [
       }
     ],
     "salary": null,
-    "sourceId": "48404934",
-    "id": "48404934-full-stack-engineer"
+    "sourceId": "48751092",
+    "id": "48751092-senior-software-engineer"
   },
   {
-    "position": "Applied AI Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Ashmere",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48404934",
-    "id": "48404934-applied-ai-engineer"
-  },
-  {
-    "position": "UI Designer",
-    "positionType": [
-      "design"
-    ],
-    "company": "Ashmere",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48404934",
-    "id": "48404934-ui-designer"
-  },
-  {
-    "position": "Senior Software Developer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Tapitab Inc.",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": "competitive salary + meaningful equity or competitive hourly/daily rate",
-    "sourceId": "48399570",
-    "id": "48399570-senior-software-developer"
-  },
-  {
-    "position": "Staff Software Engineer",
-    "positionType": [
-      "backEnd",
-      "engineering"
-    ],
-    "company": "Pelotech",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "$160k–$210k base salary + 10–20% profit sharing + full benefits",
-    "sourceId": "48402188",
-    "id": "48402188-staff-software-engineer"
-  },
-  {
-    "position": "Radar AI Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Husense",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "Netherlands",
-        "city": "The Hague"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48372049",
-    "id": "48372049-radar-ai-engineer"
-  },
-  {
-    "position": "Senior Product Software Developer, Frontend / Fullstack",
-    "positionType": [
-      "frontEnd",
-      "fullStack"
-    ],
-    "company": "Hive",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Canada"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48403229",
-    "id": "48403229-senior-product-software-developer-frontend-fullstack"
-  },
-  {
-    "position": "Engineering Manager, Platform & Services",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Hive",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Canada"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48403229",
-    "id": "48403229-engineering-manager-platform-services"
-  },
-  {
-    "position": "Staff Database Reliability Engineer - PostgreSQL",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Stream",
-    "type": [
-      "remote",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "Netherlands",
-        "city": "Amsterdam"
-      },
-      {
-        "country": "Europe"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48399822",
-    "id": "48399822-staff-database-reliability-engineer-postgresql"
-  },
-  {
-    "position": "Senior Product Engineer",
-    "positionType": [
-      "engineering",
-      "frontEnd"
-    ],
-    "company": "Uber",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "The Netherlands",
-        "city": "Amsterdam"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48370791",
-    "id": "48370791-senior-product-engineer"
-  },
-  {
-    "position": "Founding AI Infrastructure Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Ohr",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "$150k-$220k+ plus meaningful equity",
-    "sourceId": "48403261",
-    "id": "48403261-founding-ai-infrastructure-engineer"
-  },
-  {
-    "position": "Senior Software Engineer - Full Stack, Technical Lead / Software Engineer",
+    "position": "Junior Software Engineer",
     "positionType": [
       "fullStack",
       "engineering"
     ],
-    "company": "Pango",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "Sweden",
-        "city": "Stockholm"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48367741",
-    "id": "48367741-senior-software-engineer-full-stack-technical-lead-software-engineer"
-  },
-  {
-    "position": "Senior Backend",
-    "positionType": [
-      "backEnd"
-    ],
-    "company": "Anyfin",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "Sweden",
-        "city": "Stockholm"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48397115",
-    "id": "48397115-senior-backend"
-  },
-  {
-    "position": "Full-Stack",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Anyfin",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "Sweden",
-        "city": "Stockholm"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48397115",
-    "id": "48397115-full-stack"
-  },
-  {
-    "position": "Cloud",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Anyfin",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "Sweden",
-        "city": "Stockholm"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48397115",
-    "id": "48397115-cloud"
-  },
-  {
-    "position": "Data Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Anyfin",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "Sweden",
-        "city": "Stockholm"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48397115",
-    "id": "48397115-data-engineer"
-  },
-  {
-    "position": "Senior Backend Engineer",
-    "positionType": [
-      "backEnd"
-    ],
-    "company": "Piramidal",
+    "company": "Lantern",
     "type": [
       "onSite"
     ],
@@ -1270,15 +2757,16 @@ export const jobs: IJob[] = [
       }
     ],
     "salary": null,
-    "sourceId": "48399476",
-    "id": "48399476-senior-backend-engineer"
+    "sourceId": "48751092",
+    "id": "48751092-junior-software-engineer"
   },
   {
-    "position": "Senior Infra Engineer",
+    "position": "New Grad Software Engineer",
     "positionType": [
+      "fullStack",
       "engineering"
     ],
-    "company": "Piramidal",
+    "company": "Lantern",
     "type": [
       "onSite"
     ],
@@ -1289,92 +2777,29 @@ export const jobs: IJob[] = [
       }
     ],
     "salary": null,
-    "sourceId": "48399476",
-    "id": "48399476-senior-infra-engineer"
+    "sourceId": "48751092",
+    "id": "48751092-new-grad-software-engineer"
   },
   {
-    "position": "Senior Frontend Engineer",
-    "positionType": [
-      "frontEnd"
-    ],
-    "company": "Piramidal",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48399476",
-    "id": "48399476-senior-frontend-engineer"
-  },
-  {
-    "position": "Senior Application Security Analyst",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "IDEXX",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Netherlands"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48361273",
-    "id": "48361273-senior-application-security-analyst"
-  },
-  {
-    "position": "Cloud Security Architect",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "IDEXX",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Netherlands"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48361273",
-    "id": "48361273-cloud-security-architect"
-  },
-  {
-    "position": "Backend Engineer",
+    "position": "Sr. Data Engineer I",
     "positionType": [
       "backEnd",
       "engineering"
     ],
-    "company": "Xata",
+    "company": "DoubleVerify (DV Scibids)",
     "type": [
-      "remote"
+      "onSite",
+      "hybrid"
     ],
     "locations": [
       {
-        "country": "Europe"
-      },
-      {
         "country": "United States",
-        "city": "East Coast"
+        "city": "New York"
       }
     ],
-    "salary": null,
-    "sourceId": "48403593",
-    "id": "48403593-backend-engineer"
+    "salary": "$89K–$178K",
+    "sourceId": "48749072",
+    "id": "48749072-sr-data-engineer-i"
   },
   {
     "position": "Research Engineer",
@@ -1395,42 +2820,364 @@ export const jobs: IJob[] = [
       }
     ],
     "salary": null,
-    "sourceId": "48394992",
-    "id": "48394992-research-engineer"
+    "sourceId": "48755303",
+    "id": "48755303-research-engineer"
   },
   {
-    "position": "Cloud/AI Chief Architect",
+    "position": "Graphics Software Engineer",
     "positionType": [
       "engineering"
     ],
-    "company": "Neuro Health Collective",
+    "company": "Johns Hopkins Applied Physics Laboratory",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Laurel"
+      }
+    ],
+    "salary": "$105k-$290k",
+    "sourceId": "48765578",
+    "id": "48765578-graphics-software-engineer"
+  },
+  {
+    "position": "Business Operations Associate",
+    "positionType": [
+      "other"
+    ],
+    "company": "Aurelius Systems",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": "$90K–$120K",
+    "sourceId": "48751162",
+    "id": "48751162-business-operations-associate"
+  },
+  {
+    "position": "Sr. ML Engineer, Perception",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Aurelius Systems",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": "$190K–$222K",
+    "sourceId": "48751162",
+    "id": "48751162-sr-ml-engineer-perception"
+  },
+  {
+    "position": "Sr. Robotics Software Engineer, Controls",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Aurelius Systems",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": "$140K–$180K",
+    "sourceId": "48751162",
+    "id": "48751162-sr-robotics-software-engineer-controls"
+  },
+  {
+    "position": "Lead, Forward Deployed Engineer (FDE)",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Aurelius Systems",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": "$160K–$210K",
+    "sourceId": "48751162",
+    "id": "48751162-lead-forward-deployed-engineer-fde"
+  },
+  {
+    "position": "Sr. Robotics Software Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Aurelius Systems",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": "$185K–$235K",
+    "sourceId": "48751162",
+    "id": "48751162-sr-robotics-software-engineer"
+  },
+  {
+    "position": "Electrical Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Aurelius Systems",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": "$130K–$170K",
+    "sourceId": "48751162",
+    "id": "48751162-electrical-engineer"
+  },
+  {
+    "position": "Forward Deployed Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Confido",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "New York City"
+      }
+    ],
+    "salary": "$200-270k BASE",
+    "sourceId": "48775598",
+    "id": "48775598-forward-deployed-engineer"
+  },
+  {
+    "position": "Lead Platform Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Odin",
     "type": [
       "remote"
     ],
     "locations": [
       {
-        "country": "United States",
-        "city": "Washington DC"
+        "country": "United States"
       }
     ],
     "salary": null,
-    "sourceId": "48358992",
-    "id": "48358992-cloud-ai-chief-architect"
+    "sourceId": "48748402",
+    "id": "48748402-lead-platform-engineer"
   },
   {
-    "position": "Full-Stack CV/ML Systems Engineer",
+    "position": "Lead Software Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Odin",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48748402",
+    "id": "48748402-lead-software-engineer"
+  },
+  {
+    "position": "Backend Software Engineer",
+    "positionType": [
+      "backEnd",
+      "engineering"
+    ],
+    "company": "Amo",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "France",
+        "city": "Paris"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48774583",
+    "id": "48774583-backend-software-engineer"
+  },
+  {
+    "position": "iOS Software Engineer",
+    "positionType": [
+      "frontEnd",
+      "engineering"
+    ],
+    "company": "Amo",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "France",
+        "city": "Paris"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48774583",
+    "id": "48774583-ios-software-engineer"
+  },
+  {
+    "position": "Android Software Engineer",
+    "positionType": [
+      "frontEnd",
+      "engineering"
+    ],
+    "company": "Amo",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "France",
+        "city": "Paris"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48774583",
+    "id": "48774583-android-software-engineer"
+  },
+  {
+    "position": "Principal Front-End Engineer (Growth)",
+    "positionType": [
+      "frontEnd"
+    ],
+    "company": "3Play Media",
+    "type": [
+      "hybrid",
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Boston"
+      }
+    ],
+    "salary": "$200–250k + bonus + equity",
+    "sourceId": "48767397",
+    "id": "48767397-principal-front-end-engineer-growth"
+  },
+  {
+    "position": "Staff Software Engineer",
     "positionType": [
       "fullStack",
       "engineering"
     ],
-    "company": "Laminar Engineering",
+    "company": "Obsidian Security",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Philadelphia"
+      },
+      {
+        "country": "United States",
+        "city": "Palo Alto"
+      }
+    ],
+    "salary": "$176k-$196k + equity + 401k",
+    "sourceId": "48754582",
+    "id": "48754582-staff-software-engineer"
+  },
+  {
+    "position": "Senior Software Engineer",
+    "positionType": [
+      "engineering",
+      "backEnd",
+      "fullStack"
+    ],
+    "company": "WME (William Morris Endeavor)",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": "$150,000 - $200,000 + Bonus",
+    "sourceId": "48754223",
+    "id": "48754223-senior-software-engineer"
+  },
+  {
+    "position": "Senior DevOps Engineer, Applications",
+    "positionType": [
+      "engineering",
+      "backEnd"
+    ],
+    "company": "WME (William Morris Endeavor)",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": "$131,250 - $175,000 + Bonus",
+    "sourceId": "48754223",
+    "id": "48754223-senior-devops-engineer-applications"
+  },
+  {
+    "position": "Member of Technical Staff",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Adyen",
+    "type": [
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48754324",
+    "id": "48754324-member-of-technical-staff"
+  },
+  {
+    "position": "Staff Software Engineer",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "AveryIQ",
     "type": [
       "remote"
     ],
     "locations": [],
     "salary": null,
-    "sourceId": "48362073",
-    "id": "48362073-full-stack-cv-ml-systems-engineer"
+    "sourceId": "48753025",
+    "id": "48753025-staff-software-engineer"
   },
   {
     "position": "Forward Deployed Engineer",
@@ -1438,90 +3185,864 @@ export const jobs: IJob[] = [
       "backEnd",
       "engineering"
     ],
-    "company": "kinxshn",
+    "company": "Kinxshn",
     "type": [
       "remote"
     ],
-    "locations": [],
+    "locations": [
+      {
+        "country": "Europe"
+      }
+    ],
     "salary": null,
-    "sourceId": "48362294",
-    "id": "48362294-forward-deployed-engineer"
+    "sourceId": "48775022",
+    "id": "48775022-forward-deployed-engineer"
   },
   {
-    "position": "Brand Strategy Director",
-    "positionType": [
-      "marketing"
-    ],
-    "company": "We The Flywheel",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48357766",
-    "id": "48357766-brand-strategy-director"
-  },
-  {
-    "position": "AI-Native Tech & Growth Director",
+    "position": "Senior Software Engineer",
     "positionType": [
       "engineering",
+      "backEnd",
+      "frontEnd",
+      "fullStack"
+    ],
+    "company": "Storepass",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Burlingame"
+      }
+    ],
+    "salary": "$100k-$150k",
+    "sourceId": "48749995",
+    "id": "48749995-senior-software-engineer"
+  },
+  {
+    "position": "Quality Assurance",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Storepass",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Burlingame"
+      }
+    ],
+    "salary": "$45k-$70k",
+    "sourceId": "48749995",
+    "id": "48749995-quality-assurance"
+  },
+  {
+    "position": "Sales and Marketing",
+    "positionType": [
+      "sales",
       "marketing"
     ],
-    "company": "We The Flywheel",
+    "company": "Storepass",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Burlingame"
+      }
+    ],
+    "salary": "$45k-$75k",
+    "sourceId": "48749995",
+    "id": "48749995-sales-and-marketing"
+  },
+  {
+    "position": "Customer Service Representative",
+    "positionType": [
+      "other"
+    ],
+    "company": "Storepass",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Burlingame"
+      }
+    ],
+    "salary": "$40k-$55k",
+    "sourceId": "48749995",
+    "id": "48749995-customer-service-representative"
+  },
+  {
+    "position": "Product Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "PostHog",
     "type": [
       "remote"
     ],
     "locations": [],
     "salary": null,
-    "sourceId": "48357766",
-    "id": "48357766-ai-native-tech-growth-director"
+    "sourceId": "48765532",
+    "id": "48765532-product-engineer"
   },
   {
-    "position": "Brand Visibility Lead",
+    "position": "Clickhouse Operations Engineer",
     "positionType": [
-      "marketing"
+      "engineering"
     ],
-    "company": "We The Flywheel",
+    "company": "PostHog",
     "type": [
       "remote"
     ],
     "locations": [],
     "salary": null,
-    "sourceId": "48357766",
-    "id": "48357766-brand-visibility-lead"
+    "sourceId": "48765532",
+    "id": "48765532-clickhouse-operations-engineer"
   },
   {
-    "position": "Entry-Level Growth Marketer",
+    "position": "Backend Engineer",
+    "positionType": [
+      "backEnd"
+    ],
+    "company": "PostHog",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48765532",
+    "id": "48765532-backend-engineer"
+  },
+  {
+    "position": "Technical Customer Success Manager",
+    "positionType": [
+      "sales"
+    ],
+    "company": "PostHog",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48765532",
+    "id": "48765532-technical-customer-success-manager"
+  },
+  {
+    "position": "Technical Account Executive",
+    "positionType": [
+      "sales"
+    ],
+    "company": "PostHog",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48765532",
+    "id": "48765532-technical-account-executive"
+  },
+  {
+    "position": "Developer Marketer",
     "positionType": [
       "marketing"
     ],
-    "company": "We The Flywheel",
+    "company": "PostHog",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48765532",
+    "id": "48765532-developer-marketer"
+  },
+  {
+    "position": "BDR Team Lead",
+    "positionType": [
+      "sales"
+    ],
+    "company": "PostHog",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48765532",
+    "id": "48765532-bdr-team-lead"
+  },
+  {
+    "position": "Revenue Operations Manager",
+    "positionType": [
+      "sales"
+    ],
+    "company": "PostHog",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48765532",
+    "id": "48765532-revenue-operations-manager"
+  },
+  {
+    "position": "Founding Engineer",
+    "positionType": [
+      "engineering",
+      "fullStack"
+    ],
+    "company": "Stealth",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "New York City"
+      }
+    ],
+    "salary": "$180k-$220k base + equity",
+    "sourceId": "48753050",
+    "id": "48753050-founding-engineer"
+  },
+  {
+    "position": "Product Engineer",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "Phaselaw",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48757141",
+    "id": "48757141-product-engineer"
+  },
+  {
+    "position": "iOS Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Beacon AI",
+    "type": [
+      "hybrid",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Carlos"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48749482",
+    "id": "48749482-ios-engineer"
+  },
+  {
+    "position": "Senior Security Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Beacon AI",
+    "type": [
+      "hybrid",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Carlos"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48749482",
+    "id": "48749482-senior-security-engineer"
+  },
+  {
+    "position": "Infra/Backend Engineer",
+    "positionType": [
+      "backEnd",
+      "engineering"
+    ],
+    "company": "Beacon AI",
+    "type": [
+      "hybrid",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Carlos"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48749482",
+    "id": "48749482-infra-backend-engineer"
+  },
+  {
+    "position": "WebApp/FrontEnd Engineer",
+    "positionType": [
+      "frontEnd",
+      "engineering"
+    ],
+    "company": "Beacon AI",
+    "type": [
+      "hybrid",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Carlos"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48749482",
+    "id": "48749482-webapp-frontend-engineer"
+  },
+  {
+    "position": "Lead Autonomy/Robotics Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Beacon AI",
+    "type": [
+      "hybrid",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Carlos"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48749482",
+    "id": "48749482-lead-autonomy-robotics-engineer"
+  },
+  {
+    "position": "Senior Software Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Hiya",
     "type": [
       "hybrid"
     ],
     "locations": [
       {
-        "country": "Vietnam",
-        "city": "Ho Chi Minh City"
+        "country": "United States",
+        "city": "Seattle"
+      },
+      {
+        "country": "United Kingdom",
+        "city": "London"
       }
     ],
     "salary": null,
-    "sourceId": "48357766",
-    "id": "48357766-entry-level-growth-marketer"
+    "sourceId": "48752727",
+    "id": "48752727-senior-software-engineer"
   },
   {
-    "position": "Sr. Security Engineer",
+    "position": "Sr.Product Manager",
+    "positionType": [
+      "other"
+    ],
+    "company": "Hiya",
+    "type": [
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Seattle"
+      },
+      {
+        "country": "United Kingdom",
+        "city": "London"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48752727",
+    "id": "48752727-sr.product-manager"
+  },
+  {
+    "position": "Principal Product Manager",
+    "positionType": [
+      "other"
+    ],
+    "company": "Hiya",
+    "type": [
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Seattle"
+      },
+      {
+        "country": "United Kingdom",
+        "city": "London"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48752727",
+    "id": "48752727-principal-product-manager"
+  },
+  {
+    "position": "Senior Software Engineer",
     "positionType": [
       "engineering"
     ],
-    "company": "Odyssey",
+    "company": "Aurora Energy Research",
     "type": [
-      "remote",
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United Kingdom",
+        "city": "Oxford"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48758445",
+    "id": "48758445-senior-software-engineer"
+  },
+  {
+    "position": "Software Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Aurora Energy Research",
+    "type": [
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United Kingdom",
+        "city": "Oxford"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48758445",
+    "id": "48758445-software-engineer"
+  },
+  {
+    "position": "Senior / Staff Software Engineer",
+    "positionType": [
+      "fullStack",
+      "engineering"
+    ],
+    "company": "Rivio.ai",
+    "type": [
+      "hybrid",
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": "$200-$250k + equity",
+    "sourceId": "48755638",
+    "id": "48755638-senior-staff-software-engineer"
+  },
+  {
+    "position": "Senior Full-Stack Engineer",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "OpenRent",
+    "type": [
+      "onSite",
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United Kingdom",
+        "city": "London"
+      }
+    ],
+    "salary": "110k+ (based on experience) + quarterly bonus",
+    "sourceId": "48752047",
+    "id": "48752047-senior-full-stack-engineer"
+  },
+  {
+    "position": "Full-Stack Software Engineer",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "Rangeview",
+    "type": [
       "onSite"
     ],
     "locations": [
       {
+        "country": "United States",
+        "city": "El Segundo"
+      }
+    ],
+    "salary": "$108k–$154k + equity",
+    "sourceId": "48756101",
+    "id": "48756101-full-stack-software-engineer"
+  },
+  {
+    "position": "Senior AI Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Ro",
+    "type": [
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "New York City"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48754333",
+    "id": "48754333-senior-ai-engineer"
+  },
+  {
+    "position": "Mobile Engineer",
+    "positionType": [
+      "engineering",
+      "frontEnd"
+    ],
+    "company": "Klutch AI",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Seattle"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48767937",
+    "id": "48767937-mobile-engineer"
+  },
+  {
+    "position": "Full Stack Engineer",
+    "positionType": [
+      "fullStack",
+      "engineering"
+    ],
+    "company": "Kanary",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
         "country": "United States"
+      }
+    ],
+    "salary": "Competitive Salary + Equity + Benefits",
+    "sourceId": "48752617",
+    "id": "48752617-full-stack-engineer"
+  },
+  {
+    "position": "Data Scientist",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Recycleye",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United Kingdom",
+        "city": "London"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48760559",
+    "id": "48760559-data-scientist"
+  },
+  {
+    "position": "Partnership Support Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Wheelhouse",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48757527",
+    "id": "48757527-partnership-support-engineer"
+  },
+  {
+    "position": "Senior Data Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Wheelhouse",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48757527",
+    "id": "48757527-senior-data-engineer"
+  },
+  {
+    "position": "Full Stack Engineer",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "Wheelhouse",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48757527",
+    "id": "48757527-full-stack-engineer"
+  },
+  {
+    "position": "Engineering Manager, Platform",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Peregrine",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      },
+      {
+        "country": "United States",
+        "city": "New York City"
+      }
+    ],
+    "salary": "$175,000 - $300,000",
+    "sourceId": "48750129",
+    "id": "48750129-engineering-manager-platform"
+  },
+  {
+    "position": "Staff SWE, Product Security",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Peregrine",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      },
+      {
+        "country": "United States",
+        "city": "New York City"
+      }
+    ],
+    "salary": "$175,000 - $300,000",
+    "sourceId": "48750129",
+    "id": "48750129-staff-swe-product-security"
+  },
+  {
+    "position": "Staff SWE, AI",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Peregrine",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": "$175,000 - $300,000",
+    "sourceId": "48750129",
+    "id": "48750129-staff-swe-ai"
+  },
+  {
+    "position": "Staff, Data Governance",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Peregrine",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": "$175,000 - $300,000",
+    "sourceId": "48750129",
+    "id": "48750129-staff-data-governance"
+  },
+  {
+    "position": "Sr SWE",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Peregrine",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      },
+      {
+        "country": "United States",
+        "city": "New York City"
+      },
+      {
+        "country": "United States",
+        "city": "Washington DC"
+      }
+    ],
+    "salary": "$175,000 - $300,000",
+    "sourceId": "48750129",
+    "id": "48750129-sr-swe"
+  },
+  {
+    "position": "Sr SWE, Data Infrastructure",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Peregrine",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      },
+      {
+        "country": "United States",
+        "city": "New York City"
+      },
+      {
+        "country": "United States",
+        "city": "Washington DC"
+      }
+    ],
+    "salary": "$175,000 - $300,000",
+    "sourceId": "48750129",
+    "id": "48750129-sr-swe-data-infrastructure"
+  },
+  {
+    "position": "Sr SWE, Networking",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Peregrine",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": "$175,000 - $300,000",
+    "sourceId": "48750129",
+    "id": "48750129-sr-swe-networking"
+  },
+  {
+    "position": "Ruby on Rails Engineer",
+    "positionType": [
+      "backEnd",
+      "engineering"
+    ],
+    "company": "Tax Rails",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": "$85k – $125k + Equity + benefits",
+    "sourceId": "48770198",
+    "id": "48770198-ruby-on-rails-engineer"
+  },
+  {
+    "position": "Software engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Nexvia",
+    "type": [
+      "hybrid",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "Luxembourg",
+        "city": "Luxembourg"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48753329",
+    "id": "48753329-software-engineer"
+  },
+  {
+    "position": "Intern",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Nexvia",
+    "type": [
+      "hybrid",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "Luxembourg",
+        "city": "Luxembourg"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48753329",
+    "id": "48753329-intern"
+  },
+  {
+    "position": "Software Engineer (full-stack / product)",
+    "positionType": [
+      "fullStack",
+      "engineering"
+    ],
+    "company": "Surge AI",
+    "type": [
+      "onSite",
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
       },
       {
         "country": "United States",
@@ -1529,93 +4050,860 @@ export const jobs: IJob[] = [
       }
     ],
     "salary": null,
-    "sourceId": "48361768",
-    "id": "48361768-sr-security-engineer"
+    "sourceId": "48753928",
+    "id": "48753928-software-engineer-full-stack-product"
   },
   {
-    "position": "Fullstack Software Engineer",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "CO-Ver",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "$125k-$155k",
-    "sourceId": "48392586",
-    "id": "48392586-fullstack-software-engineer"
-  },
-  {
-    "position": "Senior Fullstack Software Engineer",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "CO-Ver",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "$150k-$175k",
-    "sourceId": "48392586",
-    "id": "48392586-senior-fullstack-software-engineer"
-  },
-  {
-    "position": "Software Engineer, D2C",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Sony Music Entertainment",
-    "type": [
-      "onSite",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359385",
-    "id": "48359385-software-engineer-d2c"
-  },
-  {
-    "position": "Senior Software Engineer, D2C",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Sony Music Entertainment",
-    "type": [
-      "onSite",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359385",
-    "id": "48359385-senior-software-engineer-d2c"
-  },
-  {
-    "position": "Senior Product Manager, D2C",
+    "position": "Strategic Project Lead",
     "positionType": [
       "other"
     ],
-    "company": "Sony Music Entertainment",
+    "company": "Surge AI",
+    "type": [
+      "onSite",
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      },
+      {
+        "country": "United States",
+        "city": "New York City"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48753928",
+    "id": "48753928-strategic-project-lead"
+  },
+  {
+    "position": "Member of Technical Staff",
+    "positionType": [
+      "fullStack",
+      "engineering"
+    ],
+    "company": "Complement AI",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      },
+      {
+        "country": "United States",
+        "city": "New York City"
+      }
+    ],
+    "salary": "$150K - $300K + Equity",
+    "sourceId": "48754536",
+    "id": "48754536-member-of-technical-staff"
+  },
+  {
+    "position": "Security Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Factory",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48750256",
+    "id": "48750256-security-engineer"
+  },
+  {
+    "position": "IT Operations Specialist",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Factory",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48750256",
+    "id": "48750256-it-operations-specialist"
+  },
+  {
+    "position": "Senior Software Engineer",
+    "positionType": [
+      "engineering",
+      "backEnd"
+    ],
+    "company": "CoreConnect",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United Arab Emirates",
+        "city": "Abu Dhabi"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48758207",
+    "id": "48758207-senior-software-engineer"
+  },
+  {
+    "position": "Lead Software Engineer",
+    "positionType": [
+      "backEnd",
+      "engineering"
+    ],
+    "company": "CivTiq",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "Canada",
+        "city": "Toronto"
+      }
+    ],
+    "salary": "$130,000 – $210,000 CAD",
+    "sourceId": "48754520",
+    "id": "48754520-lead-software-engineer"
+  },
+  {
+    "position": "Full Stack / AI Founding Engineer",
+    "positionType": [
+      "fullStack",
+      "engineering"
+    ],
+    "company": "Delta AI",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco Bay Area"
+      }
+    ],
+    "salary": "$120-140k + 1-1.5% equity + benefits",
+    "sourceId": "48749788",
+    "id": "48749788-full-stack-ai-founding-engineer"
+  },
+  {
+    "position": "Senior Mobile Developer",
+    "positionType": [
+      "frontEnd",
+      "engineering"
+    ],
+    "company": "Sudowrite",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": "160-180K, equity, 401K, profit share, retreats, unlimited books",
+    "sourceId": "48755415",
+    "id": "48755415-senior-mobile-developer"
+  },
+  {
+    "position": "Full Stack Engineer",
+    "positionType": [
+      "fullStack",
+      "engineering"
+    ],
+    "company": "Shepherd",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48748052",
+    "id": "48748052-full-stack-engineer"
+  },
+  {
+    "position": "Backend Engineer",
+    "positionType": [
+      "backEnd",
+      "engineering"
+    ],
+    "company": "Shepherd",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48748052",
+    "id": "48748052-backend-engineer"
+  },
+  {
+    "position": "AI Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Shepherd",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48748052",
+    "id": "48748052-ai-engineer"
+  },
+  {
+    "position": "ML Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Shepherd",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48748052",
+    "id": "48748052-ml-engineer"
+  },
+  {
+    "position": "Backend Engineer",
+    "positionType": [
+      "backEnd",
+      "engineering"
+    ],
+    "company": "ArtCraft",
+    "type": [
+      "remote",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco Bay Area"
+      },
+      {
+        "country": "United States",
+        "city": "Atlanta"
+      },
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48750050",
+    "id": "48750050-backend-engineer"
+  },
+  {
+    "position": "Data Labeling Intern",
+    "positionType": [
+      "other"
+    ],
+    "company": "SwingVision",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Berkeley"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48750122",
+    "id": "48750122-data-labeling-intern"
+  },
+  {
+    "position": "Head of Product",
+    "positionType": [
+      "other"
+    ],
+    "company": "SwingVision",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Berkeley"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48750122",
+    "id": "48750122-head-of-product"
+  },
+  {
+    "position": "Head of Machine Learning",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "SwingVision",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Berkeley"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48750122",
+    "id": "48750122-head-of-machine-learning"
+  },
+  {
+    "position": "Software Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Symetra",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": "$130k-210k plus eligibility for annual bonus program",
+    "sourceId": "48756260",
+    "id": "48756260-software-engineer"
+  },
+  {
+    "position": "Data Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Symetra",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": "$130k-210k plus eligibility for annual bonus program",
+    "sourceId": "48756260",
+    "id": "48756260-data-engineer"
+  },
+  {
+    "position": "Data Scientist",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Symetra",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": "$130k-210k plus eligibility for annual bonus program",
+    "sourceId": "48756260",
+    "id": "48756260-data-scientist"
+  },
+  {
+    "position": "Founding Engineer / Technical Lead",
+    "positionType": [
+      "engineering",
+      "fullStack"
+    ],
+    "company": "Racster",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "Europe"
+      },
+      {
+        "country": "Middle East and Africa"
+      },
+      {
+        "country": "Asia"
+      }
+    ],
+    "salary": "€20 - €40/hr + Equity",
+    "sourceId": "48753637",
+    "id": "48753637-founding-engineer-technical-lead"
+  },
+  {
+    "position": "Founding Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Kiloforge",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48750516",
+    "id": "48750516-founding-engineer"
+  },
+  {
+    "position": "Engineering Manager",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Middesk",
+    "type": [
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "New York City"
+      }
+    ],
+    "salary": "$205k - $260k",
+    "sourceId": "48751937",
+    "id": "48751937-engineering-manager"
+  },
+  {
+    "position": "Forward Deployed Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Middesk",
+    "type": [
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "New York City"
+      },
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": "$148K – $255K",
+    "sourceId": "48751937",
+    "id": "48751937-forward-deployed-engineer"
+  },
+  {
+    "position": "(Senior) Software Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Middesk",
+    "type": [
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "New York City"
+      },
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": "$148K – $275K",
+    "sourceId": "48751937",
+    "id": "48751937-senior-software-engineer"
+  },
+  {
+    "position": "Software Engineer, Infrastructure",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Middesk",
+    "type": [
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": "$148K – $230K",
+    "sourceId": "48751937",
+    "id": "48751937-software-engineer-infrastructure"
+  },
+  {
+    "position": "Frontend Software Engineer",
+    "positionType": [
+      "frontEnd"
+    ],
+    "company": "Walmart Global Tech (International Digital Experiences)",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Sunnyvale"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48753394",
+    "id": "48753394-frontend-software-engineer"
+  },
+  {
+    "position": "First Engineer",
+    "positionType": [
+      "engineering",
+      "fullStack"
+    ],
+    "company": "Mitty",
+    "type": [
+      "remote",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Honolulu"
+      }
+    ],
+    "salary": "$150k base (or more depending on skill) + performance bonus + founding-level equity scaled to experience",
+    "sourceId": "48750343",
+    "id": "48750343-first-engineer"
+  },
+  {
+    "position": "Senior Software Engineer",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "ThoughtMetric",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Boston"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48748468",
+    "id": "48748468-senior-software-engineer"
+  },
+  {
+    "position": "Senior Software Engineer, Backend",
+    "positionType": [
+      "backEnd",
+      "engineering"
+    ],
+    "company": "Disney",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "New York City"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48750113",
+    "id": "48750113-senior-software-engineer-backend"
+  },
+  {
+    "position": "Account Executive",
+    "positionType": [
+      "sales"
+    ],
+    "company": "Beautiful.ai",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      },
+      {
+        "country": "Canada"
+      }
+    ],
+    "salary": "140k - 240k USD Base Salary + Uncapped On-Target Commission at 50/50 Split",
+    "sourceId": "48764209",
+    "id": "48764209-account-executive"
+  },
+  {
+    "position": "GTM Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Beautiful.ai",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      },
+      {
+        "country": "Canada"
+      }
+    ],
+    "salary": "$80,000 - $120,000 USD Base Salary",
+    "sourceId": "48764209",
+    "id": "48764209-gtm-engineer"
+  },
+  {
+    "position": "Senior AI Engineer (Python)",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Starbridge",
+    "type": [
+      "remote",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "New York City"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48748564",
+    "id": "48748564-senior-ai-engineer-python"
+  },
+  {
+    "position": "Senior Web Full-Stack Engineer",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "Akkio",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": "160k-240k with equity",
+    "sourceId": "48749435",
+    "id": "48749435-senior-web-full-stack-engineer"
+  },
+  {
+    "position": "Senior Backend Engineer",
+    "positionType": [
+      "backEnd"
+    ],
+    "company": "Akkio",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": "160k-240k with equity",
+    "sourceId": "48749435",
+    "id": "48749435-senior-backend-engineer"
+  },
+  {
+    "position": "Senior Forward-Deployed Engineer",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "Akkio",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": "160k-240k with equity",
+    "sourceId": "48749435",
+    "id": "48749435-senior-forward-deployed-engineer"
+  },
+  {
+    "position": "Senior Software Engineer",
+    "positionType": [
+      "fullStack",
+      "engineering"
+    ],
+    "company": "Govstream.ai",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Seattle"
+      }
+    ],
+    "salary": "$120-200k",
+    "sourceId": "48752284",
+    "id": "48752284-senior-software-engineer"
+  },
+  {
+    "position": "Software Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Conductor",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48749271",
+    "id": "48749271-software-engineer"
+  },
+  {
+    "position": "Designer",
+    "positionType": [
+      "design"
+    ],
+    "company": "Conductor",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48749271",
+    "id": "48749271-designer"
+  },
+  {
+    "position": "Senior Software Engineer",
+    "positionType": [
+      "engineering",
+      "fullStack"
+    ],
+    "company": "Axo Ventures",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Houston"
+      }
+    ],
+    "salary": "$100k–$140k + Founding Equity, adjustable",
+    "sourceId": "48751532",
+    "id": "48751532-senior-software-engineer"
+  },
+  {
+    "position": "Staff Software Engineer",
+    "positionType": [
+      "backEnd",
+      "engineering"
+    ],
+    "company": "ViyaMD",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco Bay Area"
+      }
+    ],
+    "salary": "competitive salary",
+    "sourceId": "48755327",
+    "id": "48755327-staff-software-engineer"
+  },
+  {
+    "position": "Staff ML Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "ViyaMD",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco Bay Area"
+      }
+    ],
+    "salary": "competitive salary",
+    "sourceId": "48755327",
+    "id": "48755327-staff-ml-engineer"
+  },
+  {
+    "position": "Senior/Staff Software Engineer - AI / Agentic apps",
+    "positionType": [
+      "fullStack",
+      "engineering"
+    ],
+    "company": "Grafana Labs",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      },
+      {
+        "country": "Canada"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48750836",
+    "id": "48750836-senior-staff-software-engineer-ai-agentic-apps"
+  },
+  {
+    "position": "Senior Full Stack Engineer",
+    "positionType": [
+      "fullStack",
+      "engineering"
+    ],
+    "company": "NODA AI",
     "type": [
       "onSite",
       "hybrid"
@@ -1623,74 +4911,384 @@ export const jobs: IJob[] = [
     "locations": [
       {
         "country": "United States",
-        "city": "New York"
+        "city": "Austin"
       }
     ],
     "salary": null,
-    "sourceId": "48359385",
-    "id": "48359385-senior-product-manager-d2c"
+    "sourceId": "48767640",
+    "id": "48767640-senior-full-stack-engineer"
   },
   {
-    "position": "Engineering Manager, Pub Admin",
+    "position": "Autonomy Engineer (AI)",
     "positionType": [
       "engineering"
     ],
-    "company": "Sony Music Entertainment",
+    "company": "NODA AI",
     "type": [
       "onSite",
       "hybrid"
     ],
     "locations": [
       {
-        "country": "United Kingdom",
-        "city": "London"
+        "country": "United States",
+        "city": "Austin"
       }
     ],
     "salary": null,
-    "sourceId": "48359385",
-    "id": "48359385-engineering-manager-pub-admin"
+    "sourceId": "48767640",
+    "id": "48767640-autonomy-engineer-ai"
   },
   {
-    "position": "VP of Engineering, Content",
+    "position": "AI/ML Engineer",
     "positionType": [
       "engineering"
     ],
-    "company": "Sony Music Entertainment",
+    "company": "NODA AI",
     "type": [
       "onSite",
       "hybrid"
     ],
     "locations": [
       {
-        "country": "United Kingdom",
-        "city": "London"
+        "country": "United States",
+        "city": "Austin"
       }
     ],
     "salary": null,
-    "sourceId": "48359385",
-    "id": "48359385-vp-of-engineering-content"
+    "sourceId": "48767640",
+    "id": "48767640-ai-ml-engineer"
   },
   {
-    "position": "Founding Full-stack Software Engineer",
+    "position": "Senior Platform Engineer",
     "positionType": [
+      "engineering"
+    ],
+    "company": "NODA AI",
+    "type": [
+      "onSite",
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Austin"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48767640",
+    "id": "48767640-senior-platform-engineer"
+  },
+  {
+    "position": "UI Engineer",
+    "positionType": [
+      "frontEnd",
+      "engineering"
+    ],
+    "company": "NODA AI",
+    "type": [
+      "onSite",
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Austin"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48767640",
+    "id": "48767640-ui-engineer"
+  },
+  {
+    "position": "Senior Integration Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "NODA AI",
+    "type": [
+      "onSite",
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Austin"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48767640",
+    "id": "48767640-senior-integration-engineer"
+  },
+  {
+    "position": "Senior Quality Software Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "NODA AI",
+    "type": [
+      "onSite",
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Austin"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48767640",
+    "id": "48767640-senior-quality-software-engineer"
+  },
+  {
+    "position": "Developer Experience Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "NODA AI",
+    "type": [
+      "onSite",
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Austin"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48767640",
+    "id": "48767640-developer-experience-engineer"
+  },
+  {
+    "position": "Senior Solution Engineer / Solution Architect",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "NODA AI",
+    "type": [
+      "onSite",
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Austin"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48767640",
+    "id": "48767640-senior-solution-engineer-solution-architect"
+  },
+  {
+    "position": "Senior Engineering Manager, Solutions Engineering",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "NODA AI",
+    "type": [
+      "onSite",
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Austin"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48767640",
+    "id": "48767640-senior-engineering-manager-solutions-engineering"
+  },
+  {
+    "position": "Forward-Deployed Solution Engineer, International",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "NODA AI",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "Bahrain"
+      },
+      {
+        "country": "Kuwait"
+      },
+      {
+        "country": "Qatar"
+      },
+      {
+        "country": "United Arab Emirates"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48767640",
+    "id": "48767640-forward-deployed-solution-engineer-international"
+  },
+  {
+    "position": "Agentic AI Solutions Manager",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Quantum Rise",
+    "type": [
+      "remote",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Chicago"
+      },
+      {
+        "country": "United States",
+        "city": "New York City"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48750358",
+    "id": "48750358-agentic-ai-solutions-manager"
+  },
+  {
+    "position": "AI Solutions Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Quantum Rise",
+    "type": [
+      "remote",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Chicago"
+      },
+      {
+        "country": "United States",
+        "city": "New York City"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48750358",
+    "id": "48750358-ai-solutions-engineer"
+  },
+  {
+    "position": "Sn. Product Manager, Earned Wage Access",
+    "positionType": [
+      "other"
+    ],
+    "company": "FINN App",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48754641",
+    "id": "48754641-sn-product-manager-earned-wage-access"
+  },
+  {
+    "position": "Sn. Product Manager, Onboarding & Activation",
+    "positionType": [
+      "other"
+    ],
+    "company": "FINN App",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48754641",
+    "id": "48754641-sn-product-manager-onboarding-activation"
+  },
+  {
+    "position": "Full-Stack Engineer",
+    "positionType": [
+      "fullStack",
+      "engineering"
+    ],
+    "company": "Cardog",
+    "type": [
+      "remote",
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "Canada",
+        "city": "Toronto"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48766814",
+    "id": "48766814-full-stack-engineer"
+  },
+  {
+    "position": "AI/ML Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Cardog",
+    "type": [
+      "remote",
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "Canada",
+        "city": "Toronto"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48766814",
+    "id": "48766814-ai-ml-engineer"
+  },
+  {
+    "position": "Data Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Cardog",
+    "type": [
+      "remote",
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "Canada",
+        "city": "Toronto"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48766814",
+    "id": "48766814-data-engineer"
+  },
+  {
+    "position": "Senior Software Engineer",
+    "positionType": [
+      "engineering",
       "fullStack"
     ],
-    "company": "Pango",
+    "company": "Offstream",
     "type": [
       "hybrid"
     ],
     "locations": [
       {
-        "country": "Sweden",
-        "city": "Stockholm"
+        "country": "United States",
+        "city": "San Francisco"
+      },
+      {
+        "country": "United States",
+        "city": "Denver"
       }
     ],
-    "salary": null,
-    "sourceId": "48357853",
-    "id": "48357853-founding-full-stack-software-engineer"
+    "salary": "$120k-$190k + equity",
+    "sourceId": "48752254",
+    "id": "48752254-senior-software-engineer"
   },
   {
-    "position": "QA Engineer (Automation + Functional)",
+    "position": "Applied Research Scientist, Clinical AI",
     "positionType": [
       "engineering"
     ],
@@ -1703,27 +5301,649 @@ export const jobs: IJob[] = [
         "country": "United States"
       }
     ],
-    "salary": "$110k + equity",
-    "sourceId": "48358647",
-    "id": "48358647-qa-engineer-automation-functional"
+    "salary": null,
+    "sourceId": "48754378",
+    "id": "48754378-applied-research-scientist-clinical-ai"
   },
   {
-    "position": "HR/PeopleOps Specialist",
+    "position": "Product Manager, Rhythm360",
     "positionType": [
       "other"
     ],
-    "company": "FeedbackPulse",
+    "company": "RhythmScience",
     "type": [
       "remote"
     ],
     "locations": [
       {
-        "country": "Southeast Asia"
+        "country": "United States"
       }
     ],
     "salary": null,
-    "sourceId": "48363110",
-    "id": "48363110-hr-peopleops-specialist"
+    "sourceId": "48754378",
+    "id": "48754378-product-manager-rhythm360"
+  },
+  {
+    "position": "Staff Software Engineer, Open Source Server",
+    "positionType": [
+      "engineering",
+      "backEnd"
+    ],
+    "company": "Temporal Technologies",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48748961",
+    "id": "48748961-staff-software-engineer-open-source-server"
+  },
+  {
+    "position": "Senior Software Engineer, Observability",
+    "positionType": [
+      "engineering",
+      "backEnd"
+    ],
+    "company": "Temporal Technologies",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48748961",
+    "id": "48748961-senior-software-engineer-observability"
+  },
+  {
+    "position": "Senior Staff Software Engineer, Infrastructure",
+    "positionType": [
+      "engineering",
+      "backEnd"
+    ],
+    "company": "Temporal Technologies",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48748961",
+    "id": "48748961-senior-staff-software-engineer-infrastructure"
+  },
+  {
+    "position": "Senior Product Manager, Scalability & Compute",
+    "positionType": [
+      "other"
+    ],
+    "company": "Temporal Technologies",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48748961",
+    "id": "48748961-senior-product-manager-scalability-compute"
+  },
+  {
+    "position": "Staff Product Manager, Developer Lifecycle & Tooling",
+    "positionType": [
+      "other"
+    ],
+    "company": "Temporal Technologies",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48748961",
+    "id": "48748961-staff-product-manager-developer-lifecycle-tooling"
+  },
+  {
+    "position": "Staff Product Manager, Agent Platform",
+    "positionType": [
+      "other"
+    ],
+    "company": "Temporal Technologies",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48748961",
+    "id": "48748961-staff-product-manager-agent-platform"
+  },
+  {
+    "position": "AI Engineering Lead",
+    "positionType": [
+      "engineering",
+      "backEnd"
+    ],
+    "company": "Shift",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United Kingdom"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48748972",
+    "id": "48748972-ai-engineering-lead"
+  },
+  {
+    "position": "Senior Backend Engineer",
+    "positionType": [
+      "backEnd"
+    ],
+    "company": "Twindo",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "Latin America"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48748583",
+    "id": "48748583-senior-backend-engineer"
+  },
+  {
+    "position": "Founding Machine Learning Scientist",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Tabula Bio",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48751725",
+    "id": "48751725-founding-machine-learning-scientist"
+  },
+  {
+    "position": "Software Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "fractile.ai",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United Kingdom",
+        "city": "London"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48750734",
+    "id": "48750734-software-engineer"
+  },
+  {
+    "position": "Back-end Software Engineer",
+    "positionType": [
+      "backEnd",
+      "engineering"
+    ],
+    "company": "Prophet Town LLC",
+    "type": [
+      "remote",
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": "$150K-$260K annual total comp",
+    "sourceId": "48756697",
+    "id": "48756697-back-end-software-engineer"
+  },
+  {
+    "position": "Front-end Software Engineer",
+    "positionType": [
+      "frontEnd",
+      "engineering"
+    ],
+    "company": "Prophet Town LLC",
+    "type": [
+      "remote",
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": "$150K-$260K annual total comp",
+    "sourceId": "48756697",
+    "id": "48756697-front-end-software-engineer"
+  },
+  {
+    "position": "Full-Stack Software Engineer",
+    "positionType": [
+      "fullStack",
+      "engineering"
+    ],
+    "company": "Prophet Town LLC",
+    "type": [
+      "remote",
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": "$150K-$260K annual total comp",
+    "sourceId": "48756697",
+    "id": "48756697-full-stack-software-engineer"
+  },
+  {
+    "position": "Founding Systems Engineer",
+    "positionType": [
+      "engineering",
+      "backEnd"
+    ],
+    "company": "CaseLight Systems Inc.",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Blaine"
+      }
+    ],
+    "salary": "FULL EQUITY (30% Stake)",
+    "sourceId": "48747987",
+    "id": "48747987-founding-systems-engineer"
+  },
+  {
+    "position": "Machine Learning Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Applied Materials",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Santa Clara"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48750660",
+    "id": "48750660-machine-learning-engineer"
+  },
+  {
+    "position": "Founding Engineer",
+    "positionType": [
+      "engineering",
+      "fullStack"
+    ],
+    "company": "airCFO",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48768318",
+    "id": "48768318-founding-engineer"
+  },
+  {
+    "position": "Senior Application Developer",
+    "positionType": [
+      "frontEnd",
+      "backEnd",
+      "fullStack",
+      "engineering"
+    ],
+    "company": "MWI Animal Health",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48765841",
+    "id": "48765841-senior-application-developer"
+  },
+  {
+    "position": "QA Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "MWI Animal Health",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48765841",
+    "id": "48765841-qa-engineer"
+  },
+  {
+    "position": "Senior DevOps Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "MWI Animal Health",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48765841",
+    "id": "48765841-senior-devops-engineer"
+  },
+  {
+    "position": "Senior Fullstack Engineer",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "Sequent Tech",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48749845",
+    "id": "48749845-senior-fullstack-engineer"
+  },
+  {
+    "position": "Senior Software Engineer Backend",
+    "positionType": [
+      "backEnd",
+      "engineering"
+    ],
+    "company": "Axle Health",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Santa Monica"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48750431",
+    "id": "48750431-senior-software-engineer-backend"
+  },
+  {
+    "position": "Senior Software Engineer Interoperability",
+    "positionType": [
+      "backEnd",
+      "engineering"
+    ],
+    "company": "Axle Health",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Santa Monica"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48750431",
+    "id": "48750431-senior-software-engineer-interoperability"
+  },
+  {
+    "position": "Senior Software Engineer DevOps and Infrastructure",
+    "positionType": [
+      "backEnd",
+      "engineering"
+    ],
+    "company": "Axle Health",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Santa Monica"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48750431",
+    "id": "48750431-senior-software-engineer-devops-and-infrastructure"
+  },
+  {
+    "position": "Senior Embedded Software Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "phios.group",
+    "type": [
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "Liechtenstein",
+        "city": "Ruggell"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48751313",
+    "id": "48751313-senior-embedded-software-engineer"
+  },
+  {
+    "position": "Senior Software Engineer",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "phios.group",
+    "type": [
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "Austria",
+        "city": "Vienna"
+      },
+      {
+        "country": "Liechtenstein",
+        "city": "Ruggell"
+      },
+      {
+        "country": "Spain",
+        "city": "Valencia"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48751313",
+    "id": "48751313-senior-software-engineer"
+  },
+  {
+    "position": "Founding Full-Stack Engineer",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "Acme",
+    "type": [
+      "remote",
+      "onSite"
+    ],
+    "locations": [],
+    "salary": "Competitive salary + meaningful equity (2–5% range)",
+    "sourceId": "48792793",
+    "id": "48792793-founding-full-stack-engineer"
+  },
+  {
+    "position": "Product Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Y Combinator",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48751306",
+    "id": "48751306-product-engineer"
+  },
+  {
+    "position": "Senior Software Engineer",
+    "positionType": [
+      "engineering",
+      "frontEnd",
+      "backEnd"
+    ],
+    "company": "Aqora Quantum",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "France",
+        "city": "Paris"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48759665",
+    "id": "48759665-senior-software-engineer"
+  },
+  {
+    "position": "Full-Stack Engineer",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "Matcha",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      },
+      {
+        "country": "Canada"
+      },
+      {
+        "country": "Europe"
+      },
+      {
+        "country": "United Kingdom"
+      },
+      {
+        "country": "LATAM"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48757845",
+    "id": "48757845-full-stack-engineer"
+  },
+  {
+    "position": "Frontend Engineer",
+    "positionType": [
+      "frontEnd"
+    ],
+    "company": "Matcha",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      },
+      {
+        "country": "Canada"
+      },
+      {
+        "country": "Europe"
+      },
+      {
+        "country": "United Kingdom"
+      },
+      {
+        "country": "LATAM"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48757845",
+    "id": "48757845-frontend-engineer"
+  },
+  {
+    "position": "Backend Engineer",
+    "positionType": [
+      "backEnd"
+    ],
+    "company": "Matcha",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      },
+      {
+        "country": "Canada"
+      },
+      {
+        "country": "Europe"
+      },
+      {
+        "country": "United Kingdom"
+      },
+      {
+        "country": "LATAM"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48757845",
+    "id": "48757845-backend-engineer"
   },
   {
     "position": "AI Engineer",
@@ -1752,129 +5972,8 @@ export const jobs: IJob[] = [
       }
     ],
     "salary": null,
-    "sourceId": "48361748",
-    "id": "48361748-ai-engineer"
-  },
-  {
-    "position": "Backend Engineer",
-    "positionType": [
-      "backEnd"
-    ],
-    "company": "Matcha",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      },
-      {
-        "country": "Europe"
-      },
-      {
-        "country": "United Kingdom"
-      },
-      {
-        "country": "LATAM"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48361748",
-    "id": "48361748-backend-engineer"
-  },
-  {
-    "position": "Full-Stack / Frontend Engineer",
-    "positionType": [
-      "fullStack",
-      "frontEnd"
-    ],
-    "company": "Matcha",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      },
-      {
-        "country": "Europe"
-      },
-      {
-        "country": "United Kingdom"
-      },
-      {
-        "country": "LATAM"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48361748",
-    "id": "48361748-full-stack-frontend-engineer"
-  },
-  {
-    "position": "Design",
-    "positionType": [
-      "design"
-    ],
-    "company": "Matcha",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      },
-      {
-        "country": "Europe"
-      },
-      {
-        "country": "United Kingdom"
-      },
-      {
-        "country": "LATAM"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48361748",
-    "id": "48361748-design"
-  },
-  {
-    "position": "Product",
-    "positionType": [
-      "other"
-    ],
-    "company": "Matcha",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      },
-      {
-        "country": "Europe"
-      },
-      {
-        "country": "United Kingdom"
-      },
-      {
-        "country": "LATAM"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48361748",
-    "id": "48361748-product"
+    "sourceId": "48757845",
+    "id": "48757845-ai-engineer"
   },
   {
     "position": "Growth / GTM / Marketing",
@@ -1903,38 +6002,8 @@ export const jobs: IJob[] = [
       }
     ],
     "salary": null,
-    "sourceId": "48361748",
-    "id": "48361748-growth-gtm-marketing"
-  },
-  {
-    "position": "Account executive / sales",
-    "positionType": [
-      "sales"
-    ],
-    "company": "Matcha",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      },
-      {
-        "country": "Europe"
-      },
-      {
-        "country": "United Kingdom"
-      },
-      {
-        "country": "LATAM"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48361748",
-    "id": "48361748-account-executive-sales"
+    "sourceId": "48757845",
+    "id": "48757845-growth-gtm-marketing"
   },
   {
     "position": "Customer Support",
@@ -1963,16 +6032,15 @@ export const jobs: IJob[] = [
       }
     ],
     "salary": null,
-    "sourceId": "48361748",
-    "id": "48361748-customer-support"
+    "sourceId": "48757845",
+    "id": "48757845-customer-support"
   },
   {
-    "position": "Senior AI Engineer",
+    "position": "Design",
     "positionType": [
-      "engineering",
-      "backEnd"
+      "design"
     ],
-    "company": "Olli Health",
+    "company": "Matcha",
     "type": [
       "remote"
     ],
@@ -1982,621 +6050,57 @@ export const jobs: IJob[] = [
       },
       {
         "country": "Canada"
-      }
-    ],
-    "salary": "$180k-220k",
-    "sourceId": "48357792",
-    "id": "48357792-senior-ai-engineer"
-  },
-  {
-    "position": "Senior Software Engineer, Scribe & Integrations",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Olli Health",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
       },
       {
-        "country": "Canada"
-      }
-    ],
-    "salary": "$160k-190k",
-    "sourceId": "48357792",
-    "id": "48357792-senior-software-engineer-scribe-integrations"
-  },
-  {
-    "position": "Senior Software Engineer, Platform",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Olli Health",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      }
-    ],
-    "salary": "$160k-190k",
-    "sourceId": "48357792",
-    "id": "48357792-senior-software-engineer-platform"
-  },
-  {
-    "position": "Full-stack Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Better Stack",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "European Union"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360222",
-    "id": "48360222-full-stack-engineer"
-  },
-  {
-    "position": "Senior Software Engineer",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "Scholarly",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Seattle"
-      }
-    ],
-    "salary": "$160k - $200k + equity + health benefits + equipment budget",
-    "sourceId": "48359934",
-    "id": "48359934-senior-software-engineer"
-  },
-  {
-    "position": "Senior iOS Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "YNAB",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "$145-$190k + profit-sharing bonuses",
-    "sourceId": "48360245",
-    "id": "48360245-senior-ios-engineer"
-  },
-  {
-    "position": "Cloud Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Tech Mahindra",
-    "type": [],
-    "locations": [
-      {
-        "country": "India"
-      },
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      },
-      {
-        "country": "Mexico"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48400263",
-    "id": "48400263-cloud-engineer"
-  },
-  {
-    "position": "Platform Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Tech Mahindra",
-    "type": [],
-    "locations": [
-      {
-        "country": "India"
-      },
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      },
-      {
-        "country": "Mexico"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48400263",
-    "id": "48400263-platform-engineer"
-  },
-  {
-    "position": "DevOps Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Tech Mahindra",
-    "type": [],
-    "locations": [
-      {
-        "country": "India"
-      },
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      },
-      {
-        "country": "Mexico"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48400263",
-    "id": "48400263-devops-engineer"
-  },
-  {
-    "position": "Site Reliability Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Tech Mahindra",
-    "type": [],
-    "locations": [
-      {
-        "country": "India"
-      },
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      },
-      {
-        "country": "Mexico"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48400263",
-    "id": "48400263-site-reliability-engineer"
-  },
-  {
-    "position": "Cloud Architect",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Tech Mahindra",
-    "type": [],
-    "locations": [
-      {
-        "country": "India"
-      },
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      },
-      {
-        "country": "Mexico"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48400263",
-    "id": "48400263-cloud-architect"
-  },
-  {
-    "position": "DevSecOps Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Tech Mahindra",
-    "type": [],
-    "locations": [
-      {
-        "country": "India"
-      },
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      },
-      {
-        "country": "Mexico"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48400263",
-    "id": "48400263-devsecops-engineer"
-  },
-  {
-    "position": "Tech Lead",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Tech Mahindra",
-    "type": [],
-    "locations": [
-      {
-        "country": "India"
-      },
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      },
-      {
-        "country": "Mexico"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48400263",
-    "id": "48400263-tech-lead"
-  },
-  {
-    "position": "Engineering Manager",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Tech Mahindra",
-    "type": [],
-    "locations": [
-      {
-        "country": "India"
-      },
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      },
-      {
-        "country": "Mexico"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48400263",
-    "id": "48400263-engineering-manager"
-  },
-  {
-    "position": "Software Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Amodo Design",
-    "type": [
-      "onSite",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United Kingdom",
-        "city": "Sheffield"
-      },
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48367646",
-    "id": "48367646-software-engineer"
-  },
-  {
-    "position": "Product Builder — Growth Channels",
-    "positionType": [
-      "fullStack",
-      "design",
-      "engineering"
-    ],
-    "company": "Go.Shop",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48357754",
-    "id": "48357754-product-builder-growth-channels"
-  },
-  {
-    "position": "Full Stack Engineer",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "Trace Labs",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48387732",
-    "id": "48387732-full-stack-engineer"
-  },
-  {
-    "position": "Computer Vision Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Trace Labs",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48387732",
-    "id": "48387732-computer-vision-engineer"
-  },
-  {
-    "position": "Software Engineer Senior",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Fastly",
-    "type": [
-      "remote",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States"
+        "country": "Europe"
       },
       {
         "country": "United Kingdom"
       },
       {
-        "country": "European Union"
+        "country": "LATAM"
       }
     ],
     "salary": null,
-    "sourceId": "48358160",
-    "id": "48358160-software-engineer-senior"
+    "sourceId": "48757845",
+    "id": "48757845-design"
   },
   {
-    "position": "Software Engineer Staff",
+    "position": "Product",
     "positionType": [
-      "engineering"
+      "other"
     ],
-    "company": "Fastly",
+    "company": "Matcha",
     "type": [
-      "remote",
-      "onSite"
+      "remote"
     ],
     "locations": [
       {
         "country": "United States"
+      },
+      {
+        "country": "Canada"
+      },
+      {
+        "country": "Europe"
       },
       {
         "country": "United Kingdom"
       },
       {
-        "country": "European Union"
+        "country": "LATAM"
       }
     ],
     "salary": null,
-    "sourceId": "48358160",
-    "id": "48358160-software-engineer-staff"
+    "sourceId": "48757845",
+    "id": "48757845-product"
   },
   {
-    "position": "Software Engineer Principal",
+    "position": "Senior Quality Engineer",
     "positionType": [
       "engineering"
     ],
-    "company": "Fastly",
-    "type": [
-      "remote",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "United Kingdom"
-      },
-      {
-        "country": "European Union"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358160",
-    "id": "48358160-software-engineer-principal"
-  },
-  {
-    "position": "Software Engineer Site Reliability Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd",
-      "fullStack"
-    ],
-    "company": "Radar Labs",
-    "type": [
-      "remote",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359481",
-    "id": "48359481-software-engineer-site-reliability-engineer"
-  },
-  {
-    "position": "Software Engineer Data Platform",
-    "positionType": [
-      "engineering",
-      "backEnd",
-      "fullStack"
-    ],
-    "company": "Radar Labs",
-    "type": [
-      "remote",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359481",
-    "id": "48359481-software-engineer-data-platform"
-  },
-  {
-    "position": "Software Engineer Backend",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Radar Labs",
-    "type": [
-      "remote",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359481",
-    "id": "48359481-software-engineer-backend"
-  },
-  {
-    "position": "Software Engineer Full-Stack",
-    "positionType": [
-      "engineering",
-      "fullStack"
-    ],
-    "company": "Radar Labs",
-    "type": [
-      "remote",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359481",
-    "id": "48359481-software-engineer-full-stack"
-  },
-  {
-    "position": "Software Engineer Mobile",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Radar Labs",
-    "type": [
-      "remote",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359481",
-    "id": "48359481-software-engineer-mobile"
-  },
-  {
-    "position": "Staff Software Engineer (Web)",
-    "positionType": [
-      "frontEnd",
-      "backEnd",
-      "fullStack",
-      "engineering"
-    ],
-    "company": "Join",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      }
-    ],
-    "salary": "$175K–$205K + equity",
-    "sourceId": "48358924",
-    "id": "48358924-staff-software-engineer-web"
-  },
-  {
-    "position": "Senior Mobile Developer",
-    "positionType": [
-      "engineering",
-      "frontEnd"
-    ],
-    "company": "Sudowrite",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "160-180K, equity, 401K, profit share, retreats, unlimited books",
-    "sourceId": "48357929",
-    "id": "48357929-senior-mobile-developer"
-  },
-  {
-    "position": "Senior Windows C++ Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Wand",
+    "company": "Third Iron",
     "type": [
       "remote"
     ],
@@ -2606,602 +6110,15 @@ export const jobs: IJob[] = [
       }
     ],
     "salary": null,
-    "sourceId": "48389476",
-    "id": "48389476-senior-windows-c++-engineer"
+    "sourceId": "48750271",
+    "id": "48750271-senior-quality-engineer"
   },
   {
-    "position": "Founding Full-Stack Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Opaxa",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": "$200K–$300K + founding equity",
-    "sourceId": "48365092",
-    "id": "48365092-founding-full-stack-engineer"
-  },
-  {
-    "position": "Software Engineer Backend",
-    "positionType": [
-      "backEnd",
-      "engineering"
-    ],
-    "company": "Close",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360843",
-    "id": "48360843-software-engineer-backend"
-  },
-  {
-    "position": "Software Engineer Frontend",
-    "positionType": [
-      "frontEnd",
-      "engineering"
-    ],
-    "company": "Close",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360843",
-    "id": "48360843-software-engineer-frontend"
-  },
-  {
-    "position": "Site Reliability Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Close",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360843",
-    "id": "48360843-site-reliability-engineer"
-  },
-  {
-    "position": "Software Engineer Support",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Close",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360843",
-    "id": "48360843-software-engineer-support"
-  },
-  {
-    "position": "Data Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Forecasting Research Institute",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": "$75k–$130k",
-    "sourceId": "48381333",
-    "id": "48381333-data-engineer"
-  },
-  {
-    "position": "Product Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Safi",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": "£110,000–£160,000 + equity",
-    "sourceId": "48357745",
-    "id": "48357745-product-engineer"
-  },
-  {
-    "position": "Backend Software Engineer",
-    "positionType": [
-      "backEnd",
-      "engineering"
-    ],
-    "company": "MindFort AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Los Angeles"
-      }
-    ],
-    "salary": "$150k–$250k + Equity",
-    "sourceId": "48386662",
-    "id": "48386662-backend-software-engineer"
-  },
-  {
-    "position": "AI Researcher",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "MindFort AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Los Angeles"
-      }
-    ],
-    "salary": "$150k–$250k + equity",
-    "sourceId": "48386662",
-    "id": "48386662-ai-researcher"
-  },
-  {
-    "position": "Staff ML Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Espresso AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Brooklyn"
-      },
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48388366",
-    "id": "48388366-staff-ml-engineer"
-  },
-  {
-    "position": "Staff Infra Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Espresso AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Brooklyn"
-      },
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48388366",
-    "id": "48388366-staff-infra-engineer"
-  },
-  {
-    "position": "FDE",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Espresso AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Brooklyn"
-      },
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48388366",
-    "id": "48388366-fde"
-  },
-  {
-    "position": "Lead Data Platform Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Conservation Metrics",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48376486",
-    "id": "48376486-lead-data-platform-engineer"
-  },
-  {
-    "position": "Senior ML Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Rhythm",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Chicago"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48401238",
-    "id": "48401238-senior-ml-engineer"
-  },
-  {
-    "position": "Senior Systems Engineer — Capture & Materializations",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Estuary",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48414026",
-    "id": "48414026-senior-systems-engineer-capture-materializations"
-  },
-  {
-    "position": "Senior Systems Engineer — Control & Data Plane",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Estuary",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48414026",
-    "id": "48414026-senior-systems-engineer-control-data-plane"
-  },
-  {
-    "position": "Senior Front-End Engineer",
+    "position": "Senior Software Engineer Frontend",
     "positionType": [
       "frontEnd"
     ],
-    "company": "Estuary",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48414026",
-    "id": "48414026-senior-front-end-engineer"
-  },
-  {
-    "position": "Product Manager",
-    "positionType": [
-      "other"
-    ],
-    "company": "Estuary",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48414026",
-    "id": "48414026-product-manager"
-  },
-  {
-    "position": "Technical Product Marketing Manager",
-    "positionType": [
-      "marketing"
-    ],
-    "company": "Estuary",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48414026",
-    "id": "48414026-technical-product-marketing-manager"
-  },
-  {
-    "position": "Founding Engineer/Generalist",
-    "positionType": [
-      "backEnd",
-      "fullStack",
-      "engineering"
-    ],
-    "company": "BrightCore",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "Ireland",
-        "city": "Dublin"
-      }
-    ],
-    "salary": "€58–65k + 1.0–1.5% equity",
-    "sourceId": "48357913",
-    "id": "48357913-founding-engineer-generalist"
-  },
-  {
-    "position": "Senior Software Engineer, Kong Identity",
-    "positionType": [
-      "backEnd",
-      "engineering"
-    ],
-    "company": "Kong",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "Canada",
-        "city": "Toronto"
-      }
-    ],
-    "salary": "CA$145K–215K",
-    "sourceId": "48372238",
-    "id": "48372238-senior-software-engineer-kong-identity"
-  },
-  {
-    "position": "Principal Platform Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Elucid",
-    "type": [
-      "onSite",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Boston"
-      }
-    ],
-    "salary": "$170k–$205k",
-    "sourceId": "48371252",
-    "id": "48371252-principal-platform-engineer"
-  },
-  {
-    "position": "Lead Software Engineer (Distributed Systems / Security)",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Puls Security",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Germany"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48382416",
-    "id": "48382416-lead-software-engineer-distributed-systems-security"
-  },
-  {
-    "position": "Staff Engineer, Fleet Management",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "Viam",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48368639",
-    "id": "48368639-staff-engineer-fleet-management"
-  },
-  {
-    "position": "Lead, Data Platform",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "Viam",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48368639",
-    "id": "48368639-lead-data-platform"
-  },
-  {
-    "position": "VP / Director Engineering",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Viam",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48368639",
-    "id": "48368639-vp-director-engineering"
-  },
-  {
-    "position": "AI Staff Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Republic Services",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Arizona"
-      }
-    ],
-    "salary": "$132,600- $182,250 + Bonus",
-    "sourceId": "48376099",
-    "id": "48376099-ai-staff-engineer"
-  },
-  {
-    "position": "Senior Full-Stack Software Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Otherling",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York"
-      },
-      {
-        "country": "United States",
-        "city": "Los Angeles"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48390831",
-    "id": "48390831-senior-full-stack-software-engineer"
-  },
-  {
-    "position": "Integration Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Bubblehouse",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Europe"
-      }
-    ],
-    "salary": "$70–110k/yr",
-    "sourceId": "48375155",
-    "id": "48375155-integration-engineer"
-  },
-  {
-    "position": "Network Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Root Managed Services, LLC",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Dallas"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48366909",
-    "id": "48366909-network-engineer"
-  },
-  {
-    "position": "Lead Software Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Findigs",
+    "company": "WireScreen",
     "type": [
       "hybrid"
     ],
@@ -3211,4294 +6128,18 @@ export const jobs: IJob[] = [
         "city": "New York City"
       }
     ],
-    "salary": "Competitive Base Salary plus Pre-IPO Equity",
-    "sourceId": "48372240",
-    "id": "48372240-lead-software-engineer"
-  },
-  {
-    "position": "Senior Software Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Findigs",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": "Competitive Base Salary plus Pre-IPO Equity",
-    "sourceId": "48372240",
-    "id": "48372240-senior-software-engineer"
-  },
-  {
-    "position": "Android Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Jefit",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Santa Clara"
-      }
-    ],
-    "salary": "$115K-$125K + equity + benefits",
-    "sourceId": "48373447",
-    "id": "48373447-android-engineer"
-  },
-  {
-    "position": "Head of Developer Relations",
-    "positionType": [
-      "marketing",
-      "engineering"
-    ],
-    "company": "Railtown AI",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Canada",
-        "city": "Vancouver"
-      }
-    ],
-    "salary": "$130k-$180k + equity",
-    "sourceId": "48376824",
-    "id": "48376824-head-of-developer-relations"
-  },
-  {
-    "position": "Senior Product Engineer",
-    "positionType": [
-      "engineering",
-      "fullStack"
-    ],
-    "company": "Ashby",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      },
-      {
-        "country": "Mexico"
-      },
-      {
-        "country": "European Union"
-      }
-    ],
-    "salary": "$153k–$275k",
-    "sourceId": "48377380",
-    "id": "48377380-senior-product-engineer"
-  },
-  {
-    "position": "Staff Product Engineer",
-    "positionType": [
-      "engineering",
-      "fullStack"
-    ],
-    "company": "Ashby",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      },
-      {
-        "country": "Mexico"
-      },
-      {
-        "country": "European Union"
-      }
-    ],
-    "salary": "$153k–$275k",
-    "sourceId": "48377380",
-    "id": "48377380-staff-product-engineer"
-  },
-  {
-    "position": "Distributed Data Infrastructure Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "ClickHouse Inc",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48369698",
-    "id": "48369698-distributed-data-infrastructure-engineer"
-  },
-  {
-    "position": "Product Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "CoPlane",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48365748",
-    "id": "48365748-product-engineer"
-  },
-  {
-    "position": "Product Manager",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "TrashLab",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48366911",
-    "id": "48366911-product-manager"
-  },
-  {
-    "position": "Product Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "TrashLab",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48366911",
-    "id": "48366911-product-engineer"
-  },
-  {
-    "position": "Senior Technical Lead",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Maryland Digital Service",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Maryland"
-      }
-    ],
-    "salary": "$140K–$175K",
-    "sourceId": "48373063",
-    "id": "48373063-senior-technical-lead"
-  },
-  {
-    "position": "Senior Software Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Makeship",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Canada",
-        "city": "Toronto"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48361780",
-    "id": "48361780-senior-software-engineer"
-  },
-  {
-    "position": "Staff Engineer, Systems & Integrations",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Makeship",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Canada",
-        "city": "Toronto"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48361780",
-    "id": "48361780-staff-engineer-systems-integrations"
-  },
-  {
-    "position": "Infrastructure Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Lago",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Europe"
-      },
-      {
-        "country": "Canada"
-      },
-      {
-        "country": "Brazil"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48371423",
-    "id": "48371423-infrastructure-engineer"
-  },
-  {
-    "position": "Backend Engineer",
-    "positionType": [
-      "backEnd"
-    ],
-    "company": "Lago",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Europe"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48371423",
-    "id": "48371423-backend-engineer"
-  },
-  {
-    "position": "Frontend Engineer",
-    "positionType": [
-      "frontEnd"
-    ],
-    "company": "Lago",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Europe"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48371423",
-    "id": "48371423-frontend-engineer"
-  },
-  {
-    "position": "Product Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Lago",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "France"
-      },
-      {
-        "country": "Europe"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48371423",
-    "id": "48371423-product-engineer"
-  },
-  {
-    "position": "Product Designer",
-    "positionType": [
-      "design"
-    ],
-    "company": "Lago",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "France"
-      },
-      {
-        "country": "Europe"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48371423",
-    "id": "48371423-product-designer"
-  },
-  {
-    "position": "Enterprise Sales Consultant",
-    "positionType": [
-      "sales"
-    ],
-    "company": "Lago",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "France"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48371423",
-    "id": "48371423-enterprise-sales-consultant"
-  },
-  {
-    "position": "Forward Deployed Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Lago",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "France"
-      },
-      {
-        "country": "Europe"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48371423",
-    "id": "48371423-forward-deployed-engineer"
-  },
-  {
-    "position": "Product Engineer (Growth focus)",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Lago",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Europe"
-      },
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48371423",
-    "id": "48371423-product-engineer-growth-focus"
-  },
-  {
-    "position": "Staff Rust SDK Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "LiveKit",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48392723",
-    "id": "48392723-staff-rust-sdk-engineer"
-  },
-  {
-    "position": "Staff Security Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "LiveKit",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48392723",
-    "id": "48392723-staff-security-engineer"
-  },
-  {
-    "position": "Sr Software Engineer, Agent Platform",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "LiveKit",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48392723",
-    "id": "48392723-sr-software-engineer-agent-platform"
-  },
-  {
-    "position": "Developer Success Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "LiveKit",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48392723",
-    "id": "48392723-developer-success-engineer"
-  },
-  {
-    "position": "Sr Software Engineer, Telephony",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "LiveKit",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48392723",
-    "id": "48392723-sr-software-engineer-telephony"
-  },
-  {
-    "position": "Founding SRE + Bare-Metal Infra Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Inferra",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48365334",
-    "id": "48365334-founding-sre-bare-metal-infra-engineer"
-  },
-  {
-    "position": "Founding ML Engineer - General",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Frisson Labs",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": "$150K-$200K + 1.0-2.0% equity",
-    "sourceId": "48363300",
-    "id": "48363300-founding-ml-engineer-general"
-  },
-  {
-    "position": "Founding ML Engineer - Audio/Speech",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Frisson Labs",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": "$150K-$200K + 1.0-2.0% equity",
-    "sourceId": "48363300",
-    "id": "48363300-founding-ml-engineer-audio-speech"
-  },
-  {
-    "position": "Founding Product Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Veedma",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "$160-200k + equity",
-    "sourceId": "48361997",
-    "id": "48361997-founding-product-engineer"
-  },
-  {
-    "position": "Founding Growth Engineer",
-    "positionType": [
-      "engineering",
-      "other"
-    ],
-    "company": "Veedma",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "$150-190k + equity",
-    "sourceId": "48361997",
-    "id": "48361997-founding-growth-engineer"
-  },
-  {
-    "position": "Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Roundly",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48409132",
-    "id": "48409132-engineer"
-  },
-  {
-    "position": "Senior DevOps Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Perry Street Software",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "European Union"
-      },
-      {
-        "country": "Latin America"
-      },
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48371138",
-    "id": "48371138-senior-devops-engineer"
-  },
-  {
-    "position": "Machine Learning Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Beatdapp",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "Canada",
-        "city": "Vancouver"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48364782",
-    "id": "48364782-machine-learning-engineer"
-  },
-  {
-    "position": "Senior Product Engineer",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "Chestnut",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "United States",
-        "city": "Seattle"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359505",
-    "id": "48359505-senior-product-engineer"
-  },
-  {
-    "position": "Senior .NET Developer",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "MWI Animal Health",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48369362",
-    "id": "48369362-senior-net-developer"
-  },
-  {
-    "position": "Head of Delivery",
-    "positionType": [
-      "other"
-    ],
-    "company": "Speckle",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": "£120–140k base + variable (OTE ~£160k) + meaningful equity",
-    "sourceId": "48361294",
-    "id": "48361294-head-of-delivery"
-  },
-  {
-    "position": "Software Engineer II (Expansion - Integrations)",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Articulate",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "$109k–$217k",
-    "sourceId": "48372029",
-    "id": "48372029-software-engineer-ii-expansion-integrations"
-  },
-  {
-    "position": "Senior Software Engineer I (Expansion - Integrations)",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Articulate",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "$109k–$217k",
-    "sourceId": "48372029",
-    "id": "48372029-senior-software-engineer-i-expansion-integrations"
-  },
-  {
-    "position": "Senior Software Engineer II (Distributions)",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Articulate",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "$109k–$217k",
-    "sourceId": "48372029",
-    "id": "48372029-senior-software-engineer-ii-distributions"
-  },
-  {
-    "position": "Full Stack Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Monk",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48378474",
-    "id": "48378474-full-stack-engineer"
-  },
-  {
-    "position": "Front End Engineer",
-    "positionType": [
-      "frontEnd"
-    ],
-    "company": "Monk",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48378474",
-    "id": "48378474-front-end-engineer"
-  },
-  {
-    "position": "Member of Technical Staff - Applied AI",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Monk",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48378474",
-    "id": "48378474-member-of-technical-staff-applied-ai"
-  },
-  {
-    "position": "Senior Research Software Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "IonQ",
-    "type": [
-      "onSite",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Boston"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48379267",
-    "id": "48379267-senior-research-software-engineer"
-  },
-  {
-    "position": "Infrastructure Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Apollo Research",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": "$215k–$265k + equity",
-    "sourceId": "48371505",
-    "id": "48371505-infrastructure-engineer"
-  },
-  {
-    "position": "Fullstack Engineer",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "RealEstateU",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48368468",
-    "id": "48368468-fullstack-engineer"
-  },
-  {
-    "position": "Founding Engineer",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "Tenera",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359106",
-    "id": "48359106-founding-engineer"
-  },
-  {
-    "position": "Staff Software Engineer",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "Obsidian Security",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "$176k-$196k + equity + 401k",
-    "sourceId": "48361574",
-    "id": "48361574-staff-software-engineer"
-  },
-  {
-    "position": "Senior Software Engineer",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "Lantern",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360904",
-    "id": "48360904-senior-software-engineer"
-  },
-  {
-    "position": "Junior Software Engineer",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "Lantern",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360904",
-    "id": "48360904-junior-software-engineer"
-  },
-  {
-    "position": "New Grad Software Engineer",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "Lantern",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360904",
-    "id": "48360904-new-grad-software-engineer"
-  },
-  {
-    "position": "Full Stack Architect",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "Long Tail",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48362451",
-    "id": "48362451-full-stack-architect"
-  },
-  {
-    "position": "Lead Full Stack Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "JustPark",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359608",
-    "id": "48359608-lead-full-stack-engineer"
-  },
-  {
-    "position": "Lead Engineer, Oobeo Platform",
-    "positionType": [
-      "backEnd",
-      "frontEnd",
-      "fullStack",
-      "engineering"
-    ],
-    "company": "JustPark",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Dallas"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359608",
-    "id": "48359608-lead-engineer-oobeo-platform"
-  },
-  {
-    "position": "Senior Software Engineer",
-    "positionType": [
-      "backEnd",
-      "engineering"
-    ],
-    "company": "Spacelift",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Europe"
-      }
-    ],
-    "salary": "$80k-$110k+ (can go higher)",
-    "sourceId": "48360601",
-    "id": "48360601-senior-software-engineer"
-  },
-  {
-    "position": "Database Internals Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "ParadeDB",
-    "type": [
-      "remote",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359945",
-    "id": "48359945-database-internals-engineer"
-  },
-  {
-    "position": "Distributed Systems Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "ParadeDB",
-    "type": [
-      "remote",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359945",
-    "id": "48359945-distributed-systems-engineer"
-  },
-  {
-    "position": "Senior Full Stack Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Govra",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco Bay Area"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48361403",
-    "id": "48361403-senior-full-stack-engineer"
-  },
-  {
-    "position": "Staff Full Stack Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Govra",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco Bay Area"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48361403",
-    "id": "48361403-staff-full-stack-engineer"
-  },
-  {
-    "position": "Software Engineer - Backend, Python, Rust",
-    "positionType": [
-      "backEnd",
-      "engineering"
-    ],
-    "company": "Smarkets",
-    "type": [
-      "hybrid",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358281",
-    "id": "48358281-software-engineer-backend-python-rust"
-  },
-  {
-    "position": "Staff Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Smarkets",
-    "type": [
-      "hybrid",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358281",
-    "id": "48358281-staff-engineer"
-  },
-  {
-    "position": "Engineering Team Lead/Manager",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Smarkets",
-    "type": [
-      "hybrid",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358281",
-    "id": "48358281-engineering-team-lead-manager"
-  },
-  {
-    "position": "Senior Cloud Infrastructure Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Smarkets",
-    "type": [
-      "hybrid",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358281",
-    "id": "48358281-senior-cloud-infrastructure-engineer"
-  },
-  {
-    "position": "Senior Data Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Smarkets",
-    "type": [
-      "hybrid",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358281",
-    "id": "48358281-senior-data-engineer"
-  },
-  {
-    "position": "Engineering Manager, Platform",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Peregrine",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": "$175,000 - $300,000",
-    "sourceId": "48359037",
-    "id": "48359037-engineering-manager-platform"
-  },
-  {
-    "position": "Staff SWE, Product Security",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Peregrine",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": "$175,000 - $300,000",
-    "sourceId": "48359037",
-    "id": "48359037-staff-swe-product-security"
-  },
-  {
-    "position": "Staff SWE, AI",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Peregrine",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": "$175,000 - $300,000",
-    "sourceId": "48359037",
-    "id": "48359037-staff-swe-ai"
-  },
-  {
-    "position": "Sr SWE",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Peregrine",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "United States",
-        "city": "New York City"
-      },
-      {
-        "country": "United States",
-        "city": "Washington DC"
-      }
-    ],
-    "salary": "$175,000 - $300,000",
-    "sourceId": "48359037",
-    "id": "48359037-sr-swe"
-  },
-  {
-    "position": "Sr SWE, Data Governance",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Peregrine",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": "$175,000 - $300,000",
-    "sourceId": "48359037",
-    "id": "48359037-sr-swe-data-governance"
-  },
-  {
-    "position": "Sr SWE, Data Infrastructure",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Peregrine",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "United States",
-        "city": "New York City"
-      },
-      {
-        "country": "United States",
-        "city": "Washington DC"
-      }
-    ],
-    "salary": "$175,000 - $300,000",
-    "sourceId": "48359037",
-    "id": "48359037-sr-swe-data-infrastructure"
-  },
-  {
-    "position": "Sr Product Designer",
-    "positionType": [
-      "design"
-    ],
-    "company": "Peregrine",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": "$175,000 - $300,000",
-    "sourceId": "48359037",
-    "id": "48359037-sr-product-designer"
-  },
-  {
-    "position": "Sr Design Engineer",
-    "positionType": [
-      "design",
-      "engineering"
-    ],
-    "company": "Peregrine",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": "$175,000 - $300,000",
-    "sourceId": "48359037",
-    "id": "48359037-sr-design-engineer"
-  },
-  {
-    "position": "Strategy & Operations Manager",
-    "positionType": [
-      "other"
-    ],
-    "company": "Sheer Health",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358312",
-    "id": "48358312-strategy-operations-manager"
-  },
-  {
-    "position": "Automation Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Sheer Health",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358312",
-    "id": "48358312-automation-engineer"
-  },
-  {
-    "position": "Backend Engineer",
-    "positionType": [
-      "backEnd"
-    ],
-    "company": "Sheer Health",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358312",
-    "id": "48358312-backend-engineer"
-  },
-  {
-    "position": "Infrastructure Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Sheer Health",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358312",
-    "id": "48358312-infrastructure-engineer"
-  },
-  {
-    "position": "Senior Data Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Virtasant",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48367716",
-    "id": "48367716-senior-data-engineer"
-  },
-  {
-    "position": "Senior Fullstack Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Bucket Robotics",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48361615",
-    "id": "48361615-senior-fullstack-engineer"
-  },
-  {
-    "position": "Founding Infrastructure Engineer - Distributed Systems & Platform Engineering",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "CHEERS.FAN #1",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Bay Area"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48357963",
-    "id": "48357963-founding-infrastructure-engineer-distributed-systems-platform-engineering"
-  },
-  {
-    "position": "Founding Infrastructure Engineer - Real-Time Synchronization & Timing Systems",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "CHEERS.FAN #1",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Bay Area"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48357963",
-    "id": "48357963-founding-infrastructure-engineer-real-time-synchronization-timing-systems"
-  },
-  {
-    "position": "Founding Infrastructure Engineer - Embedded & Edge Infrastructure Engineering",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "CHEERS.FAN #1",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Bay Area"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48357963",
-    "id": "48357963-founding-infrastructure-engineer-embedded-edge-infrastructure-engineering"
-  },
-  {
-    "position": "Software Engineer Infrastructure",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Column",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360796",
-    "id": "48360796-software-engineer-infrastructure"
-  },
-  {
-    "position": "Software Engineer Backend",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Column",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360796",
-    "id": "48360796-software-engineer-backend"
-  },
-  {
-    "position": "Software Engineer Product",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Column",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360796",
-    "id": "48360796-software-engineer-product"
-  },
-  {
-    "position": "Summer Software Engineering Intern",
-    "positionType": [
-      "engineering",
-      "backEnd",
-      "frontEnd",
-      "fullStack"
-    ],
-    "company": "AES",
-    "type": [
-      "remote",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Chelmsford"
-      },
-      {
-        "country": "United States",
-        "city": "Waltham"
-      }
-    ],
-    "salary": "$30-40/hr",
-    "sourceId": "48372101",
-    "id": "48372101-summer-software-engineering-intern"
-  },
-  {
-    "position": "Staff Machine Learning Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Reddit",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "$230K - $322K base + equity",
-    "sourceId": "48362489",
-    "id": "48362489-staff-machine-learning-engineer"
-  },
-  {
-    "position": "Staff Software Engineer, Patient Experience",
-    "positionType": [
-      "fullStack",
-      "frontEnd",
-      "engineering"
-    ],
-    "company": "Pomelo Care",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      },
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48370094",
-    "id": "48370094-staff-software-engineer-patient-experience"
-  },
-  {
-    "position": "Senior Product Security Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Pomelo Care",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      },
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48370094",
-    "id": "48370094-senior-product-security-engineer"
-  },
-  {
-    "position": "Web Scraping Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Kadoa",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48360108",
-    "id": "48360108-web-scraping-engineer"
-  },
-  {
-    "position": "Senior Software Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Kadoa",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48360108",
-    "id": "48360108-senior-software-engineer"
-  },
-  {
-    "position": "MTS, Applied AI",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Aptura AI",
-    "type": [
-      "onSite",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360907",
-    "id": "48360907-mts-applied-ai"
-  },
-  {
-    "position": "MTS, SWE / Product",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Aptura AI",
-    "type": [
-      "onSite",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360907",
-    "id": "48360907-mts-swe-product"
-  },
-  {
-    "position": "React Typescript Developer",
-    "positionType": [
-      "frontEnd",
-      "design"
-    ],
-    "company": "Paymail",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": "Startup Equity Only",
-    "sourceId": "48363449",
-    "id": "48363449-react-typescript-developer"
-  },
-  {
-    "position": "Senior Full-Stack Software Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Neo.Tax",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "$190K–$210K + equity",
-    "sourceId": "48362254",
-    "id": "48362254-senior-full-stack-software-engineer"
-  },
-  {
-    "position": "Senior Data Scientist + ML Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Neo.Tax",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "$190K–$210K + equity",
-    "sourceId": "48362254",
-    "id": "48362254-senior-data-scientist-ml-engineer"
-  },
-  {
-    "position": "Senior Infrastructure Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Atom Computing",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Boulder"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48357775",
-    "id": "48357775-senior-infrastructure-engineer"
-  },
-  {
-    "position": "Senior Software Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Atom Computing",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Boulder"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48357775",
-    "id": "48357775-senior-software-engineer"
-  },
-  {
-    "position": "Software Engineering Manager",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Atom Computing",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Boulder"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48357775",
-    "id": "48357775-software-engineering-manager"
-  },
-  {
-    "position": "Principal Software Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Atom Computing",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Boulder"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48357775",
-    "id": "48357775-principal-software-engineer"
-  },
-  {
-    "position": "Founding Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Kiloforge",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48363772",
-    "id": "48363772-founding-engineer"
-  },
-  {
-    "position": "Senior Go Developer",
-    "positionType": [
-      "backEnd"
-    ],
-    "company": "No Isolation",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "Norway",
-        "city": "Oslo"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48383070",
-    "id": "48383070-senior-go-developer"
-  },
-  {
-    "position": "Senior Mobile Fullstack Developer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "No Isolation",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "Norway",
-        "city": "Oslo"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48383070",
-    "id": "48383070-senior-mobile-fullstack-developer"
-  },
-  {
-    "position": "Senior Full-Stack Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Mitte",
-    "type": [
-      "onSite",
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Germany",
-        "city": "Berlin"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48368490",
-    "id": "48368490-senior-full-stack-engineer"
-  },
-  {
-    "position": "Senior Frontend Engineer",
-    "positionType": [
-      "frontEnd"
-    ],
-    "company": "Mitte",
-    "type": [
-      "onSite",
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Germany",
-        "city": "Berlin"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48368490",
-    "id": "48368490-senior-frontend-engineer"
-  },
-  {
-    "position": "Senior Backend Engineer",
-    "positionType": [
-      "backEnd"
-    ],
-    "company": "Mitte",
-    "type": [
-      "onSite",
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Germany",
-        "city": "Berlin"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48368490",
-    "id": "48368490-senior-backend-engineer"
-  },
-  {
-    "position": "Founding Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Mitte",
-    "type": [
-      "onSite",
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Germany",
-        "city": "Berlin"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48368490",
-    "id": "48368490-founding-engineer"
-  },
-  {
-    "position": "AI Educator",
-    "positionType": [
-      "other"
-    ],
-    "company": "Mitte",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48368490",
-    "id": "48368490-ai-educator"
-  },
-  {
-    "position": "Founder's Associate",
-    "positionType": [
-      "other"
-    ],
-    "company": "Mitte",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48368490",
-    "id": "48368490-founders-associate"
-  },
-  {
-    "position": "iOS / Flutter Developer",
-    "positionType": [
-      "engineering",
-      "frontEnd"
-    ],
-    "company": "Psiphon",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "Canada",
-        "city": "Toronto"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48362448",
-    "id": "48362448-ios-flutter-developer"
-  },
-  {
-    "position": "Full Stack Software Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Piq Energy",
-    "type": [
-      "remote",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "Greece",
-        "city": "Athens"
-      }
-    ],
-    "salary": "$150k-$250k + equity (SF; location-adjusted)",
-    "sourceId": "48363752",
-    "id": "48363752-full-stack-software-engineer"
-  },
-  {
-    "position": "Software Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Datadog",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Boston"
-      },
-      {
-        "country": "Portugal",
-        "city": "Lisbon"
-      },
-      {
-        "country": "Spain",
-        "city": "Madrid"
-      },
-      {
-        "country": "United States",
-        "city": "New York City"
-      },
-      {
-        "country": "France",
-        "city": "Paris"
-      },
-      {
-        "country": "Israel",
-        "city": "Tel Aviv"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359181",
-    "id": "48359181-software-engineer"
-  },
-  {
-    "position": "Senior Scala Developer",
-    "positionType": [
-      "backEnd",
-      "engineering"
-    ],
-    "company": "Exeon",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Switzerland"
-      },
-      {
-        "country": "Germany"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48368871",
-    "id": "48368871-senior-scala-developer"
-  },
-  {
-    "position": "Staff Software Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Outschool",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48363378",
-    "id": "48363378-staff-software-engineer"
-  },
-  {
-    "position": "Senior Software Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Coder",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48384224",
-    "id": "48384224-senior-software-engineer"
-  },
-  {
-    "position": "Software Engineer (AI Governance)",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Coder",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United Kingdom"
-      },
-      {
-        "country": "Ireland"
-      },
-      {
-        "country": "Poland"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48384224",
-    "id": "48384224-software-engineer-ai-governance"
-  },
-  {
-    "position": "Security Engineer (Product)",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Coder",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United Kingdom"
-      },
-      {
-        "country": "Ireland"
-      },
-      {
-        "country": "Poland"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48384224",
-    "id": "48384224-security-engineer-product"
-  },
-  {
-    "position": "Security Engineer (Infrastructure)",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Coder",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48384224",
-    "id": "48384224-security-engineer-infrastructure"
-  },
-  {
-    "position": "Senior Security Engineer (IT)",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Coder",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United Kingdom"
-      },
-      {
-        "country": "Ireland"
-      },
-      {
-        "country": "Poland"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48384224",
-    "id": "48384224-senior-security-engineer-it"
-  },
-  {
-    "position": "Developer Relations Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Coder",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48384224",
-    "id": "48384224-developer-relations-engineer"
-  },
-  {
-    "position": "Forward Deployed Engineering Manager",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Coder",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48384224",
-    "id": "48384224-forward-deployed-engineering-manager"
-  },
-  {
-    "position": "Platform Engineering Lead",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Coder",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United Kingdom"
-      },
-      {
-        "country": "Ireland"
-      },
-      {
-        "country": "Poland"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48384224",
-    "id": "48384224-platform-engineering-lead"
-  },
-  {
-    "position": "Senior Full-Stack Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "OpenRent",
-    "type": [
-      "onSite",
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": "110k+ (based on experience) + quarterly bonus",
-    "sourceId": "48357822",
-    "id": "48357822-senior-full-stack-engineer"
-  },
-  {
-    "position": "Founding Full Stack / Applied AI Engineer",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "Cora AI",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "United States",
-        "city": "Los Angeles"
-      }
-    ],
-    "salary": "$190–250k + early equity",
-    "sourceId": "48358370",
-    "id": "48358370-founding-full-stack-applied-ai-engineer"
-  },
-  {
-    "position": "Backend Software Engineer",
-    "positionType": [
-      "backEnd"
-    ],
-    "company": "Enveritas",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": "$135-$155k",
-    "sourceId": "48372552",
-    "id": "48372552-backend-software-engineer"
-  },
-  {
-    "position": "Forward Deployed Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Snowflake",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Menlo Park"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48365048",
-    "id": "48365048-forward-deployed-engineer"
-  },
-  {
-    "position": "Senior Forward Deployed Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Snowflake",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Menlo Park"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48365048",
-    "id": "48365048-senior-forward-deployed-engineer"
-  },
-  {
-    "position": "Senior Software Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Caribou",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "Canada",
-        "city": "Toronto"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359536",
-    "id": "48359536-senior-software-engineer"
-  },
-  {
-    "position": "Staff Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Caribou",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "Canada",
-        "city": "Toronto"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359536",
-    "id": "48359536-staff-engineer"
-  },
-  {
-    "position": "Software Engineer Product",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Modal",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48363551",
-    "id": "48363551-software-engineer-product"
-  },
-  {
-    "position": "Software Engineer System",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Modal",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48363551",
-    "id": "48363551-software-engineer-system"
-  },
-  {
-    "position": "Software Engineer SDK",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Modal",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48363551",
-    "id": "48363551-software-engineer-sdk"
-  },
-  {
-    "position": "Staff Fullstack Engineer",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "Treasure AI",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "Japan",
-        "city": "Tokyo"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358221",
-    "id": "48358221-staff-fullstack-engineer"
-  },
-  {
-    "position": "Software Developer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Odoo",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "Belgium"
-      }
-    ],
-    "salary": "Visa + €10k Signing Bonus",
-    "sourceId": "48361945",
-    "id": "48361945-software-developer"
-  },
-  {
-    "position": "Senior Scientist",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "IBM Research",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Boston"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358971",
-    "id": "48358971-senior-scientist"
-  },
-  {
-    "position": "Research Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "IBM Research",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Boston"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358971",
-    "id": "48358971-research-engineer"
-  },
-  {
-    "position": "Backend Engineer",
-    "positionType": [
-      "backEnd"
-    ],
-    "company": "Guac",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": "$150k-$250k base + equity",
-    "sourceId": "48359699",
-    "id": "48359699-backend-engineer"
-  },
-  {
-    "position": "Fullstack Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Guac",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": "$150k-$250k base + equity",
-    "sourceId": "48359699",
-    "id": "48359699-fullstack-engineer"
-  },
-  {
-    "position": "Lead Software Engineer",
-    "positionType": [
-      "backEnd",
-      "engineering"
-    ],
-    "company": "CivTiq",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "Canada",
-        "city": "Toronto"
-      }
-    ],
-    "salary": "$130,000 – $180,000 CAD",
-    "sourceId": "48362249",
-    "id": "48362249-lead-software-engineer"
-  },
-  {
-    "position": "Full Stack Engineer",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "Kanary",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "Competitive Salary + Equity",
-    "sourceId": "48358374",
-    "id": "48358374-full-stack-engineer"
-  },
-  {
-    "position": "Software Engineer",
-    "positionType": [
-      "engineering",
-      "fullStack"
-    ],
-    "company": "Riot IQ",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Seattle"
-      }
-    ],
-    "salary": "$90k to $180k",
-    "sourceId": "48361618",
-    "id": "48361618-software-engineer"
-  },
-  {
-    "position": "Product Designer",
-    "positionType": [
-      "design"
-    ],
-    "company": "Riot IQ",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Seattle"
-      }
-    ],
-    "salary": "$90k to $180k",
-    "sourceId": "48361618",
-    "id": "48361618-product-designer"
-  },
-  {
-    "position": "AI Native Fresh Grad",
-    "positionType": [
-      "engineering",
-      "fullStack"
-    ],
-    "company": "Riot IQ",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Seattle"
-      }
-    ],
-    "salary": "$90k to $180k",
-    "sourceId": "48361618",
-    "id": "48361618-ai-native-fresh-grad"
-  },
-  {
-    "position": "Tech Lead Full Stack",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Evertune AI",
-    "type": [
-      "onSite",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": "$150k - $250k + equity",
-    "sourceId": "48359017",
-    "id": "48359017-tech-lead-full-stack"
-  },
-  {
-    "position": "Product Manager GEO",
-    "positionType": [
-      "other"
-    ],
-    "company": "Evertune AI",
-    "type": [
-      "onSite",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": "up to $180k + equity",
-    "sourceId": "48359017",
-    "id": "48359017-product-manager-geo"
-  },
-  {
-    "position": "Product Designer",
-    "positionType": [
-      "design"
-    ],
-    "company": "Evertune AI",
-    "type": [
-      "onSite",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": "up to $160k + equity",
-    "sourceId": "48359017",
-    "id": "48359017-product-designer"
-  },
-  {
-    "position": "Senior+ Full Stack Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Evertune AI",
-    "type": [
-      "onSite",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      },
-      {
-        "country": "United States",
-        "city": "Seattle"
-      }
-    ],
-    "salary": "$150k - $250k + equity",
-    "sourceId": "48359017",
-    "id": "48359017-senior-full-stack-engineer"
-  },
-  {
-    "position": "Senior+ Backend Engineer",
-    "positionType": [
-      "backEnd"
-    ],
-    "company": "Evertune AI",
-    "type": [
-      "onSite",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      },
-      {
-        "country": "United States",
-        "city": "Seattle"
-      }
-    ],
-    "salary": "$150k - $250k + equity",
-    "sourceId": "48359017",
-    "id": "48359017-senior-backend-engineer"
-  },
-  {
-    "position": "Senior+ Backend Infra Engineer",
-    "positionType": [
-      "backEnd"
-    ],
-    "company": "Evertune AI",
-    "type": [
-      "onSite",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      },
-      {
-        "country": "United States",
-        "city": "Seattle"
-      }
-    ],
-    "salary": "$150k - $250k + equity",
-    "sourceId": "48359017",
-    "id": "48359017-senior-backend-infra-engineer"
-  },
-  {
-    "position": "Senior Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Longshot Systems",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48368660",
-    "id": "48368660-senior-engineer"
-  },
-  {
-    "position": "Junior Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "GetDynasty.com",
-    "type": [
-      "onSite",
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": "$100k-$120k + equity",
-    "sourceId": "48358939",
-    "id": "48358939-junior-engineer"
-  },
-  {
-    "position": "Research Engineer",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "Nof1",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48363998",
-    "id": "48363998-research-engineer"
-  },
-  {
-    "position": "Full-Stack Engineer",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "Nof1",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48363998",
-    "id": "48363998-full-stack-engineer"
-  },
-  {
-    "position": "Infrastructure Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Nof1",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48363998",
-    "id": "48363998-infrastructure-engineer"
-  },
-  {
-    "position": "AI native growth marketer",
-    "positionType": [
-      "marketing"
-    ],
-    "company": "APMHelp.com / PM-in-a-box.org",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48385726",
-    "id": "48385726-ai-native-growth-marketer"
-  },
-  {
-    "position": "Senior Data Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "DataSF (City & County of San Francisco)",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": "$156k-$196k",
-    "sourceId": "48363272",
-    "id": "48363272-senior-data-engineer"
-  },
-  {
-    "position": "Software Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Everflow",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "Canada",
-        "city": "Montreal"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359477",
-    "id": "48359477-software-engineer"
-  },
-  {
-    "position": "Senior Full-Stack Ruby on Rails",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Hellotext",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Latin America"
-      },
-      {
-        "country": "European Union"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48363340",
-    "id": "48363340-senior-full-stack-ruby-on-rails"
-  },
-  {
-    "position": "Senior Software Engineer",
-    "positionType": [
-      "engineering",
-      "fullStack"
-    ],
-    "company": "Ai2 / Allen Institute for AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Seattle"
-      }
-    ],
-    "salary": "$126–189k base + bonus + benefits",
-    "sourceId": "48365397",
-    "id": "48365397-senior-software-engineer"
-  },
-  {
-    "position": "Founding Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Pascal",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48365211",
-    "id": "48365211-founding-engineer"
-  },
-  {
-    "position": "Frontend Engineer",
-    "positionType": [
-      "frontEnd"
-    ],
-    "company": "",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Croatia",
-        "city": "Dubrovnik"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48385780",
-    "id": "48385780-frontend-engineer"
-  },
-  {
-    "position": "Full-Stack Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Croatia",
-        "city": "Dubrovnik"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48385780",
-    "id": "48385780-full-stack-engineer"
-  },
-  {
-    "position": "React Engineer",
-    "positionType": [
-      "frontEnd"
-    ],
-    "company": "",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Croatia",
-        "city": "Dubrovnik"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48385780",
-    "id": "48385780-react-engineer"
-  },
-  {
-    "position": "Software Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Croatia",
-        "city": "Dubrovnik"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48385780",
-    "id": "48385780-software-engineer"
-  },
-  {
-    "position": "Lead AI Engineer, Agentic Systems",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Catalyst·Wayfare AI",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48385146",
-    "id": "48385146-lead-ai-engineer-agentic-systems"
-  },
-  {
-    "position": "AI Engineer, Agent Builder",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Catalyst·Wayfare AI",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48385146",
-    "id": "48385146-ai-engineer-agent-builder"
-  },
-  {
-    "position": "Platform Manager (Engineering), Trust.ML",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Catalyst·Wayfare AI",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48385146",
-    "id": "48385146-platform-manager-engineering-trust-ml"
-  },
-  {
-    "position": "AI Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Factory AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48364864",
-    "id": "48364864-ai-engineer"
-  },
-  {
-    "position": "Fullstack Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Factory AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48364864",
-    "id": "48364864-fullstack-engineer"
-  },
-  {
-    "position": "Frontend Engineer",
-    "positionType": [
-      "frontEnd"
-    ],
-    "company": "Factory AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48364864",
-    "id": "48364864-frontend-engineer"
-  },
-  {
-    "position": "Platform Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Factory AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48364864",
-    "id": "48364864-platform-engineer"
-  },
-  {
-    "position": "Product Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Factory AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48364864",
-    "id": "48364864-product-engineer"
-  },
-  {
-    "position": "Data Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Factory AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48364864",
-    "id": "48364864-data-engineer"
-  },
-  {
-    "position": "Security Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Factory AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48364864",
-    "id": "48364864-security-engineer"
-  },
-  {
-    "position": "Research Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Factory AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48364864",
-    "id": "48364864-research-engineer"
-  },
-  {
-    "position": "Enterprise Account Executive",
-    "positionType": [
-      "sales"
-    ],
-    "company": "Factory AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "United States",
-        "city": "New York"
-      },
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48364864",
-    "id": "48364864-enterprise-account-executive"
-  },
-  {
-    "position": "Mid-Market Account Executive",
-    "positionType": [
-      "sales"
-    ],
-    "company": "Factory AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "United States",
-        "city": "New York"
-      },
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48364864",
-    "id": "48364864-mid-market-account-executive"
-  },
-  {
-    "position": "Solutions Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Factory AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "United States",
-        "city": "New York"
-      },
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48364864",
-    "id": "48364864-solutions-engineer"
-  },
-  {
-    "position": "Forward Deployed Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Factory AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "United States",
-        "city": "New York"
-      },
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48364864",
-    "id": "48364864-forward-deployed-engineer"
-  },
-  {
-    "position": "Product Marketing",
-    "positionType": [
-      "marketing"
-    ],
-    "company": "Factory AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "United States",
-        "city": "New York"
-      },
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48364864",
-    "id": "48364864-product-marketing"
-  },
-  {
-    "position": "Product Manager",
-    "positionType": [
-      "other"
-    ],
-    "company": "Factory AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "United States",
-        "city": "New York"
-      },
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48364864",
-    "id": "48364864-product-manager"
-  },
-  {
-    "position": "Product Designer",
-    "positionType": [
-      "design"
-    ],
-    "company": "Factory AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "United States",
-        "city": "New York"
-      },
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48364864",
-    "id": "48364864-product-designer"
-  },
-  {
-    "position": "Partnerships",
-    "positionType": [
-      "other"
-    ],
-    "company": "Factory AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "United States",
-        "city": "New York"
-      },
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48364864",
-    "id": "48364864-partnerships"
-  },
-  {
-    "position": "Operations",
-    "positionType": [
-      "other"
-    ],
-    "company": "Factory AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "United States",
-        "city": "New York"
-      },
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48364864",
-    "id": "48364864-operations"
-  },
-  {
-    "position": "Rust Developer - Polycentric",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "FUTO",
-    "type": [
-      "remote",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Austin"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359172",
-    "id": "48359172-rust-developer-polycentric"
-  },
-  {
-    "position": "React Native Developer - Polycentric",
-    "positionType": [
-      "engineering",
-      "frontEnd"
-    ],
-    "company": "FUTO",
-    "type": [
-      "remote",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Austin"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359172",
-    "id": "48359172-react-native-developer-polycentric"
-  },
-  {
-    "position": "UI/UX Designer",
-    "positionType": [
-      "design"
-    ],
-    "company": "FUTO",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Austin"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359172",
-    "id": "48359172-ui-ux-designer"
-  },
-  {
-    "position": "RISC-V CPU Architect",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "FUTO",
-    "type": [
-      "remote",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Austin"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359172",
-    "id": "48359172-risc-v-cpu-architect"
-  },
-  {
-    "position": "Design Verification Lead",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "FUTO",
-    "type": [
-      "remote",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Austin"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359172",
-    "id": "48359172-design-verification-lead"
-  },
-  {
-    "position": "Senior Software Engineer, Compiler",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Category Labs",
-    "type": [
-      "remote",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": "$200K USD+",
-    "sourceId": "48361443",
-    "id": "48361443-senior-software-engineer-compiler"
-  },
-  {
-    "position": "Site Reliability Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Alembic",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360189",
-    "id": "48360189-site-reliability-engineer"
-  },
-  {
-    "position": "C++ AI Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Alembic",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360189",
-    "id": "48360189-c-plus-plus-ai-engineer"
-  },
-  {
-    "position": "Data Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Alembic",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360189",
-    "id": "48360189-data-engineer"
-  },
-  {
-    "position": "Backend Python Engineer",
-    "positionType": [
-      "backEnd",
-      "engineering"
-    ],
-    "company": "Alembic",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360189",
-    "id": "48360189-backend-python-engineer"
-  },
-  {
-    "position": "Senior Software Engineer - Data Plane Team",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Blackshark AI",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Austria"
-      },
-      {
-        "country": "European Union"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358386",
-    "id": "48358386-senior-software-engineer-data-plane-team"
-  },
-  {
-    "position": "Software Engineer - Data Plane Team",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Blackshark AI",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Austria"
-      },
-      {
-        "country": "European Union"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358386",
-    "id": "48358386-software-engineer-data-plane-team"
-  },
-  {
-    "position": "DevSecOps Engineer - Deployment Team",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Blackshark AI",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Austria"
-      },
-      {
-        "country": "European Union"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358386",
-    "id": "48358386-devsecops-engineer-deployment-team"
-  },
-  {
-    "position": "Platform Engineer - Deployment Team",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Blackshark AI",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Austria"
-      },
-      {
-        "country": "European Union"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358386",
-    "id": "48358386-platform-engineer-deployment-team"
-  },
-  {
-    "position": "Software Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Clad",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360926",
-    "id": "48360926-software-engineer"
-  },
-  {
-    "position": "Backend Python/Django Engineer",
-    "positionType": [
-      "backEnd",
-      "engineering"
-    ],
-    "company": "Axle Health",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Santa Monica"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360357",
-    "id": "48360357-backend-python-django-engineer"
-  },
-  {
-    "position": "Interoperability Node/Typescript Engineer",
-    "positionType": [
-      "backEnd",
-      "engineering"
-    ],
-    "company": "Axle Health",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Santa Monica"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360357",
-    "id": "48360357-interoperability-node-typescript-engineer"
+    "salary": "$170k-$220k + equity",
+    "sourceId": "48748008",
+    "id": "48748008-senior-software-engineer-frontend"
   },
   {
     "position": "Machine Learning Engineer",
     "positionType": [
       "engineering"
     ],
-    "company": "Hestus",
+    "company": "WireScreen",
     "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Peninsula"
-      }
-    ],
-    "salary": "$130k–$190k + equity",
-    "sourceId": "48364413",
-    "id": "48364413-machine-learning-engineer"
-  },
-  {
-    "position": "Software Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Natural",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48361326",
-    "id": "48361326-software-engineer"
-  },
-  {
-    "position": "Product Designer",
-    "positionType": [
-      "design"
-    ],
-    "company": "Natural",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48361326",
-    "id": "48361326-product-designer"
-  },
-  {
-    "position": "Go To Market",
-    "positionType": [
-      "marketing"
-    ],
-    "company": "Natural",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48361326",
-    "id": "48361326-go-to-market"
-  },
-  {
-    "position": "Account Executive",
-    "positionType": [
-      "sales"
-    ],
-    "company": "Beautiful.ai",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      }
-    ],
-    "salary": "140k - 240k USD Base Salary + Uncapped On-Target Commission at 50/50 Split",
-    "sourceId": "48361362",
-    "id": "48361362-account-executive"
-  },
-  {
-    "position": "GTM Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Beautiful.ai",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      }
-    ],
-    "salary": "$80,000 - $120,000 USD Base Salary",
-    "sourceId": "48361362",
-    "id": "48361362-gtm-engineer"
-  },
-  {
-    "position": "Forward Deployed Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "CData",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48367084",
-    "id": "48367084-forward-deployed-engineer"
-  },
-  {
-    "position": "Principal FDE (Agentic Systems)",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "CData",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48367084",
-    "id": "48367084-principal-fde-agentic-systems"
-  },
-  {
-    "position": "Right Hand to the CEO",
-    "positionType": [
-      "other"
-    ],
-    "company": "Sudowrite",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "United States",
-        "city": "Honolulu"
-      }
-    ],
-    "salary": "80-130K + equity + profit share",
-    "sourceId": "48364915",
-    "id": "48364915-right-hand-to-the-ceo"
-  },
-  {
-    "position": "Senior Infra Engineer: Storage",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Railway",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48361035",
-    "id": "48361035-senior-infra-engineer-storage"
-  },
-  {
-    "position": "Product Designer",
-    "positionType": [
-      "design"
-    ],
-    "company": "Railway",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48361035",
-    "id": "48361035-product-designer"
-  },
-  {
-    "position": "Senior Infra Engineer: Observability",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Railway",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48361035",
-    "id": "48361035-senior-infra-engineer-observability"
-  },
-  {
-    "position": "Product Engineer (full-stack)",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Railway",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48361035",
-    "id": "48361035-product-engineer-full-stack"
-  },
-  {
-    "position": "Infrastructure Engineer(Platform)",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Railway",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48361035",
-    "id": "48361035-infrastructure-engineer-platform"
-  },
-  {
-    "position": "Software Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Telescope Partners",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48362564",
-    "id": "48362564-software-engineer"
-  },
-  {
-    "position": "Product Engineer",
-    "positionType": [
-      "frontEnd"
-    ],
-    "company": "Starbridge",
-    "type": [
-      "remote",
-      "onSite"
+      "hybrid"
     ],
     "locations": [
       {
@@ -7506,1461 +6147,37 @@ export const jobs: IJob[] = [
         "city": "New York City"
       }
     ],
-    "salary": null,
-    "sourceId": "48357761",
-    "id": "48357761-product-engineer"
-  },
-  {
-    "position": "AI Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Starbridge",
-    "type": [
-      "remote",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48357761",
-    "id": "48357761-ai-engineer"
-  },
-  {
-    "position": "Backend Engineer",
-    "positionType": [
-      "backEnd"
-    ],
-    "company": "Starbridge",
-    "type": [
-      "remote",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48357761",
-    "id": "48357761-backend-engineer"
-  },
-  {
-    "position": "Staff/Senior Full-Stack Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "akeno",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "Germany",
-        "city": "Hamburg"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48367058",
-    "id": "48367058-staff-senior-full-stack-engineer"
-  },
-  {
-    "position": "Geospatial Data Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Mapbox",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48371094",
-    "id": "48371094-geospatial-data-engineer"
-  },
-  {
-    "position": "Senior Frontend Engineer",
-    "positionType": [
-      "frontEnd"
-    ],
-    "company": "neocom",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "Germany",
-        "city": "Munich"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48370505",
-    "id": "48370505-senior-frontend-engineer"
-  },
-  {
-    "position": "Director, Growth Engineering",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Scribd",
-    "type": [
-      "onSite",
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48363987",
-    "id": "48363987-director-growth-engineering"
+    "salary": "$150k-$195k + equity",
+    "sourceId": "48748008",
+    "id": "48748008-machine-learning-engineer"
   },
   {
     "position": "Senior Product Engineer",
     "positionType": [
       "engineering"
     ],
-    "company": "Kyra Health",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48363775",
-    "id": "48363775-senior-product-engineer"
-  },
-  {
-    "position": "Staff Product Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Kyra Health",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48363775",
-    "id": "48363775-staff-product-engineer"
-  },
-  {
-    "position": "Embedded Software Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "SpaceX Starlink",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Seattle"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48363326",
-    "id": "48363326-embedded-software-engineer"
-  },
-  {
-    "position": "Founder/CTO",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Logenta.ai",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "Germany"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358942",
-    "id": "48358942-founder-cto"
-  },
-  {
-    "position": "Senior Site Reliability Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "MongoDB",
-    "type": [
-      "remote",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "United States",
-        "city": "New York City"
-      },
-      {
-        "country": "Ireland",
-        "city": "Dublin"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358185",
-    "id": "48358185-senior-site-reliability-engineer"
-  },
-  {
-    "position": "Staff Site Reliability Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "MongoDB",
-    "type": [
-      "remote",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "United States",
-        "city": "New York City"
-      },
-      {
-        "country": "Ireland",
-        "city": "Dublin"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358185",
-    "id": "48358185-staff-site-reliability-engineer"
-  },
-  {
-    "position": "Lead Site Reliability Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "MongoDB",
-    "type": [
-      "remote",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "United States",
-        "city": "New York City"
-      },
-      {
-        "country": "Ireland",
-        "city": "Dublin"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358185",
-    "id": "48358185-lead-site-reliability-engineer"
-  },
-  {
-    "position": "Infrastructure Software Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "MongoDB",
-    "type": [
-      "remote",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "United States",
-        "city": "New York City"
-      },
-      {
-        "country": "Ireland",
-        "city": "Dublin"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358185",
-    "id": "48358185-infrastructure-software-engineer"
-  },
-  {
-    "position": "Senior Application Security Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Chime",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "United States",
-        "city": "Chicago"
-      },
-      {
-        "country": "United States",
-        "city": "New York"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359262",
-    "id": "48359262-senior-application-security-engineer"
-  },
-  {
-    "position": "Product Security Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Chime",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "United States",
-        "city": "Chicago"
-      },
-      {
-        "country": "United States",
-        "city": "New York"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359262",
-    "id": "48359262-product-security-engineer"
-  },
-  {
-    "position": "Manager - Product Security",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Chime",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "United States",
-        "city": "Chicago"
-      },
-      {
-        "country": "United States",
-        "city": "New York"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359262",
-    "id": "48359262-manager-product-security"
-  },
-  {
-    "position": "2nd Founding Engineer",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "Coop",
-    "type": [
-      "hybrid",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Austin"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48363249",
-    "id": "48363249-2nd-founding-engineer"
-  },
-  {
-    "position": "iOS Heavy Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Coop",
-    "type": [
-      "hybrid",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Austin"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48363249",
-    "id": "48363249-ios-heavy-engineer"
-  },
-  {
-    "position": "Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Lovable",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "Sweden",
-        "city": "Stockholm"
-      },
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48383132",
-    "id": "48383132-engineer"
-  },
-  {
-    "position": "Sr. DevOps Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Apple",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Bay Area"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48362984",
-    "id": "48362984-sr-devops-engineer"
-  },
-  {
-    "position": "All",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Diffusion",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco Bay Area"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48366425",
-    "id": "48366425-all"
-  },
-  {
-    "position": "Fullstack Product Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Yuzu Health",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48369584",
-    "id": "48369584-fullstack-product-engineer"
-  },
-  {
-    "position": "Data Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Yuzu Health",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48369584",
-    "id": "48369584-data-engineer"
-  },
-  {
-    "position": "Backend Engineer",
-    "positionType": [
-      "backEnd"
-    ],
-    "company": "Yuzu Health",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48369584",
-    "id": "48369584-backend-engineer"
-  },
-  {
-    "position": "Product Designer",
-    "positionType": [
-      "design"
-    ],
-    "company": "Yuzu Health",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48369584",
-    "id": "48369584-product-designer"
-  },
-  {
-    "position": "Senior/Staff Full-stack Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Flowstate",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48361696",
-    "id": "48361696-senior-staff-full-stack-engineer"
-  },
-  {
-    "position": "Founding Engineer",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "z0.ai",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": "$140-$180k USD + equity",
-    "sourceId": "48364629",
-    "id": "48364629-founding-engineer"
-  },
-  {
-    "position": "Infra Software Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Silkline",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Seattle"
-      },
-      {
-        "country": "United States",
-        "city": "Chicago"
-      }
-    ],
-    "salary": "$175k-$240k + equity",
-    "sourceId": "48364033",
-    "id": "48364033-infra-software-engineer"
-  },
-  {
-    "position": "Senior Backend Engineer",
-    "positionType": [
-      "backEnd"
-    ],
-    "company": "Post Up",
-    "type": [
-      "onSite",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "Canada",
-        "city": "Vancouver"
-      }
-    ],
-    "salary": "$120-$130k CAD",
-    "sourceId": "48364039",
-    "id": "48364039-senior-backend-engineer"
-  },
-  {
-    "position": "iOS Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Beacon AI",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Carlos"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48365778",
-    "id": "48365778-ios-engineer"
-  },
-  {
-    "position": "Senior Security Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Beacon AI",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Carlos"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48365778",
-    "id": "48365778-senior-security-engineer"
-  },
-  {
-    "position": "Infra/Backend Engineer",
-    "positionType": [
-      "backEnd",
-      "engineering"
-    ],
-    "company": "Beacon AI",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Carlos"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48365778",
-    "id": "48365778-infra-backend-engineer"
-  },
-  {
-    "position": "WebApp/FrontEnd Engineer",
-    "positionType": [
-      "frontEnd",
-      "engineering"
-    ],
-    "company": "Beacon AI",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Carlos"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48365778",
-    "id": "48365778-webapp-frontend-engineer"
-  },
-  {
-    "position": "Lead Autonomy/Robotics Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Beacon AI",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Carlos"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48365778",
-    "id": "48365778-lead-autonomy-robotics-engineer"
-  },
-  {
-    "position": "Full-stack Engineer",
-    "positionType": [
-      "fullStack",
-      "backEnd"
-    ],
-    "company": "Annex Risk",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Bay Area"
-      },
-      {
-        "country": "United States",
-        "city": "Austin"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48361234",
-    "id": "48361234-full-stack-engineer"
-  },
-  {
-    "position": "Backend Engineer",
-    "positionType": [
-      "backEnd"
-    ],
-    "company": "Annex Risk",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Bay Area"
-      },
-      {
-        "country": "United States",
-        "city": "Austin"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48361234",
-    "id": "48361234-backend-engineer"
-  },
-  {
-    "position": "Head of Engineering",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "BIT Capital",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "Germany",
-        "city": "Berlin"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48357777",
-    "id": "48357777-head-of-engineering"
-  },
-  {
-    "position": "Member of Technical Staff",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Cephla",
-    "type": [
-      "onSite"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48365480",
-    "id": "48365480-member-of-technical-staff"
-  },
-  {
-    "position": "Senior Consultant (Data Engineering, Investment Analytics, Strategy)",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Castleton Tower",
-    "type": [
-      "onSite",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Northeast"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48361068",
-    "id": "48361068-senior-consultant-data-engineering-investment-analytics-strategy"
-  },
-  {
-    "position": "Full-Stack Engineer",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "Authorium",
-    "type": [
-      "onSite",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": "$148,750-$201,250 + equity",
-    "sourceId": "48358702",
-    "id": "48358702-full-stack-engineer"
-  },
-  {
-    "position": "Senior Full-Stack Engineer",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "Authorium",
-    "type": [
-      "onSite",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": "$170,000-$230,000 + equity",
-    "sourceId": "48358702",
-    "id": "48358702-senior-full-stack-engineer"
-  },
-  {
-    "position": "Software Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Conductor",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358106",
-    "id": "48358106-software-engineer"
-  },
-  {
-    "position": "Designer",
-    "positionType": [
-      "design"
-    ],
-    "company": "Conductor",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358106",
-    "id": "48358106-designer"
-  },
-  {
-    "position": "Forward Deployed Engineer",
-    "positionType": [
-      "engineering",
-      "fullStack"
-    ],
-    "company": "Puntt AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": "$190k + equity",
-    "sourceId": "48365790",
-    "id": "48365790-forward-deployed-engineer"
-  },
-  {
-    "position": "Senior Applied AI Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Puntt AI",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": "$185k-$210k + 0.75%-1.25% equity",
-    "sourceId": "48365790",
-    "id": "48365790-senior-applied-ai-engineer"
-  },
-  {
-    "position": "Implementation Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "SalesJack",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "Canada",
-        "city": "Toronto"
-      }
-    ],
-    "salary": "C$120k–140k",
-    "sourceId": "48361797",
-    "id": "48361797-implementation-engineer"
-  },
-  {
-    "position": "Senior Full Stack Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "SalesJack",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "Canada",
-        "city": "Toronto"
-      }
-    ],
-    "salary": "C$180k–200k",
-    "sourceId": "48361797",
-    "id": "48361797-senior-full-stack-engineer"
-  },
-  {
-    "position": "Senior Engineer, Backend Platform",
-    "positionType": [
-      "backEnd"
-    ],
-    "company": "Zūm",
-    "type": [
-      "hybrid",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Redwood City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358617",
-    "id": "48358617-senior-engineer-backend-platform"
-  },
-  {
-    "position": "Staff Engineer, Backend Platform",
-    "positionType": [
-      "backEnd"
-    ],
-    "company": "Zūm",
-    "type": [
-      "hybrid",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Redwood City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358617",
-    "id": "48358617-staff-engineer-backend-platform"
-  },
-  {
-    "position": "Senior Product Manager",
-    "positionType": [
-      "other"
-    ],
-    "company": "Zūm",
-    "type": [
-      "hybrid",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Redwood City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48358617",
-    "id": "48358617-senior-product-manager"
-  },
-  {
-    "position": "BESS Optimization Developer (Python)",
-    "positionType": [
-      "backEnd",
-      "engineering"
-    ],
-    "company": "Return",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "Netherlands"
-      },
-      {
-        "country": "Germany"
-      },
-      {
-        "country": "Belgium"
-      },
-      {
-        "country": "Spain"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48408853",
-    "id": "48408853-bess-optimization-developer-python"
-  },
-  {
-    "position": "Principal Engineer",
-    "positionType": [
-      "engineering",
-      "fullStack"
-    ],
-    "company": "Albert",
+    "company": "Colonist",
     "type": [
       "remote"
     ],
     "locations": [],
-    "salary": "up to ~ $750k",
-    "sourceId": "48377948",
-    "id": "48377948-principal-engineer"
+    "salary": null,
+    "sourceId": "48766752",
+    "id": "48766752-senior-product-engineer"
   },
   {
-    "position": "Distinguished Engineer",
+    "position": "QA Engineer",
     "positionType": [
-      "engineering",
-      "fullStack"
+      "engineering"
     ],
-    "company": "Albert",
+    "company": "Colonist",
     "type": [
       "remote"
     ],
     "locations": [],
-    "salary": "up to ~ $750k",
-    "sourceId": "48377948",
-    "id": "48377948-distinguished-engineer"
-  },
-  {
-    "position": "Software Engineer",
-    "positionType": [
-      "fullStack",
-      "backEnd"
-    ],
-    "company": "Mason",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
     "salary": null,
-    "sourceId": "48365376",
-    "id": "48365376-software-engineer"
-  },
-  {
-    "position": "Senior Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Budibase",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United Kingdom",
-        "city": "Belfast"
-      }
-    ],
-    "salary": "60-90k",
-    "sourceId": "48367953",
-    "id": "48367953-senior-engineer"
-  },
-  {
-    "position": "Senior ML Infrastructure Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Prior Labs",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "Germany",
-        "city": "Berlin"
-      },
-      {
-        "country": "Germany",
-        "city": "Freiburg"
-      },
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360453",
-    "id": "48360453-senior-ml-infrastructure-engineer"
-  },
-  {
-    "position": "ML Engineer, Cloud Platform",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Prior Labs",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "Germany",
-        "city": "Berlin"
-      },
-      {
-        "country": "Germany",
-        "city": "Freiburg"
-      },
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360453",
-    "id": "48360453-ml-engineer-cloud-platform"
-  },
-  {
-    "position": "Full Stack Engineer, ML Platform",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Prior Labs",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "Germany",
-        "city": "Berlin"
-      },
-      {
-        "country": "Germany",
-        "city": "Freiburg"
-      },
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360453",
-    "id": "48360453-full-stack-engineer-ml-platform"
-  },
-  {
-    "position": "Research Scientist, Foundation Model",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Prior Labs",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "Germany",
-        "city": "Berlin"
-      },
-      {
-        "country": "Germany",
-        "city": "Freiburg"
-      },
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360453",
-    "id": "48360453-research-scientist-foundation-model"
-  },
-  {
-    "position": "Applied Scientist",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Prior Labs",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "Germany",
-        "city": "Berlin"
-      },
-      {
-        "country": "Germany",
-        "city": "Freiburg"
-      },
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360453",
-    "id": "48360453-applied-scientist"
-  },
-  {
-    "position": "Forward Deployed ML Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Prior Labs",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "Germany",
-        "city": "Berlin"
-      },
-      {
-        "country": "Germany",
-        "city": "Freiburg"
-      },
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360453",
-    "id": "48360453-forward-deployed-ml-engineer"
-  },
-  {
-    "position": "Developer Relations Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Prior Labs",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "Germany",
-        "city": "Berlin"
-      },
-      {
-        "country": "Germany",
-        "city": "Freiburg"
-      },
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360453",
-    "id": "48360453-developer-relations-engineer"
-  },
-  {
-    "position": "AE",
-    "positionType": [
-      "sales"
-    ],
-    "company": "Prior Labs",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "Germany",
-        "city": "Berlin"
-      },
-      {
-        "country": "Germany",
-        "city": "Freiburg"
-      },
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360453",
-    "id": "48360453-ae"
-  },
-  {
-    "position": "BDR",
-    "positionType": [
-      "sales"
-    ],
-    "company": "Prior Labs",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "Germany",
-        "city": "Berlin"
-      },
-      {
-        "country": "Germany",
-        "city": "Freiburg"
-      },
-      {
-        "country": "United States",
-        "city": "New York City"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360453",
-    "id": "48360453-bdr"
-  },
-  {
-    "position": "Software Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Northstar Security",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco Bay Area"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48362105",
-    "id": "48362105-software-engineer"
-  },
-  {
-    "position": "Backend/Fullstack Engineer",
-    "positionType": [
-      "backEnd",
-      "fullStack"
-    ],
-    "company": "Caplight",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": "$225k-$350k + equity",
-    "sourceId": "48359855",
-    "id": "48359855-backend-fullstack-engineer"
-  },
-  {
-    "position": "Senior Software Engineer - Full Stack, Technical Lead",
-    "positionType": [
-      "fullStack",
-      "engineering"
-    ],
-    "company": "Baton",
-    "type": [
-      "hybrid",
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": "$200,000 - $250,000",
-    "sourceId": "48358820",
-    "id": "48358820-senior-software-engineer-full-stack-technical-lead"
+    "sourceId": "48766752",
+    "id": "48766752-qa-engineer"
   },
   {
     "position": "Group Product Manager, Platform",
@@ -8978,8 +6195,8 @@ export const jobs: IJob[] = [
       }
     ],
     "salary": "$220,000 - $270,000",
-    "sourceId": "48358820",
-    "id": "48358820-group-product-manager-platform"
+    "sourceId": "48764138",
+    "id": "48764138-group-product-manager-platform"
   },
   {
     "position": "Head of Technical Operations",
@@ -8997,13 +6214,14 @@ export const jobs: IJob[] = [
       }
     ],
     "salary": "$180,000- $230,000",
-    "sourceId": "48358820",
-    "id": "48358820-head-of-technical-operations"
+    "sourceId": "48764138",
+    "id": "48764138-head-of-technical-operations"
   },
   {
-    "position": "Senior Product Designer",
+    "position": "Software Engineer - Data Platform",
     "positionType": [
-      "design"
+      "engineering",
+      "backEnd"
     ],
     "company": "Baton",
     "type": [
@@ -9015,9 +6233,9 @@ export const jobs: IJob[] = [
         "city": "San Francisco"
       }
     ],
-    "salary": "$140,000 - $190,000",
-    "sourceId": "48358820",
-    "id": "48358820-senior-product-designer"
+    "salary": "$162,000 - $216,000",
+    "sourceId": "48764138",
+    "id": "48764138-software-engineer-data-platform"
   },
   {
     "position": "Software Engineer - Infrastructure, Data Platform",
@@ -9036,8 +6254,8 @@ export const jobs: IJob[] = [
       }
     ],
     "salary": "$162,000 - $216,000",
-    "sourceId": "48358820",
-    "id": "48358820-software-engineer-infrastructure-data-platform"
+    "sourceId": "48764138",
+    "id": "48764138-software-engineer-infrastructure-data-platform"
   },
   {
     "position": "Product Marketing Manager",
@@ -9050,27 +6268,8 @@ export const jobs: IJob[] = [
     ],
     "locations": [],
     "salary": "$90,000 - $140,000",
-    "sourceId": "48358820",
-    "id": "48358820-product-marketing-manager"
-  },
-  {
-    "position": "Engineer Manager, Engineering Productivity & Cloud Infrastructure",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Baton",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": "$250,000 - $275,000",
-    "sourceId": "48358820",
-    "id": "48358820-engineer-manager-engineering-productivity-cloud-infrastructure"
+    "sourceId": "48764138",
+    "id": "48764138-product-marketing-manager"
   },
   {
     "position": "Product Intelligence & Data Analytics Manager",
@@ -9083,347 +6282,243 @@ export const jobs: IJob[] = [
     ],
     "locations": [],
     "salary": "$90,000 - $140,000",
-    "sourceId": "48358820",
-    "id": "48358820-product-intelligence-data-analytics-manager"
+    "sourceId": "48764138",
+    "id": "48764138-product-intelligence-data-analytics-manager"
   },
   {
-    "position": "Outbound Sales Specialist",
+    "position": "Senior Product Designer",
     "positionType": [
-      "sales"
+      "design"
     ],
-    "company": "Emurse",
+    "company": "Baton",
+    "type": [
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": "$140,000 - $190,000",
+    "sourceId": "48764138",
+    "id": "48764138-senior-product-designer"
+  },
+  {
+    "position": "Head of IT and Production Support",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Baton",
+    "type": [
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": "$180,000- $230,000",
+    "sourceId": "48764138",
+    "id": "48764138-head-of-it-and-production-support"
+  },
+  {
+    "position": "Engineering Manager",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Ashby",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      },
+      {
+        "country": "Canada"
+      },
+      {
+        "country": "United Kingdom"
+      },
+      {
+        "country": "European Union"
+      }
+    ],
+    "salary": "$200k–$275k",
+    "sourceId": "48765082",
+    "id": "48765082-engineering-manager"
+  },
+  {
+    "position": "Full-Stack Software Engineer",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "PrairieLearn",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": "$100k-$180k depending on experience",
+    "sourceId": "48748007",
+    "id": "48748007-full-stack-software-engineer"
+  },
+  {
+    "position": "Senior Infra Engineer: Storage",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Railway",
     "type": [
       "remote"
     ],
     "locations": [],
     "salary": null,
-    "sourceId": "48371273",
-    "id": "48371273-outbound-sales-specialist"
+    "sourceId": "48754441",
+    "id": "48754441-senior-infra-engineer-storage"
   },
   {
-    "position": "AI / Systems Engineer",
+    "position": "Brand Designer - Web",
     "positionType": [
-      "engineering",
-      "backEnd"
+      "design"
     ],
-    "company": "Emergences Labs",
+    "company": "Railway",
     "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48754441",
+    "id": "48754441-brand-designer-web"
+  },
+  {
+    "position": "Senior Infra Engineer: Observability",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Railway",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48754441",
+    "id": "48754441-senior-infra-engineer-observability"
+  },
+  {
+    "position": "Product Engineer (full-stack)",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "Railway",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48754441",
+    "id": "48754441-product-engineer-full-stack"
+  },
+  {
+    "position": "Infrastructure Engineer(Platform)",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Railway",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48754441",
+    "id": "48754441-infrastructure-engineer-platform"
+  },
+  {
+    "position": "Full Stack Engineer",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "Sumble",
+    "type": [],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48749084",
+    "id": "48749084-full-stack-engineer"
+  },
+  {
+    "position": "AI/ML Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Sumble",
+    "type": [],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48749084",
+    "id": "48749084-ai-ml-engineer"
+  },
+  {
+    "position": "Growth/Marketing",
+    "positionType": [
+      "marketing"
+    ],
+    "company": "Sumble",
+    "type": [],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48749084",
+    "id": "48749084-growth-marketing"
+  },
+  {
+    "position": "Blockchain Security Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "ChainSecurity",
+    "type": [
+      "hybrid",
       "remote"
     ],
     "locations": [
       {
-        "country": "United States"
-      }
-    ],
-    "salary": "$120K-$150K + equity",
-    "sourceId": "48358775",
-    "id": "48358775-ai-systems-engineer"
-  },
-  {
-    "position": "Forward Deployed Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Puntt AI",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": "$180,000 - $210,000 USD + equity, benefits and unlimited PTO",
-    "sourceId": "48398390",
-    "id": "48398390-forward-deployed-engineer"
-  },
-  {
-    "position": "Founding Senior Applied AI Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Puntt AI",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": "$180,000 - $210,000 USD + equity, benefits and unlimited PTO",
-    "sourceId": "48398390",
-    "id": "48398390-founding-senior-applied-ai-engineer"
-  },
-  {
-    "position": "Staff Software Engineer, Open Source Server",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Temporal Technologies",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
+        "country": "Switzerland",
+        "city": "Zurich"
       }
     ],
     "salary": null,
-    "sourceId": "48357890",
-    "id": "48357890-staff-software-engineer-open-source-server"
+    "sourceId": "48749799",
+    "id": "48749799-blockchain-security-engineer"
   },
   {
-    "position": "Senior Software Engineer, Open Source Server",
+    "position": "Unity Graphics Specialist",
     "positionType": [
       "engineering"
     ],
-    "company": "Temporal Technologies",
+    "company": "secret",
     "type": [
       "remote"
     ],
     "locations": [
       {
-        "country": "United States"
+        "country": "Any country"
       }
     ],
     "salary": null,
-    "sourceId": "48357890",
-    "id": "48357890-senior-software-engineer-open-source-server"
-  },
-  {
-    "position": "Senior Software Engineer, Observability",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Temporal Technologies",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48357890",
-    "id": "48357890-senior-software-engineer-observability"
-  },
-  {
-    "position": "Staff Software Engineer, AI Developer Experience",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Temporal Technologies",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48357890",
-    "id": "48357890-staff-software-engineer-ai-developer-experience"
-  },
-  {
-    "position": "Senior Staff Software Engineer, Infrastructure",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Temporal Technologies",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48357890",
-    "id": "48357890-senior-staff-software-engineer-infrastructure"
-  },
-  {
-    "position": "Senior Product Manager, Scalability & Compute",
-    "positionType": [
-      "other"
-    ],
-    "company": "Temporal Technologies",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48357890",
-    "id": "48357890-senior-product-manager-scalability-compute"
-  },
-  {
-    "position": "Staff Product Manager, Developer Lifecycle & Tooling",
-    "positionType": [
-      "other"
-    ],
-    "company": "Temporal Technologies",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48357890",
-    "id": "48357890-staff-product-manager-developer-lifecycle-tooling"
-  },
-  {
-    "position": "Staff Product Manager, Core Primitives",
-    "positionType": [
-      "other"
-    ],
-    "company": "Temporal Technologies",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48357890",
-    "id": "48357890-staff-product-manager-core-primitives"
-  },
-  {
-    "position": "Staff Product Manager, Agent Platform",
-    "positionType": [
-      "other"
-    ],
-    "company": "Temporal Technologies",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48357890",
-    "id": "48357890-staff-product-manager-agent-platform"
-  },
-  {
-    "position": "Lead React Native Engineer",
-    "positionType": [
-      "frontEnd",
-      "engineering"
-    ],
-    "company": "Hevy",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "Spain",
-        "city": "Barcelona"
-      }
-    ],
-    "salary": "competitive salary + performance bonus",
-    "sourceId": "48362265",
-    "id": "48362265-lead-react-native-engineer"
-  },
-  {
-    "position": "Senior React Native Engineer",
-    "positionType": [
-      "frontEnd",
-      "engineering"
-    ],
-    "company": "Hevy",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "Spain",
-        "city": "Barcelona"
-      }
-    ],
-    "salary": "competitive salary + performance bonus",
-    "sourceId": "48362265",
-    "id": "48362265-senior-react-native-engineer"
-  },
-  {
-    "position": "Lead Backend Engineer",
-    "positionType": [
-      "backEnd",
-      "engineering"
-    ],
-    "company": "Hevy",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "Spain",
-        "city": "Barcelona"
-      }
-    ],
-    "salary": "competitive salary + performance bonus",
-    "sourceId": "48362265",
-    "id": "48362265-lead-backend-engineer"
-  },
-  {
-    "position": "Senior Backend Engineer",
-    "positionType": [
-      "backEnd",
-      "engineering"
-    ],
-    "company": "Hevy",
-    "type": [
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "Spain",
-        "city": "Barcelona"
-      }
-    ],
-    "salary": "competitive salary + performance bonus",
-    "sourceId": "48362265",
-    "id": "48362265-senior-backend-engineer"
-  },
-  {
-    "position": "Staff Founding Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Foam",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": "$300-$400k/yr + equity",
-    "sourceId": "48364817",
-    "id": "48364817-staff-founding-engineer"
+    "sourceId": "48762477",
+    "id": "48762477-unity-graphics-specialist"
   },
   {
     "position": "Senior Fullstack Software Engineer",
     "positionType": [
-      "fullStack"
+      "fullStack",
+      "engineering"
     ],
-    "company": "Trayd",
+    "company": "CLEAR",
     "type": [
       "onSite"
     ],
@@ -9433,341 +6528,292 @@ export const jobs: IJob[] = [
         "city": "New York City"
       }
     ],
-    "salary": "$185K-$220K + equity",
-    "sourceId": "48362284",
-    "id": "48362284-senior-fullstack-software-engineer"
+    "salary": null,
+    "sourceId": "48751106",
+    "id": "48751106-senior-fullstack-software-engineer"
   },
   {
-    "position": "Senior Data Engineer",
+    "position": "Engineering Manager",
     "positionType": [
       "engineering"
     ],
-    "company": "Prompt",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "$170-190k",
-    "sourceId": "48358146",
-    "id": "48358146-senior-data-engineer"
-  },
-  {
-    "position": "Senior DevOps Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Prompt",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "$180-225k",
-    "sourceId": "48358146",
-    "id": "48358146-senior-devops-engineer"
-  },
-  {
-    "position": "Senior DevOps Engineer - Infrastructure & MLOps",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Prompt",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "$180-225k",
-    "sourceId": "48358146",
-    "id": "48358146-senior-devops-engineer-infrastructure-mlops"
-  },
-  {
-    "position": "Senior Full Stack AI Engineer - Natural Language Systems",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Prompt",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "$160-220k",
-    "sourceId": "48358146",
-    "id": "48358146-senior-full-stack-ai-engineer-natural-language-systems"
-  },
-  {
-    "position": "Senior Full Stack AI Engineer - Rapid Prototyping & Analytics",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Prompt",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "$160-220k",
-    "sourceId": "48358146",
-    "id": "48358146-senior-full-stack-ai-engineer-rapid-prototyping-analytics"
-  },
-  {
-    "position": "Senior Software Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Prompt",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "$170-220k",
-    "sourceId": "48358146",
-    "id": "48358146-senior-software-engineer"
-  },
-  {
-    "position": "Support Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Prompt",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "$90-125k",
-    "sourceId": "48358146",
-    "id": "48358146-support-engineer"
-  },
-  {
-    "position": "Senior Director, Data Engineering",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Global Partners",
+    "company": "CLEAR",
     "type": [
       "onSite"
     ],
     "locations": [
       {
         "country": "United States",
-        "city": "Waltham"
-      },
-      {
-        "country": "United States",
-        "city": "Newton"
+        "city": "New York City"
       }
     ],
-    "salary": "$182,300.00 - $291,500.00",
-    "sourceId": "48361940",
-    "id": "48361940-senior-director-data-engineering"
+    "salary": null,
+    "sourceId": "48751106",
+    "id": "48751106-engineering-manager"
   },
   {
-    "position": "Junior Software Engineer",
+    "position": "Engineering Director",
     "positionType": [
       "engineering"
     ],
-    "company": "Mechanize",
+    "company": "CLEAR",
     "type": [
       "onSite"
     ],
     "locations": [
       {
         "country": "United States",
-        "city": "San Francisco"
+        "city": "New York City"
       }
     ],
-    "salary": "$300k + equity + bonus",
-    "sourceId": "48361136",
-    "id": "48361136-junior-software-engineer"
+    "salary": null,
+    "sourceId": "48751106",
+    "id": "48751106-engineering-director"
+  },
+  {
+    "position": "Lead Product Manager",
+    "positionType": [
+      "other"
+    ],
+    "company": "CLEAR",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "New York City"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48751106",
+    "id": "48751106-lead-product-manager"
   },
   {
     "position": "Software Engineer",
     "positionType": [
-      "engineering"
+      "engineering",
+      "fullStack"
     ],
-    "company": "Mechanize",
+    "company": "Anterior",
     "type": [
       "onSite"
     ],
     "locations": [
       {
         "country": "United States",
-        "city": "San Francisco"
+        "city": "New York City"
       }
     ],
-    "salary": "$350k + equity + bonus",
-    "sourceId": "48361136",
-    "id": "48361136-software-engineer"
+    "salary": null,
+    "sourceId": "48753141",
+    "id": "48753141-software-engineer"
   },
   {
-    "position": "Research Engineer, Alignment",
+    "position": "Lead DevOps Engineer",
     "positionType": [
       "engineering"
     ],
-    "company": "Mechanize",
+    "company": "Unexus",
     "type": [
-      "onSite"
+      "hybrid"
     ],
     "locations": [
       {
-        "country": "United States",
-        "city": "San Francisco"
+        "country": "Netherlands",
+        "city": "Baarn"
       }
     ],
-    "salary": "$500k + equity + bonus",
-    "sourceId": "48361136",
-    "id": "48361136-research-engineer-alignment"
+    "salary": "€85k-95k",
+    "sourceId": "48774670",
+    "id": "48774670-lead-devops-engineer"
   },
   {
-    "position": "Software Engineer - PlanetScale Postgres",
+    "position": "Technical Project Manager (Tether Wallet)",
     "positionType": [
       "engineering"
     ],
-    "company": "PlanetScale",
+    "company": "Tether",
     "type": [
       "remote"
     ],
-    "locations": [
-      {
-        "country": "United States"
-      },
-      {
-        "country": "Latin America"
-      },
-      {
-        "country": "European Union"
-      }
-    ],
-    "salary": "$120,000 - $290,000 USD",
-    "sourceId": "48360439",
-    "id": "48360439-software-engineer-planetscale-postgres"
-  },
-  {
-    "position": "Head of Developer Relations",
-    "positionType": [
-      "engineering",
-      "other"
-    ],
-    "company": "Tenki Cloud by Luxor Tech",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
+    "locations": [],
     "salary": null,
-    "sourceId": "48371773",
-    "id": "48371773-head-of-developer-relations"
+    "sourceId": "48794643",
+    "id": "48794643-technical-project-manager-tether-wallet"
   },
   {
-    "position": "Engineering",
+    "position": "AI Inference Engineer (QVAC)",
     "positionType": [
       "engineering"
     ],
-    "company": "telli",
+    "company": "Tether",
     "type": [
-      "onSite"
+      "remote"
     ],
-    "locations": [
-      {
-        "country": "Germany",
-        "city": "Berlin"
-      }
-    ],
+    "locations": [],
     "salary": null,
-    "sourceId": "48370889",
-    "id": "48370889-engineering"
+    "sourceId": "48794643",
+    "id": "48794643-ai-inference-engineer-qvac"
   },
   {
-    "position": "Design",
+    "position": "Senior Backend Engineer (Wallets)",
     "positionType": [
-      "design"
-    ],
-    "company": "telli",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "Germany",
-        "city": "Berlin"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48370889",
-    "id": "48370889-design"
-  },
-  {
-    "position": "GTM",
-    "positionType": [
-      "other"
-    ],
-    "company": "telli",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "Germany",
-        "city": "Berlin"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48370889",
-    "id": "48370889-gtm"
-  },
-  {
-    "position": "Founding Engineer",
-    "positionType": [
-      "engineering",
       "backEnd"
     ],
-    "company": "Strobe Power",
+    "company": "Tether",
     "type": [
-      "onSite"
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48794643",
+    "id": "48794643-senior-backend-engineer-wallets"
+  },
+  {
+    "position": "Bare Developer (C / JavaScript)",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Tether",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48794643",
+    "id": "48794643-bare-developer-c-javascript"
+  },
+  {
+    "position": "Senior Software Architect",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Tether",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48794643",
+    "id": "48794643-senior-software-architect"
+  },
+  {
+    "position": "Technical Product Manager (Wallets)",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Tether",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48794643",
+    "id": "48794643-technical-product-manager-wallets"
+  },
+  {
+    "position": "QA Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Tether",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48794643",
+    "id": "48794643-qa-engineer"
+  },
+  {
+    "position": "AI Research Engineer (Model Compression & Quantization)",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Tether",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48794643",
+    "id": "48794643-ai-research-engineer-model-compression-quantization"
+  },
+  {
+    "position": "AI Research Engineer (Kernel & Inference Optimization)",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Tether",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48794643",
+    "id": "48794643-ai-research-engineer-kernel-inference-optimization"
+  },
+  {
+    "position": "AI Research Engineer (Multi-Modal & Vision)",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Tether",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48794643",
+    "id": "48794643-ai-research-engineer-multi-modal-vision"
+  },
+  {
+    "position": "AI Research Engineer (Multi-Modal Reinforcement Learning)",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Tether",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48794643",
+    "id": "48794643-ai-research-engineer-multi-modal-reinforcement-learning"
+  },
+  {
+    "position": "AI Research Engineer (Agentic Post-training)",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Tether",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": null,
+    "sourceId": "48794643",
+    "id": "48794643-ai-research-engineer-agentic-post-training"
+  },
+  {
+    "position": "Engineering Director",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Mentimeter",
+    "type": [
+      "hybrid"
     ],
     "locations": [
       {
-        "country": "United States",
-        "city": "Brooklyn"
-      },
-      {
-        "country": "United States",
-        "city": "San Francisco"
+        "country": "Sweden",
+        "city": "Stockholm"
       }
     ],
     "salary": null,
-    "sourceId": "48362169",
-    "id": "48362169-founding-engineer"
+    "sourceId": "48762450",
+    "id": "48762450-engineering-director"
   },
   {
     "position": "Python + TypeScript Engineer",
@@ -9785,69 +6831,55 @@ export const jobs: IJob[] = [
       }
     ],
     "salary": null,
-    "sourceId": "48359593",
-    "id": "48359593-python-typescript-engineer"
+    "sourceId": "48764770",
+    "id": "48764770-python-typescript-engineer"
   },
   {
-    "position": "Staff Software Engineer (Engineering AI Team)",
+    "position": "Director of Engineering",
     "positionType": [
       "engineering"
     ],
-    "company": "Second Nature",
+    "company": "Aware Health",
+    "type": [
+      "onSite",
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48763652",
+    "id": "48763652-director-of-engineering"
+  },
+  {
+    "position": "Founding GTM Lead",
+    "positionType": [
+      "sales",
+      "marketing"
+    ],
+    "company": "StatusPal",
     "type": [
       "remote"
     ],
     "locations": [
       {
-        "country": "United States"
+        "country": "European Union"
       }
     ],
-    "salary": "$150K-$180K",
-    "sourceId": "48403016",
-    "id": "48403016-staff-software-engineer-engineering-ai-team"
+    "salary": "€55–75k base + uncapped commission (~€100–140k+ OTE) + 1–2.5% founding equity",
+    "sourceId": "48751573",
+    "id": "48751573-founding-gtm-lead"
   },
   {
-    "position": "Staff Software Engineer",
+    "position": "Senior Full-Stack Software Engineer",
     "positionType": [
+      "fullStack",
       "engineering"
     ],
-    "company": "Second Nature",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "$150K-$190K",
-    "sourceId": "48403016",
-    "id": "48403016-staff-software-engineer"
-  },
-  {
-    "position": "Senior Software Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Second Nature",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States"
-      }
-    ],
-    "salary": "$155K-$185K",
-    "sourceId": "48403016",
-    "id": "48403016-senior-software-engineer"
-  },
-  {
-    "position": "Engineering Manager",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Second Nature",
+    "company": "Opendate",
     "type": [
       "remote"
     ],
@@ -9857,8 +6889,243 @@ export const jobs: IJob[] = [
       }
     ],
     "salary": null,
-    "sourceId": "48403016",
-    "id": "48403016-engineering-manager"
+    "sourceId": "48755090",
+    "id": "48755090-senior-full-stack-software-engineer"
+  },
+  {
+    "position": "Senior Software Engineer, 3D Measurements",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Hover",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      },
+      {
+        "country": "United States",
+        "city": "New York"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48749014",
+    "id": "48749014-senior-software-engineer-3d-measurements"
+  },
+  {
+    "position": "Engineering Manager, 3D Measurements",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Hover",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      },
+      {
+        "country": "United States",
+        "city": "New York"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48749014",
+    "id": "48749014-engineering-manager-3d-measurements"
+  },
+  {
+    "position": "Technical Product Manager",
+    "positionType": [
+      "other"
+    ],
+    "company": "Ontix",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48748226",
+    "id": "48748226-technical-product-manager"
+  },
+  {
+    "position": "Senior Software Engineer",
+    "positionType": [
+      "fullStack",
+      "engineering"
+    ],
+    "company": "Prolific",
+    "type": [
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Bay Area"
+      }
+    ],
+    "salary": "$200k-$250k",
+    "sourceId": "48750245",
+    "id": "48750245-senior-software-engineer"
+  },
+  {
+    "position": "Engineer",
+    "positionType": [
+      "engineering",
+      "frontEnd",
+      "backEnd"
+    ],
+    "company": "Playit",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Eugene"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48762510",
+    "id": "48762510-engineer"
+  },
+  {
+    "position": "Forward Deployed Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Antithesis",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      },
+      {
+        "country": "United Kingdom",
+        "city": "London"
+      },
+      {
+        "country": "United States",
+        "city": "Washington"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48750813",
+    "id": "48750813-forward-deployed-engineer"
+  },
+  {
+    "position": "Sr. Java Backend",
+    "positionType": [
+      "backEnd"
+    ],
+    "company": "Vistulo",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "Poland"
+      },
+      {
+        "country": "Romania"
+      }
+    ],
+    "salary": "$110k-$160k / year",
+    "sourceId": "48751832",
+    "id": "48751832-sr-java-backend"
+  },
+  {
+    "position": "Sr. React Frontend",
+    "positionType": [
+      "frontEnd"
+    ],
+    "company": "Vistulo",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "Poland"
+      },
+      {
+        "country": "Romania"
+      }
+    ],
+    "salary": "$110k-$160k / year",
+    "sourceId": "48751832",
+    "id": "48751832-sr-react-frontend"
+  },
+  {
+    "position": "Sr. Network Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Vistulo",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "Poland"
+      },
+      {
+        "country": "Romania"
+      }
+    ],
+    "salary": "$110k-$160k / year",
+    "sourceId": "48751832",
+    "id": "48751832-sr-network-engineer"
+  },
+  {
+    "position": "Sr. Cloud Infrastructure Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Vistulo",
+    "type": [
+      "remote"
+    ],
+    "locations": [
+      {
+        "country": "Poland"
+      },
+      {
+        "country": "Romania"
+      }
+    ],
+    "salary": "$110k-$160k / year",
+    "sourceId": "48751832",
+    "id": "48751832-sr-cloud-infrastructure-engineer"
+  },
+  {
+    "position": "Full Stack Engineer",
+    "positionType": [
+      "fullStack"
+    ],
+    "company": "Credo Health",
+    "type": [
+      "hybrid"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "New York City"
+      }
+    ],
+    "salary": "$125k–$175k + equity",
+    "sourceId": "48748512",
+    "id": "48748512-full-stack-engineer"
   },
   {
     "position": "Product Engineer / Senior Software Engineer",
@@ -9875,9 +7142,9 @@ export const jobs: IJob[] = [
         "city": "San Francisco"
       }
     ],
-    "salary": "Competitive salary, meaningful (~first batch of hires) equity",
-    "sourceId": "48360824",
-    "id": "48360824-product-engineer-senior-software-engineer"
+    "salary": "Competitive salary",
+    "sourceId": "48750316",
+    "id": "48750316-product-engineer-senior-software-engineer"
   },
   {
     "position": "Founding GTM Lead",
@@ -9895,50 +7162,53 @@ export const jobs: IJob[] = [
         "city": "San Francisco"
       }
     ],
-    "salary": "Competitive salary, meaningful (~first batch of hires) equity",
-    "sourceId": "48360824",
-    "id": "48360824-founding-gtm-lead"
+    "salary": "Competitive salary",
+    "sourceId": "48750316",
+    "id": "48750316-founding-gtm-lead"
   },
   {
-    "position": "Founding ML/Data Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "myDataValue",
-    "type": [
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United Kingdom",
-        "city": "London"
-      }
-    ],
-    "salary": "£70k–£100k + up to 1% equity",
-    "sourceId": "48367909",
-    "id": "48367909-founding-ml-data-engineer"
-  },
-  {
-    "position": "Lead Product Manager, AI Developer Platform",
+    "position": "Senior Analytics Engineer",
     "positionType": [
       "engineering"
     ],
-    "company": "Scribd, Inc.",
+    "company": "Connie Health",
     "type": [
-      "remote"
+      "hybrid"
     ],
     "locations": [
       {
-        "country": "United States"
-      },
-      {
-        "country": "Canada"
+        "country": "United States",
+        "city": "Boston"
       }
     ],
-    "salary": null,
-    "sourceId": "48358657",
-    "id": "48358657-lead-product-manager-ai-developer-platform"
+    "salary": "$150k-$185k + equity",
+    "sourceId": "48754933",
+    "id": "48754933-senior-analytics-engineer"
+  },
+  {
+    "position": "Staff-level Data Software Engineer",
+    "positionType": [
+      "backEnd",
+      "engineering"
+    ],
+    "company": "Komodo Health",
+    "type": [
+      "remote",
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      },
+      {
+        "country": "United States",
+        "city": "New York"
+      }
+    ],
+    "salary": "$200–298k + equity",
+    "sourceId": "48747996",
+    "id": "48747996-staff-level-data-software-engineer"
   },
   {
     "position": "Senior Web Security Engineer, Browser Platform",
@@ -9951,8 +7221,8 @@ export const jobs: IJob[] = [
     ],
     "locations": [],
     "salary": "$178,500 USD + equity",
-    "sourceId": "48361656",
-    "id": "48361656-senior-web-security-engineer-browser-platform"
+    "sourceId": "48749755",
+    "id": "48749755-senior-web-security-engineer-browser-platform"
   },
   {
     "position": "Senior Backend Engineer",
@@ -9965,8 +7235,8 @@ export const jobs: IJob[] = [
     ],
     "locations": [],
     "salary": "$178,500 USD + equity",
-    "sourceId": "48361656",
-    "id": "48361656-senior-backend-engineer"
+    "sourceId": "48749755",
+    "id": "48749755-senior-backend-engineer"
   },
   {
     "position": "Senior Software Engineer - Windows Desktop App",
@@ -9979,8 +7249,8 @@ export const jobs: IJob[] = [
     ],
     "locations": [],
     "salary": "$178,500 USD + equity",
-    "sourceId": "48361656",
-    "id": "48361656-senior-software-engineer-windows-desktop-app"
+    "sourceId": "48749755",
+    "id": "48749755-senior-software-engineer-windows-desktop-app"
   },
   {
     "position": "Senior Data Scientist",
@@ -9993,8 +7263,8 @@ export const jobs: IJob[] = [
     ],
     "locations": [],
     "salary": "$178,500 USD + equity",
-    "sourceId": "48361656",
-    "id": "48361656-senior-data-scientist"
+    "sourceId": "48749755",
+    "id": "48749755-senior-data-scientist"
   },
   {
     "position": "Director, Data Science",
@@ -10007,13 +7277,27 @@ export const jobs: IJob[] = [
     ],
     "locations": [],
     "salary": "$243,800 USD + equity",
-    "sourceId": "48361656",
-    "id": "48361656-director-data-science"
+    "sourceId": "48749755",
+    "id": "48749755-director-data-science"
   },
   {
-    "position": "Director, User Insights",
+    "position": "Senior Privacy Engineer",
     "positionType": [
-      "other"
+      "engineering"
+    ],
+    "company": "DuckDuckGo",
+    "type": [
+      "remote"
+    ],
+    "locations": [],
+    "salary": "$178,500 USD + equity",
+    "sourceId": "48749755",
+    "id": "48749755-senior-privacy-engineer"
+  },
+  {
+    "position": "Director, Privacy Engineering",
+    "positionType": [
+      "engineering"
     ],
     "company": "DuckDuckGo",
     "type": [
@@ -10021,8 +7305,8 @@ export const jobs: IJob[] = [
     ],
     "locations": [],
     "salary": "$243,800 USD + equity",
-    "sourceId": "48361656",
-    "id": "48361656-director-user-insights"
+    "sourceId": "48749755",
+    "id": "48749755-director-privacy-engineering"
   },
   {
     "position": "Director, Business Development",
@@ -10039,461 +7323,219 @@ export const jobs: IJob[] = [
       }
     ],
     "salary": "$243,800 USD + equity",
-    "sourceId": "48361656",
-    "id": "48361656-director-business-development"
+    "sourceId": "48749755",
+    "id": "48749755-director-business-development"
   },
   {
-    "position": "Mobile Developer (React Native)",
+    "position": "Principal Software Engineer",
     "positionType": [
       "engineering"
     ],
-    "company": "Tether",
+    "company": "Freeform",
     "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48383266",
-    "id": "48383266-mobile-developer-react-native"
-  },
-  {
-    "position": "AI Inference Engineer QVAC",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Tether",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48383266",
-    "id": "48383266-ai-inference-engineer-qvac"
-  },
-  {
-    "position": "Backend Developer (P2P)",
-    "positionType": [
-      "backEnd"
-    ],
-    "company": "Tether",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48383266",
-    "id": "48383266-backend-developer-p2p"
-  },
-  {
-    "position": "Technical Project Manager (Wallets)",
-    "positionType": [
-      "other"
-    ],
-    "company": "Tether",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48383266",
-    "id": "48383266-technical-project-manager-wallets"
-  },
-  {
-    "position": "Technical Product Manager (QVAC/ AI)",
-    "positionType": [
-      "other"
-    ],
-    "company": "Tether",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48383266",
-    "id": "48383266-technical-product-manager-qvac-ai"
-  },
-  {
-    "position": "Technical Product Manager (Wallets)",
-    "positionType": [
-      "other"
-    ],
-    "company": "Tether",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48383266",
-    "id": "48383266-technical-product-manager-wallets"
-  },
-  {
-    "position": "Senior QA Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Tether",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48383266",
-    "id": "48383266-senior-qa-engineer"
-  },
-  {
-    "position": "Senior Software Architect (Blockchain)",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Tether",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48383266",
-    "id": "48383266-senior-software-architect-blockchain"
-  },
-  {
-    "position": "AI Research Engineer (Model Compression & Quantization)",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Tether",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48383266",
-    "id": "48383266-ai-research-engineer-model-compression-quantization"
-  },
-  {
-    "position": "AI Research Engineer (Kernel & Inference Optimization)",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Tether",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48383266",
-    "id": "48383266-ai-research-engineer-kernel-inference-optimization"
-  },
-  {
-    "position": "AI Research Engineer (Multi-Modal & Vision)",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Tether",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48383266",
-    "id": "48383266-ai-research-engineer-multi-modal-vision"
-  },
-  {
-    "position": "AI Research Engineer (Multi-Modal Reinforcement Learning)",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Tether",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48383266",
-    "id": "48383266-ai-research-engineer-multi-modal-reinforcement-learning"
-  },
-  {
-    "position": "AI Research Engineer (Agentic Post-training)",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Tether",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": null,
-    "sourceId": "48383266",
-    "id": "48383266-ai-research-engineer-agentic-post-training"
-  },
-  {
-    "position": "Senior Manager, Security Engineering",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Fullstory",
-    "type": [
-      "remote"
+      "onSite"
     ],
     "locations": [
       {
-        "country": "United States"
+        "country": "United States",
+        "city": "Hawthorne"
       }
     ],
-    "salary": "$230~240k USD + up to 20% bonus",
-    "sourceId": "48361680",
-    "id": "48361680-senior-manager-security-engineering"
+    "salary": null,
+    "sourceId": "48768550",
+    "id": "48768550-principal-software-engineer"
   },
   {
-    "position": "Senior Software Engineer, Web Capture",
+    "position": "Senior Software Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Freeform",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Hawthorne"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48768550",
+    "id": "48768550-senior-software-engineer"
+  },
+  {
+    "position": "Senior Software Engineer (Embedded)",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Freeform",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Hawthorne"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48768550",
+    "id": "48768550-senior-software-engineer-embedded"
+  },
+  {
+    "position": "Senior Software Engineer (Full Stack Enterprise)",
     "positionType": [
       "engineering",
-      "frontEnd",
-      "backEnd",
       "fullStack"
     ],
-    "company": "Fullstory",
+    "company": "Freeform",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Hawthorne"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48768550",
+    "id": "48768550-senior-software-engineer-full-stack-enterprise"
+  },
+  {
+    "position": "Senior Software Engineer (Geometry Processing)",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Freeform",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Hawthorne"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48768550",
+    "id": "48768550-senior-software-engineer-geometry-processing"
+  },
+  {
+    "position": "Software Engineer",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Freeform",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Hawthorne"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48768550",
+    "id": "48768550-software-engineer"
+  },
+  {
+    "position": "Software Engineer (Embedded)",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Freeform",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Hawthorne"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48768550",
+    "id": "48768550-software-engineer-embedded"
+  },
+  {
+    "position": "Software Engineer (Full Stack Enterprise)",
+    "positionType": [
+      "engineering",
+      "fullStack"
+    ],
+    "company": "Freeform",
+    "type": [
+      "onSite"
+    ],
+    "locations": [
+      {
+        "country": "United States",
+        "city": "Hawthorne"
+      }
+    ],
+    "salary": null,
+    "sourceId": "48768550",
+    "id": "48768550-software-engineer-full-stack-enterprise"
+  },
+  {
+    "position": "Principal Storage Architect & Team Lead",
+    "positionType": [
+      "engineering"
+    ],
+    "company": "Stanford Research Computing",
     "type": [
       "hybrid"
     ],
     "locations": [
       {
         "country": "United States",
-        "city": "Atlanta"
+        "city": "Stanford"
       }
     ],
-    "salary": "$145~170k USD + up to 10% bonus",
-    "sourceId": "48361680",
-    "id": "48361680-senior-software-engineer-web-capture"
+    "salary": null,
+    "sourceId": "48754924",
+    "id": "48754924-principal-storage-architect-team-lead"
   },
   {
-    "position": "Senior Data Engineer",
+    "position": "Storage Architect or Storage Sysadmin",
     "positionType": [
-      "engineering",
-      "backEnd"
+      "engineering"
     ],
-    "company": "Fullstory",
+    "company": "Stanford Research Computing",
     "type": [
       "hybrid"
     ],
     "locations": [
       {
         "country": "United States",
-        "city": "Atlanta"
+        "city": "Stanford"
       }
     ],
-    "salary": "$160~170k USD + up to 10% bonus",
-    "sourceId": "48361680",
-    "id": "48361680-senior-data-engineer"
+    "salary": null,
+    "sourceId": "48754924",
+    "id": "48754924-storage-architect-or-storage-sysadmin"
   },
   {
-    "position": "Senior AI Automation Engineer, Finance",
+    "position": "GPU Cluster Sysadmin",
     "positionType": [
-      "engineering",
-      "backEnd"
+      "engineering"
     ],
-    "company": "Fullstory",
+    "company": "Stanford Research Computing",
     "type": [
       "hybrid"
     ],
     "locations": [
       {
         "country": "United States",
-        "city": "Atlanta"
-      }
-    ],
-    "salary": "$135~145k USD + up to 10% bonus",
-    "sourceId": "48361680",
-    "id": "48361680-senior-ai-automation-engineer-finance"
-  },
-  {
-    "position": "Full Stack Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Kepler",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "New York"
-      }
-    ],
-    "salary": "$230K-$260K + equity",
-    "sourceId": "48358336",
-    "id": "48358336-full-stack-engineer"
-  },
-  {
-    "position": "Full Stack Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Shepherd",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
+        "city": "Stanford"
       }
     ],
     "salary": null,
-    "sourceId": "48357800",
-    "id": "48357800-full-stack-engineer"
-  },
-  {
-    "position": "Backend Engineer",
-    "positionType": [
-      "backEnd"
-    ],
-    "company": "Shepherd",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48357800",
-    "id": "48357800-backend-engineer"
-  },
-  {
-    "position": "Founding Machine Learning Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Shepherd",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48357800",
-    "id": "48357800-founding-machine-learning-engineer"
-  },
-  {
-    "position": "Applied AI Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Shepherd",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48357800",
-    "id": "48357800-applied-ai-engineer"
-  },
-  {
-    "position": "Android Systems Engineer",
-    "positionType": [
-      "engineering",
-      "backEnd"
-    ],
-    "company": "Stpkr Technologies",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "India",
-        "city": "Noida"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48368363",
-    "id": "48368363-android-systems-engineer"
-  },
-  {
-    "position": "Full-Stack Engineer",
-    "positionType": [
-      "fullStack"
-    ],
-    "company": "Stpkr Technologies",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "India",
-        "city": "Noida"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48368363",
-    "id": "48368363-full-stack-engineer"
-  },
-  {
-    "position": "Hardware Engineer - Bring-up/Debug/Integration",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Stpkr Technologies",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "India",
-        "city": "Noida"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48368363",
-    "id": "48368363-hardware-engineer-bring-up-debug-integration"
-  },
-  {
-    "position": "Hardware Engineer - Power/RF/Wireless",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Stpkr Technologies",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "India",
-        "city": "Noida"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48368363",
-    "id": "48368363-hardware-engineer-power-rf-wireless"
-  },
-  {
-    "position": "Founder's Office",
-    "positionType": [
-      "other"
-    ],
-    "company": "Stpkr Technologies",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "India",
-        "city": "Noida"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48368363",
-    "id": "48368363-founders-office"
+    "sourceId": "48754924",
+    "id": "48754924-gpu-cluster-sysadmin"
   },
   {
     "position": "Junior Software Engineer",
@@ -10506,8 +7548,8 @@ export const jobs: IJob[] = [
     ],
     "locations": [],
     "salary": null,
-    "sourceId": "48357992",
-    "id": "48357992-junior-software-engineer"
+    "sourceId": "48751634",
+    "id": "48751634-junior-software-engineer"
   },
   {
     "position": "Software Engineer",
@@ -10520,360 +7562,7 @@ export const jobs: IJob[] = [
     ],
     "locations": [],
     "salary": null,
-    "sourceId": "48357992",
-    "id": "48357992-software-engineer"
-  },
-  {
-    "position": "Rust Backend Engineer",
-    "positionType": [
-      "backEnd",
-      "engineering"
-    ],
-    "company": "yeet",
-    "type": [
-      "remote",
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "Chicago"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48360194",
-    "id": "48360194-rust-backend-engineer"
-  },
-  {
-    "position": "Senior Software Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Small prop-trading firm",
-    "type": [
-      "onSite"
-    ],
-    "locations": [
-      {
-        "country": "France",
-        "city": "Paris"
-      }
-    ],
-    "salary": "Competitive comp",
-    "sourceId": "48359806",
-    "id": "48359806-senior-software-engineer"
-  },
-  {
-    "position": "Software Developer",
-    "positionType": [
-      "fullStack",
-      "frontEnd",
-      "backEnd",
-      "engineering"
-    ],
-    "company": "micro1",
-    "type": [
-      "remote"
-    ],
-    "locations": [],
-    "salary": "$60–$110/hr",
-    "sourceId": "48383091",
-    "id": "48383091-software-developer"
-  },
-  {
-    "position": "ML Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "Foxglove",
-    "type": [
-      "onSite",
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "Europe"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359956",
-    "id": "48359956-ml-engineer"
-  },
-  {
-    "position": "Product Manager, Data + ML",
-    "positionType": [
-      "other"
-    ],
-    "company": "Foxglove",
-    "type": [
-      "onSite",
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "Europe"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359956",
-    "id": "48359956-product-manager-data-ml"
-  },
-  {
-    "position": "FDE",
-    "positionType": [
-      "frontEnd"
-    ],
-    "company": "Foxglove",
-    "type": [
-      "onSite",
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "Europe"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359956",
-    "id": "48359956-fde"
-  },
-  {
-    "position": "Design Engineer",
-    "positionType": [
-      "design",
-      "engineering"
-    ],
-    "company": "Foxglove",
-    "type": [
-      "onSite",
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "Europe"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359956",
-    "id": "48359956-design-engineer"
-  },
-  {
-    "position": "Account Executive (Defense and Aerospace)",
-    "positionType": [
-      "sales"
-    ],
-    "company": "Foxglove",
-    "type": [
-      "onSite",
-      "remote"
-    ],
-    "locations": [
-      {
-        "country": "United States",
-        "city": "San Francisco"
-      },
-      {
-        "country": "Europe"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48359956",
-    "id": "48359956-account-executive-defense-and-aerospace"
-  },
-  {
-    "position": "Machine Learning Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "ML6",
-    "type": [
-      "onSite",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "Netherlands",
-        "city": "Amsterdam"
-      },
-      {
-        "country": "Germany",
-        "city": "Berlin"
-      },
-      {
-        "country": "Germany",
-        "city": "Munich"
-      },
-      {
-        "country": "Netherlands",
-        "city": "Eindhoven"
-      },
-      {
-        "country": "Belgium",
-        "city": "Ghent"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48362248",
-    "id": "48362248-machine-learning-engineer"
-  },
-  {
-    "position": "Data Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "ML6",
-    "type": [
-      "onSite",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "Netherlands",
-        "city": "Amsterdam"
-      },
-      {
-        "country": "Germany",
-        "city": "Berlin"
-      },
-      {
-        "country": "Germany",
-        "city": "Munich"
-      },
-      {
-        "country": "Netherlands",
-        "city": "Eindhoven"
-      },
-      {
-        "country": "Belgium",
-        "city": "Ghent"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48362248",
-    "id": "48362248-data-engineer"
-  },
-  {
-    "position": "Senior AI Engineer",
-    "positionType": [
-      "engineering"
-    ],
-    "company": "ML6",
-    "type": [
-      "onSite",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "Netherlands",
-        "city": "Amsterdam"
-      },
-      {
-        "country": "Germany",
-        "city": "Berlin"
-      },
-      {
-        "country": "Germany",
-        "city": "Munich"
-      },
-      {
-        "country": "Netherlands",
-        "city": "Eindhoven"
-      },
-      {
-        "country": "Belgium",
-        "city": "Ghent"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48362248",
-    "id": "48362248-senior-ai-engineer"
-  },
-  {
-    "position": "Senior AI Project Manager",
-    "positionType": [
-      "other"
-    ],
-    "company": "ML6",
-    "type": [
-      "onSite",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "Netherlands",
-        "city": "Amsterdam"
-      },
-      {
-        "country": "Germany",
-        "city": "Berlin"
-      },
-      {
-        "country": "Germany",
-        "city": "Munich"
-      },
-      {
-        "country": "Netherlands",
-        "city": "Eindhoven"
-      },
-      {
-        "country": "Belgium",
-        "city": "Ghent"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48362248",
-    "id": "48362248-senior-ai-project-manager"
-  },
-  {
-    "position": "Chief Product Owner",
-    "positionType": [
-      "other"
-    ],
-    "company": "ML6",
-    "type": [
-      "onSite",
-      "hybrid"
-    ],
-    "locations": [
-      {
-        "country": "Netherlands",
-        "city": "Amsterdam"
-      },
-      {
-        "country": "Germany",
-        "city": "Berlin"
-      },
-      {
-        "country": "Germany",
-        "city": "Munich"
-      },
-      {
-        "country": "Netherlands",
-        "city": "Eindhoven"
-      },
-      {
-        "country": "Belgium",
-        "city": "Ghent"
-      }
-    ],
-    "salary": null,
-    "sourceId": "48362248",
-    "id": "48362248-chief-product-owner"
+    "sourceId": "48751634",
+    "id": "48751634-software-engineer"
   }
 ]
