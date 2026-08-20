@@ -1,5 +1,4 @@
-// auto-generated
-export const hnJobs = {
+{
   "threadId": 49156683,
   "title": "Ask HN: Who is hiring? (August 2026)",
   "url": "https://news.ycombinator.com/item?id=49156683",
@@ -1211,4 +1210,4 @@ export const hnJobs = {
       "text": "Storepass | Senior Software Engineer, Quality Assurance, Sales and Marketing, Customer Service Representative | ONSITE, Burlingame, CA | Full-Time | $40k-$150k<p>Storepass is a profitable SaaS company helping game stores sell Pokemon cards, TCGs, board games, and related inventory online. We build ecommerce, inventory, pricing, buylist, and store operations tools for retailers, including integrations with platforms like Shopify and BigCommerce.<p>Open roles:<p>Senior Software Engineer | $100k-$150k\nBuild core product features, improve platform stability and performance, and help shape technical direction. Stack: Node.js, Express.js, React, MongoDB.<p>Quality Assurance | $45k-$70k\nTest retailer workflows across inventory, pricing, buylist, ecommerce, and POS tools. Reproduce issues, write clear bug reports, run regression checks, and work closely with product, engineering, and support.<p>Sales and Marketing | $45k-$75k\nRun product demos, follow up with interested stores, research good-fit retailers, and help build outbound campaigns and messaging.<p>Customer Service Representative | $40k-$55k\nHelp stores use Storepass successfully through email, chat, and phone support. Troubleshoot product issues, document customer feedback, and work with the product team to improve the experience.<p>We’re especially interested in people who like small teams, high ownership, ecommerce, retail workflows, and trading card games.<p>Apply: <a href=\"https:&#x2F;&#x2F;storepass.co&#x2F;jobs\" rel=\"nofollow\">https:&#x2F;&#x2F;storepass.co&#x2F;jobs</a>\nEmail: trent@storepass.co"
     }
   ]
-} as const;
+}
